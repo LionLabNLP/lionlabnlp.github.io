@@ -28,24 +28,9 @@ permalink: /team/
   }
 
   .team-rule {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .team-rule-bar {
     width: 3rem;
     height: 3px;
     background: #DF6907;
-    flex-shrink: 0;
-  }
-
-  .team-rule-label {
-    font-family: 'Lora', Georgia, serif;
-    font-size: 0.75rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: #DF6907;
   }
 
   /* ── PI Section ── */
@@ -216,6 +201,17 @@ permalink: /team/
     margin-bottom: 0.25rem;
   }
 
+  .phd-name a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1.5px solid #DF6907;
+    transition: color 0.2s;
+  }
+
+  .phd-name a:hover {
+    color: #DF6907;
+  }
+
   .phd-role {
     font-family: 'Lora', Georgia, serif;
     font-size: 0.7rem;
@@ -291,10 +287,7 @@ permalink: /team/
 
   <div class="team-header">
     <h1>Team</h1>
-    <div class="team-rule">
-      <div class="team-rule-bar"></div>
-      <span class="team-rule-label">Linguistically-Oriented NLP</span>
-    </div>
+    <div class="team-rule"></div>
   </div>
 
   <!-- PI -->

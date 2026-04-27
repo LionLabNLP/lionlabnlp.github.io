@@ -1,10 +1,9 @@
-title: Cookie
-description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: LION Lab
+description: >
+  LION Lab (Linguistically-Oriented NLP) — research group at the University of Leipzig
+  working at the intersection of linguistic theory and natural language processing.
 baseurl: "/"
-url: https://cookie-demo.netlify.app # change this URL, this is needed for generating right sitemap
+url: https://lionlabnlp.github.io/ # TODO: update to your final URL
 
 permalink: "/blog/:title/"
 
@@ -14,7 +13,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-minifier
 
-css_dir: "assets/css" # defaults to "css"
+css_dir: "assets/css"
 
 highlighter: rouge
 
@@ -31,7 +30,7 @@ jekyll-minifier:
     harmony: true
 
 soopr:
-  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
+  publish_token: ""
 
 twitter:
   card: summary_large_image
