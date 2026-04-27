@@ -244,3 +244,27 @@ body {
     display: none;
   }
 }
+
+/* ============================================================
+   LOGO ICON (emoji placeholder / future image)
+   ============================================================ */
+.lion-navbar-logo {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.lion-logo-icon {
+  font-size: 1.75rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+/* When swapping in a real image, target this class:
+   .lion-logo-img { height: 36px; width: auto; display: block; } */
+
+.lion-logo-wordmark {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
