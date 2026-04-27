@@ -1,0 +1,37 @@
+<nav id="lion-navbar" class="lion-navbar">
+  <div class="lion-navbar-inner">
+    <a href="/" class="lion-navbar-logo">
+      <span class="lion-logo-text">LION Lab</span>
+      <span class="lion-logo-sub">Linguistically-Oriented NLP</span>
+    </a>
+    <button class="lion-menu-toggle" id="lion-menu-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="lion-nav-links" id="lion-nav-links">
+      <li><a href="/about" {% if page.url == '/about/' or page.url == '/about' %}class="lion-nav-active"{% endif %}>About</a></li>
+      <li><a href="/team" {% if page.url == '/team/' or page.url == '/team' %}class="lion-nav-active"{% endif %}>Team</a></li>
+      <li><a href="/news" {% if page.url == '/news/' or page.url == '/news' %}class="lion-nav-active"{% endif %}>News</a></li>
+      <li><a href="/teaching" {% if page.url == '/teaching/' or page.url == '/teaching' %}class="lion-nav-active"{% endif %}>Teaching</a></li>
+      <li><a href="/join-us" {% if page.url == '/join-us/' or page.url == '/join-us' %}class="lion-nav-active"{% endif %}>Join Us</a></li>
+      <li><a href="/contact" {% if page.url == '/contact/' or page.url == '/contact' %}class="lion-nav-active"{% endif %}>Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<script>
+  // Mobile menu toggle
+  document.getElementById('lion-menu-toggle').addEventListener('click', function() {
+    document.getElementById('lion-nav-links').classList.toggle('lion-nav-open');
+    this.classList.toggle('lion-menu-open');
+  });
+
+  // Shrink navbar slightly on scroll
+  window.addEventListener('scroll', function() {
+    const nav = document.getElementById('lion-navbar');
+    if (window.scrollY > 40) {
+      nav.classList.add('lion-navbar-scrolled');
+    } else {
+      nav.classList.remove('lion-navbar-scrolled');
+    }
+  });
+</script>

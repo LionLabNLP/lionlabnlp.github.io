@@ -1,0 +1,246 @@
+/* ============================================================
+   LION Lab — Sticky Navigation Bar
+   Colour palette: #FBB227  #FFA028  #F48D17  #DF6907  #C04E12
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lora:wght@400;500&display=swap');
+
+/* ---- Custom properties ---- */
+:root {
+  --lion-gold:       #FBB227;
+  --lion-amber:      #FFA028;
+  --lion-orange:     #F48D17;
+  --lion-deep:       #DF6907;
+  --lion-rust:       #C04E12;
+  --lion-ink:        #1a1209;
+  --lion-white:      #ffffff;
+  --lion-nav-height: 72px;
+  --lion-nav-height-scrolled: 56px;
+}
+
+/* ---- Push page content below fixed bar ---- */
+body {
+  padding-top: var(--lion-nav-height);
+}
+
+/* ============================================================
+   NAVBAR SHELL
+   ============================================================ */
+.lion-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--lion-nav-height);
+  background-color: var(--lion-deep);
+  border-bottom: none;
+  transition: height 0.25s ease, box-shadow 0.25s ease;
+}
+
+.lion-navbar-scrolled {
+  height: var(--lion-nav-height-scrolled);
+  box-shadow: 0 2px 20px rgba(26, 18, 9, 0.25);
+}
+
+/* ============================================================
+   INNER LAYOUT
+   ============================================================ */
+.lion-navbar-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* ============================================================
+   LOGO / WORDMARK
+   ============================================================ */
+.lion-navbar-logo {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  flex-shrink: 0;
+}
+
+.lion-logo-text {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: var(--lion-white);
+  letter-spacing: 0.04em;
+  transition: opacity 0.2s;
+}
+
+.lion-logo-sub {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 0.62rem;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 2px;
+  transition: opacity 0.2s;
+}
+
+.lion-navbar-logo:hover .lion-logo-text,
+.lion-navbar-logo:hover .lion-logo-sub {
+  opacity: 0.8;
+}
+
+/* ============================================================
+   NAV LINKS (desktop)
+   ============================================================ */
+.lion-nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.lion-nav-links li a {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.88);
+  text-decoration: none;
+  padding: 0.45rem 0.9rem;
+  position: relative;
+  transition: color 0.2s;
+}
+
+/* Animated underline */
+.lion-nav-links li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0.9rem;
+  right: 0.9rem;
+  height: 1.5px;
+  background: var(--lion-white);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.22s ease;
+}
+
+.lion-nav-links li a:hover {
+  color: var(--lion-white);
+}
+
+.lion-nav-links li a:hover::after {
+  transform: scaleX(1);
+}
+
+/* Active page */
+.lion-nav-links li a.lion-nav-active {
+  color: var(--lion-white);
+}
+
+.lion-nav-links li a.lion-nav-active::after {
+  transform: scaleX(1);
+}
+
+/* Decorative rule between logo and links */
+.lion-navbar-inner::before {
+  content: '';
+  display: block;
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35) 50%, transparent);
+  max-width: 4rem;
+}
+
+/* ============================================================
+   HAMBURGER (mobile)
+   ============================================================ */
+.lion-menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  flex-shrink: 0;
+}
+
+.lion-menu-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--lion-white);
+  border-radius: 2px;
+  transition: transform 0.22s, opacity 0.22s;
+  transform-origin: center;
+}
+
+.lion-menu-toggle.lion-menu-open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.lion-menu-toggle.lion-menu-open span:nth-child(2) {
+  opacity: 0;
+}
+.lion-menu-toggle.lion-menu-open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ============================================================
+   MOBILE STYLES
+   ============================================================ */
+@media (max-width: 768px) {
+  body {
+    padding-top: var(--lion-nav-height);
+  }
+
+  .lion-menu-toggle {
+    display: flex;
+  }
+
+  .lion-navbar-inner::before {
+    display: none;
+  }
+
+  .lion-nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    background: var(--lion-deep);
+    border-top: 1px solid rgba(255,255,255,0.15);
+    padding: 0.5rem 0 1rem;
+    gap: 0;
+  }
+
+  .lion-nav-links.lion-nav-open {
+    display: flex;
+  }
+
+  .lion-nav-links li a {
+    display: block;
+    padding: 0.75rem 2rem;
+    font-size: 0.95rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.88);
+  }
+
+  .lion-nav-links li:last-child a {
+    border-bottom: none;
+  }
+
+  .lion-nav-links li a::after {
+    display: none;
+  }
+}
