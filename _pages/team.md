@@ -11,7 +11,7 @@ permalink: /team/
 
   <!-- PI -->
   <div class="mb-20 flex flex-col items-center text-center">
-    <img src="/assets/img/leonie.jpg" alt="Leonie Weissweiler"
+    <img src="/assets/img/leonie.png" alt="Leonie Weissweiler"
          class="w-48 h-48 object-cover rounded-full mb-6 shadow-md">
     
     <h2 class="text-2xl font-semibold mb-2" style="font-family: 'Playfair Display', Georgia, serif;">
@@ -35,7 +35,7 @@ permalink: /team/
     
     <!-- Jacob -->
     <div class="flex flex-col items-center text-center">
-      <img src="/assets/img/jacob.jpg" alt="Jacob Lee Suchardt"
+      <img src="/assets/img/jacob.png" alt="Jacob Lee Suchardt"
            class="w-36 h-36 object-cover rounded-full mb-4 shadow-sm">
 
       <h3 class="text-xl font-semibold mb-1"
@@ -47,9 +47,9 @@ permalink: /team/
 
       <ul class="text-left text-sm leading-relaxed"
           style="font-family: 'Lora', Georgia, serif; color: #3a2e20;">
-        <li>• Research topic placeholder</li>
-        <li>• Methods / focus placeholder</li>
-        <li>• Background placeholder</li>
+        <li>Research topic placeholder</li>
+        <li>Methods / focus placeholder</li>
+        <li>ackground placeholder</li>
       </ul>
     </div>
 
@@ -67,9 +67,9 @@ permalink: /team/
 
       <ul class="text-left text-sm leading-relaxed"
           style="font-family: 'Lora', Georgia, serif; color: #3a2e20;">
-        <li>• Research topic placeholder</li>
-        <li>• Methods / focus placeholder</li>
-        <li>• Background placeholder</li>
+        <li>Research topic placeholder</li>
+        <li>Methods / focus placeholder</li>
+        <li>Background placeholder</li>
       </ul>
     </div>
 
