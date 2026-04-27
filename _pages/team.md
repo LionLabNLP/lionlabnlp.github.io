@@ -5,68 +5,296 @@ description: Meet the LION Lab team.
 permalink: /team/
 ---
 
-<section class="max-w-5xl mx-auto px-6 py-20">
-  <h1 class="text-5xl font-serif mb-6" style="font-family: 'Playfair Display', Georgia, serif; color: #1a1209;">Team</h1>
-  <div style="width: 3rem; height: 3px; background: #DF6907; margin-bottom: 3rem;"></div>
+<style>
+  .team-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 5rem 2.5rem 7rem;
+  }
+
+  /* ── Header ── */
+  .team-header {
+    margin-bottom: 5rem;
+  }
+
+  .team-header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(2.8rem, 6vw, 4.5rem);
+    font-weight: 400;
+    color: #1a1209;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    margin: 0 0 1.25rem;
+  }
+
+  .team-rule {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .team-rule-bar {
+    width: 3rem;
+    height: 3px;
+    background: #DF6907;
+    flex-shrink: 0;
+  }
+
+  .team-rule-label {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #DF6907;
+  }
+
+  /* ── PI Section ── */
+  .pi-section {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 3.5rem;
+    align-items: start;
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid #e8dfd4;
+  }
+
+  .pi-photo-wrap {
+    position: relative;
+  }
+
+  .pi-photo-wrap img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Decorative corner bracket */
+  .pi-photo-wrap::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 32px;
+    height: 32px;
+    border-top: 3px solid #DF6907;
+    border-left: 3px solid #DF6907;
+  }
+
+  .pi-photo-wrap::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    width: 32px;
+    height: 32px;
+    border-bottom: 3px solid #DF6907;
+    border-right: 3px solid #DF6907;
+  }
+
+  .pi-info {
+    padding-top: 0.5rem;
+  }
+
+  .pi-role {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #DF6907;
+    margin-bottom: 0.75rem;
+  }
+
+  .pi-name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #1a1209;
+    line-height: 1.15;
+    margin-bottom: 1.75rem;
+  }
+
+  .pi-interests {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .pi-interests li {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.95rem;
+    color: #3a2e20;
+    line-height: 1.5;
+    padding-left: 1.1rem;
+    position: relative;
+  }
+
+  .pi-interests li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #DF6907;
+    font-size: 0.8rem;
+    top: 0.1em;
+  }
+
+  /* ── PhD Section ── */
+  .phd-heading {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #DF6907;
+    margin-bottom: 2.5rem;
+  }
+
+  .phd-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .phd-card {
+    padding: 2.5rem 2.5rem 2.5rem 0;
+    border-right: 1px solid #e8dfd4;
+  }
+
+  .phd-card:last-child {
+    padding: 2.5rem 0 2.5rem 2.5rem;
+    border-right: none;
+  }
+
+  .phd-photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 1.25rem;
+    display: block;
+  }
+
+  .phd-name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 400;
+    color: #1a1209;
+    line-height: 1.2;
+    margin-bottom: 0.35rem;
+  }
+
+  .phd-role {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #DF6907;
+    margin-bottom: 1.25rem;
+  }
+
+  .phd-interests {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+
+  .phd-interests li {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.875rem;
+    color: #3a2e20;
+    line-height: 1.5;
+    padding-left: 1rem;
+    position: relative;
+  }
+
+  .phd-interests li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #c8b89a;
+    font-size: 0.75rem;
+    top: 0.1em;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 700px) {
+    .pi-section {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .pi-photo-wrap {
+      max-width: 180px;
+    }
+
+    .phd-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .phd-card,
+    .phd-card:last-child {
+      padding: 2rem 0;
+      border-right: none;
+      border-bottom: 1px solid #e8dfd4;
+    }
+
+    .phd-card:last-child {
+      border-bottom: none;
+    }
+  }
+</style>
+
+<div class="team-page">
+
+  <div class="team-header">
+    <h1>Team</h1>
+    <div class="team-rule">
+      <div class="team-rule-bar"></div>
+      <span class="team-rule-label">Linguistically-Oriented NLP</span>
+    </div>
+  </div>
 
   <!-- PI -->
-  <div class="mb-20 flex flex-col items-center text-center">
-    <img src="/assets/img/leonie.png" alt="Leonie Weissweiler"
-         class="w-48 h-48 object-cover rounded-full mb-6 shadow-md">
-    
-    <h2 class="text-2xl font-semibold mb-2" style="font-family: 'Playfair Display', Georgia, serif;">
-      Jun.-Prof. Dr. Leonie Weissweiler
-    </h2>
-    
-    <p class="text-lg mb-4" style="font-family: 'Lora', Georgia, serif; color: #3a2e20;">
-      Principal Investigator
-    </p>
-
-    <ul class="text-left max-w-xl text-base leading-relaxed"
-        style="font-family: 'Lora', Georgia, serif; color: #3a2e20;">
-      <li>• Computational linguistics & NLP</li>
-      <li>• Language models and linguistic theory</li>
-      <li>• Teaching and mentorship</li>
-    </ul>
+  <div class="pi-section">
+    <div class="pi-photo-wrap">
+      <img src="{{ '/assets/img/leonie.png' | relative_url }}" alt="Leonie Weissweiler">
+    </div>
+    <div class="pi-info">
+      <p class="pi-role">Principal Investigator</p>
+      <h2 class="pi-name">Jun.-Prof. Dr.<br>Leonie Weissweiler</h2>
+      <ul class="pi-interests">
+        <li>Computational linguistics &amp; NLP</li>
+        <li>Language models and linguistic theory</li>
+        <li>Teaching and mentorship</li>
+      </ul>
+    </div>
   </div>
 
   <!-- PhD Students -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-    
-    <!-- Jacob -->
-    <div class="flex flex-col items-center text-center">
-      <img src="/assets/img/jacob.png" alt="Jacob Lee Suchardt"
-           class="w-36 h-36 object-cover rounded-full mb-4 shadow-sm">
+  <p class="phd-heading">PhD Students</p>
+  <div class="phd-grid">
 
-      <h3 class="text-xl font-semibold mb-1"
-          style="font-family: 'Playfair Display', Georgia, serif;">
-        Jacob Lee Suchardt
-      </h3>
-
-      <p class="mb-3 text-sm" style="color: #6b5a45;">PhD Student</p>
-
-      <ul class="text-left text-sm leading-relaxed"
-          style="font-family: 'Lora', Georgia, serif; color: #3a2e20;">
+    <div class="phd-card">
+      <img class="phd-photo" src="{{ '/assets/img/jacob.png' | relative_url }}" alt="Jacob Lee Suchardt">
+      <h3 class="phd-name">Jacob Lee Suchardt</h3>
+      <p class="phd-role">PhD Student</p>
+      <ul class="phd-interests">
         <li>Research topic placeholder</li>
         <li>Methods / focus placeholder</li>
-        <li>ackground placeholder</li>
+        <li>Background placeholder</li>
       </ul>
     </div>
 
-    <!-- Toshiki -->
-    <div class="flex flex-col items-center text-center">
-      <img src="/assets/img/toshiki.jpg" alt="Toshiki Nakai"
-           class="w-36 h-36 object-cover rounded-full mb-4 shadow-sm">
-
-      <h3 class="text-xl font-semibold mb-1"
-          style="font-family: 'Playfair Display', Georgia, serif;">
-        Toshiki Nakai
-      </h3>
-
-      <p class="mb-3 text-sm" style="color: #6b5a45;">PhD Student</p>
-
-      <ul class="text-left text-sm leading-relaxed"
-          style="font-family: 'Lora', Georgia, serif; color: #3a2e20;">
+    <div class="phd-card">
+      <img class="phd-photo" src="{{ '/assets/img/toshiki.jpg' | relative_url }}" alt="Toshiki Nakai">
+      <h3 class="phd-name">Toshiki Nakai</h3>
+      <p class="phd-role">PhD Student</p>
+      <ul class="phd-interests">
         <li>Research topic placeholder</li>
         <li>Methods / focus placeholder</li>
         <li>Background placeholder</li>
@@ -74,4 +302,5 @@ permalink: /team/
     </div>
 
   </div>
-</section>
+
+</div>
