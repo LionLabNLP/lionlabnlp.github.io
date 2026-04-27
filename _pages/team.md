@@ -51,8 +51,8 @@ permalink: /team/
   /* ── PI Section ── */
   .pi-section {
     display: grid;
-    grid-template-columns: 220px 1fr;
-    gap: 3.5rem;
+    grid-template-columns: 280px 1fr;
+    gap: 4rem;
     align-items: start;
     padding-bottom: 4rem;
     margin-bottom: 4rem;
@@ -70,7 +70,6 @@ permalink: /team/
     display: block;
   }
 
-  /* Decorative corner bracket */
   .pi-photo-wrap::before {
     content: '';
     position: absolute;
@@ -112,10 +111,42 @@ permalink: /team/
     font-weight: 400;
     color: #1a1209;
     line-height: 1.15;
-    margin-bottom: 1.75rem;
+    margin-bottom: 0.6rem;
   }
 
-  .pi-interests {
+  .pi-name a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1.5px solid #DF6907;
+    transition: color 0.2s;
+  }
+
+  .pi-name a:hover {
+    color: #DF6907;
+  }
+
+  .pi-email {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.82rem;
+    color: #7a6a55;
+    margin-bottom: 1.75rem;
+    letter-spacing: 0.01em;
+  }
+
+  .pi-email a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #c8b89a;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .pi-email a:hover {
+    color: #DF6907;
+    border-color: #DF6907;
+  }
+
+  /* ── Shared list style ── */
+  .member-details {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -124,7 +155,7 @@ permalink: /team/
     gap: 0.6rem;
   }
 
-  .pi-interests li {
+  .member-details li {
     font-family: 'Lora', Georgia, serif;
     font-size: 0.95rem;
     color: #3a2e20;
@@ -133,7 +164,7 @@ permalink: /team/
     position: relative;
   }
 
-  .pi-interests li::before {
+  .member-details li::before {
     content: '—';
     position: absolute;
     left: 0;
@@ -159,20 +190,20 @@ permalink: /team/
   }
 
   .phd-card {
-    padding: 2.5rem 2.5rem 2.5rem 0;
+    padding: 0 3rem 0 0;
     border-right: 1px solid #e8dfd4;
   }
 
   .phd-card:last-child {
-    padding: 2.5rem 0 2.5rem 2.5rem;
+    padding: 0 0 0 3rem;
     border-right: none;
   }
 
   .phd-photo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
     display: block;
   }
 
@@ -182,7 +213,7 @@ permalink: /team/
     font-weight: 400;
     color: #1a1209;
     line-height: 1.2;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.25rem;
   }
 
   .phd-role {
@@ -191,34 +222,41 @@ permalink: /team/
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #DF6907;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.4rem;
   }
 
-  .phd-interests {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.45rem;
-  }
-
-  .phd-interests li {
+  .phd-since {
     font-family: 'Lora', Georgia, serif;
-    font-size: 0.875rem;
-    color: #3a2e20;
-    line-height: 1.5;
-    padding-left: 1rem;
-    position: relative;
+    font-size: 0.78rem;
+    color: #a09080;
+    margin-bottom: 0.5rem;
   }
 
-  .phd-interests li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
+  .phd-email {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.8rem;
+    color: #7a6a55;
+    margin-bottom: 1.5rem;
+  }
+
+  .phd-email a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #c8b89a;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .phd-email a:hover {
+    color: #DF6907;
+    border-color: #DF6907;
+  }
+
+  .phd-card .member-details li {
+    font-size: 0.875rem;
+  }
+
+  .phd-card .member-details li::before {
     color: #c8b89a;
-    font-size: 0.75rem;
-    top: 0.1em;
   }
 
   /* ── Responsive ── */
@@ -229,7 +267,7 @@ permalink: /team/
     }
 
     .pi-photo-wrap {
-      max-width: 180px;
+      max-width: 220px;
     }
 
     .phd-grid {
@@ -266,11 +304,15 @@ permalink: /team/
     </div>
     <div class="pi-info">
       <p class="pi-role">Principal Investigator</p>
-      <h2 class="pi-name">Jun.-Prof. Dr.<br>Leonie Weissweiler</h2>
-      <ul class="pi-interests">
-        <li>Computational linguistics &amp; NLP</li>
-        <li>Language models and linguistic theory</li>
-        <li>Teaching and mentorship</li>
+      <h2 class="pi-name">
+        <a href="https://leonieweissweiler.github.io/" target="_blank" rel="noopener">Jun.-Prof. Dr.<br>Leonie Weissweiler</a>
+      </h2>
+      <p class="pi-email"><a href="mailto:leonie.weissweiler@uni-leipzig.de">leonie.weissweiler@uni-leipzig.de</a></p>
+      <ul class="member-details">
+        <li>Juniorprofessor (~Assistant Professor) at the University of Leipzig</li>
+        <li>PhD in Computational Linguistics from LMU Munich</li>
+        <li>Research at the intersection of linguistic theory and NLP</li>
+        <li>Computational linguistics &amp; language models</li>
       </ul>
     </div>
   </div>
@@ -281,23 +323,27 @@ permalink: /team/
 
     <div class="phd-card">
       <img class="phd-photo" src="{{ '/assets/img/jacob.png' | relative_url }}" alt="Jacob Lee Suchardt">
-      <h3 class="phd-name">Jacob Lee Suchardt</h3>
+      <h3 class="phd-name"><a href="https://scholar.google.com/citations?user=S4YThOIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Jacob Lee Suchardt M.Sc.</a></h3>
       <p class="phd-role">PhD Student</p>
-      <ul class="phd-interests">
+      <p class="phd-since">Since April 2026</p>
+      <p class="phd-email"><a href="mailto:jacob.suchardt@uni-leipzig.de">jacob.suchardt@uni-leipzig.de</a></p>
+      <ul class="member-details">
+        <li>Bio placeholder</li>
         <li>Research topic placeholder</li>
         <li>Methods / focus placeholder</li>
-        <li>Background placeholder</li>
       </ul>
     </div>
 
     <div class="phd-card">
       <img class="phd-photo" src="{{ '/assets/img/toshiki.jpg' | relative_url }}" alt="Toshiki Nakai">
-      <h3 class="phd-name">Toshiki Nakai</h3>
+      <h3 class="phd-name"><a href="https://scholar.google.com/citations?hl=en&user=gKPYpYQAAAAJ" target="_blank" rel="noopener">Toshiki Nakai M.Sc.</a></h3>
       <p class="phd-role">PhD Student</p>
-      <ul class="phd-interests">
+      <p class="phd-since">Since April 2026</p>
+      <p class="phd-email"><a href="mailto:toshiki.nakai@uni-leipzig.de">toshiki.nakai@uni-leipzig.de</a></p>
+      <ul class="member-details">
+        <li>Bio placeholder</li>
         <li>Research topic placeholder</li>
         <li>Methods / focus placeholder</li>
-        <li>Background placeholder</li>
       </ul>
     </div>
 
