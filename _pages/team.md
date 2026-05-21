@@ -338,7 +338,7 @@ permalink: /team/
         <li>M.Sc. in Language Science and Technology, Saarland University</li>
         <li>B.A. in Interdisciplinary Studies, Waseda University</li>
 	<li>Mechanistic interpretability on multilingual language processing</li>
-	<li>Syntax, Linguistic cartography</li>
+	<li>Syntax & Linguistic cartography</li>
       </ul>
     </div>
 
