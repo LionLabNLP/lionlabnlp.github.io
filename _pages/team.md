@@ -321,9 +321,9 @@ permalink: /team/
       <p class="phd-since">Since April 2026</p>
       <p class="phd-email"><a href="mailto:jacob.suchardt@uni-leipzig.de">jacob.suchardt@uni-leipzig.de</a></p>
       <ul class="member-details">
-        <li>Bio placeholder</li>
-        <li>Research topic placeholder</li>
-        <li>Methods / focus placeholder</li>
+        <li>M.A. Language Technology, Gothenburg University</li>
+        <li>B.A. Computational Linguistics & Japanese Studies, Bochum University</li>
+        <li>1-2 bullet points about research interests</li>
       </ul>
     </div>
 
@@ -334,9 +334,9 @@ permalink: /team/
       <p class="phd-since">Since April 2026</p>
       <p class="phd-email"><a href="mailto:toshiki.nakai@uni-leipzig.de">toshiki.nakai@uni-leipzig.de</a></p>
       <ul class="member-details">
-        <li>Bio placeholder</li>
-        <li>Research topic placeholder</li>
-        <li>Methods / focus placeholder</li>
+        <li>M.Sc. in Language Science and Technology, Saarland University</li>
+        <li>B.A. in Interdisciplinary Studies, Waseda University</li>
+        <li>1-2 bullet points about research interests</li>
       </ul>
     </div>
 
