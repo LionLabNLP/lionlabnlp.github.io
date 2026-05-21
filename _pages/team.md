@@ -323,7 +323,8 @@ permalink: /team/
       <ul class="member-details">
         <li>M.A. Language Technology, Gothenburg University</li>
         <li>B.A. Computational Linguistics & Japanese Studies, Bochum University</li>
-        <li>1-2 bullet points about research interests</li>
+        <li>Multilinguality and linguistic competency of language models</li>
+        <li>Speech Processing, Phonetics, and Phonology </li>
       </ul>
     </div>
 
