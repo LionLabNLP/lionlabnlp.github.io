@@ -1,0 +1,127 @@
+<style>
+  /* ── Shared page layout & typography ── */
+  .lion-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 5rem 2.5rem 7rem;
+  }
+
+  .lion-page-header {
+    margin-bottom: 4rem;
+  }
+
+  .lion-page-header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(2.8rem, 6vw, 4.5rem);
+    font-weight: 400;
+    color: #1a1209;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    margin: 0 0 1.25rem;
+  }
+
+  .lion-page-rule {
+    width: 3rem;
+    height: 3px;
+    background: #DF6907;
+  }
+
+  .lion-section-label {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #DF6907;
+    margin-bottom: 2rem;
+  }
+
+  .lion-divider {
+    border: none;
+    border-top: 1px solid #e8dfd4;
+    margin: 3.5rem 0;
+  }
+
+  /* Body text */
+  .lion-prose {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1rem;
+    color: #3a2e20;
+    line-height: 1.8;
+  }
+
+  .lion-prose p {
+    margin-bottom: 1.25rem;
+  }
+
+  .lion-prose a {
+    color: #DF6907;
+    text-decoration: none;
+    border-bottom: 1px solid #DF6907;
+    transition: opacity 0.2s;
+  }
+
+  .lion-prose a:hover {
+    opacity: 0.7;
+  }
+
+  /* Dash lists */
+  .lion-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+
+  .lion-list li {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.95rem;
+    color: #3a2e20;
+    line-height: 1.6;
+    padding-left: 1.2rem;
+    position: relative;
+  }
+
+  .lion-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #DF6907;
+    font-size: 0.8rem;
+    top: 0.15em;
+  }
+
+  /* Section heading (h2) */
+  .lion-h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #1a1209;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+
+  /* Section heading (h3) */
+  .lion-h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #1a1209;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+  }
+
+  .lion-meta {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.78rem;
+    color: #a09080;
+    letter-spacing: 0.03em;
+  }
+
+  @media (max-width: 700px) {
+    .lion-page {
+      padding: 3rem 1.5rem 5rem;
+    }
+  }
+</style>

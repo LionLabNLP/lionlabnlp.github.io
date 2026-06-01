@@ -5,13 +5,49 @@ description: Open positions and opportunities at the LION Lab.
 permalink: /join-us/
 ---
 
-<section class="max-w-4xl mx-auto px-6 py-20">
-  <h1 class="text-5xl font-serif mb-6" style="font-family: 'Playfair Display', Georgia, serif; color: #1a1209;">Join Us</h1>
-  <div style="width: 3rem; height: 3px; background: #DF6907; margin-bottom: 2rem;"></div>
-  <p class="text-lg leading-relaxed" style="font-family: 'Lora', Georgia, serif; color: #3a2e20;">
-    We are always looking for motivated researchers, students, and collaborators. If you are passionate about the intersection of linguistics and NLP, we'd love to hear from you.
-  </p>
-  <p class="text-lg leading-relaxed mt-6" style="font-family: 'Lora', Georgia, serif; color: #3a2e20;">
-    <!-- Add open positions, PhD/postdoc ads, etc. here -->
-  </p>
-</section>
+{% include page-styles.html %}
+
+<div class="lion-page">
+
+  <div class="lion-page-header">
+    <h1>Join Us</h1>
+    <div class="lion-page-rule"></div>
+  </div>
+
+  <p class="lion-section-label">PhD &amp; Postdoc Positions</p>
+
+  <div class="lion-prose">
+    <p>
+      There are currently no open positions for PhD students or Postdocs.
+      We are open to supporting candidates who wish to prepare an application
+      to external fellowships. If you're interested, please reach out via
+      <a href="mailto:leonie.weissweiler@uni-leipzig.de">email</a>.
+    </p>
+    <p>Relevant PhD scholarships include:</p>
+  </div>
+
+  <ul class="lion-list" style="margin-bottom: 1.5rem;">
+    <li><a href="https://www.uni-leipzig.de/forschung/wissenschaftliche-laufbahn/promotion/finanzierung/landesgraduiertenstipendium" target="_blank" rel="noopener">Sächsisches Landesstipendium</a> (Universität Leipzig)</li>
+    <li><a href="https://www.studienstiftung.de/en/doctoral-scholarships/doctoral-scholarships" target="_blank" rel="noopener">Doctoral Scholarships</a> (Studienstiftung des deutschen Volkes)</li>
+  </ul>
+
+  <div class="lion-prose">
+    <p>Relevant postdoctoral fellowships include:</p>
+  </div>
+
+  <ul class="lion-list" style="margin-bottom: 2rem;">
+    <li><a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" target="_blank" rel="noopener">Marie Skłodowska-Curie Postdoctoral Fellowships</a></li>
+  </ul>
+
+  <hr class="lion-divider">
+
+  <p class="lion-section-label">Thesis &amp; Student Projects</p>
+
+  <div class="lion-prose">
+    <p>
+      We offer B.Sc. and M.Sc. thesis topics to students at Leipzig University.
+      See the <a href="/teaching">Teaching page</a> for open topics and application instructions.
+    </p>
+  </div>
+
+</div>

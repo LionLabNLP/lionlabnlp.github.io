@@ -19,6 +19,8 @@
       <li><a href="/" {% if page.url == '/' %}class="lion-nav-active"{% endif %}>About</a></li>
       <li><a href="/team" {% if page.url == '/team/' or page.url == '/team' %}class="lion-nav-active"{% endif %}>Team</a></li>
       <li><a href="/news" {% if page.url == '/news/' or page.url == '/news' %}class="lion-nav-active"{% endif %}>News</a></li>
+      <li><a href="/events" {% if page.url == '/events/' or page.url == '/events' %}class="lion-nav-active"{% endif %}>Events</a></li>
+      <li><a href="/publications" {% if page.url == '/publications/' or page.url == '/publications' %}class="lion-nav-active"{% endif %}>Publications</a></li>
       <li><a href="/teaching" {% if page.url == '/teaching/' or page.url == '/teaching' %}class="lion-nav-active"{% endif %}>Teaching</a></li>
       <li><a href="/join-us" {% if page.url == '/join-us/' or page.url == '/join-us' %}class="lion-nav-active"{% endif %}>Join Us</a></li>
       <li><a href="/contact" {% if page.url == '/contact/' or page.url == '/contact' %}class="lion-nav-active"{% endif %}>Contact</a></li>
@@ -27,13 +29,11 @@
 </nav>
 
 <script>
-  // Mobile menu toggle
   document.getElementById('lion-menu-toggle').addEventListener('click', function() {
     document.getElementById('lion-nav-links').classList.toggle('lion-nav-open');
     this.classList.toggle('lion-menu-open');
   });
 
-  // Shrink navbar slightly on scroll
   window.addEventListener('scroll', function() {
     const nav = document.getElementById('lion-navbar');
     if (window.scrollY > 40) {

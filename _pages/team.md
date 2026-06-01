@@ -255,6 +255,56 @@ permalink: /team/
     color: #c8b89a;
   }
 
+  /* ── Administration ── */
+  .admin-section {
+    margin-top: 3.5rem;
+    padding-top: 3.5rem;
+    border-top: 1px solid #e8dfd4;
+  }
+
+  .admin-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding-top: 0.5rem;
+  }
+
+  .admin-photo-placeholder {
+    width: 100px;
+    height: 100px;
+    background: #f0ebe3;
+    border: 1px solid #e8dfd4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 2.5rem;
+    /* TODO: remove this and replace with:
+       <img class="admin-photo" src="{{ '/assets/img/petra.jpg' | relative_url }}" alt="Petra Gamrath">
+    */
+  }
+
+  .admin-photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    flex-shrink: 0;
+    display: block;
+  }
+
+  .admin-info {
+    padding-top: 0.25rem;
+  }
+
+  .admin-name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 400;
+    color: #1a1209;
+    line-height: 1.2;
+    margin-bottom: 0.25rem;
+  }
+
   /* ── Responsive ── */
   @media (max-width: 700px) {
     .pi-section {
@@ -322,9 +372,9 @@ permalink: /team/
       <p class="phd-email"><a href="mailto:jacob.suchardt@uni-leipzig.de">jacob.suchardt@uni-leipzig.de</a></p>
       <ul class="member-details">
         <li>M.A. Language Technology, Gothenburg University</li>
-        <li>B.A. Computational Linguistics & Japanese Studies, Bochum University</li>
+        <li>B.A. Computational Linguistics &amp; Japanese Studies, Bochum University</li>
         <li>Multilinguality and linguistic competency of language models</li>
-        <li>Speech Processing, Phonetics, and Phonology </li>
+        <li>Speech Processing, Phonetics, and Phonology</li>
       </ul>
     </div>
 
@@ -337,11 +387,27 @@ permalink: /team/
       <ul class="member-details">
         <li>M.Sc. in Language Science and Technology, Saarland University</li>
         <li>B.A. in Interdisciplinary Studies, Waseda University</li>
-	<li>Mechanistic interpretability on multilingual language processing</li>
-	<li>Syntax & Linguistic cartography</li>
+        <li>Mechanistic interpretability on multilingual language processing</li>
+        <li>Syntax &amp; Linguistic cartography</li>
       </ul>
     </div>
 
+  </div>
+
+  <!-- Administration -->
+  <div class="admin-section">
+    <p class="phd-heading">Administration</p>
+    <div class="admin-card">
+      <!-- TODO: replace placeholder with real photo:
+           <img class="admin-photo" src="{{ '/assets/img/petra.jpg' | relative_url }}" alt="Petra Gamrath">
+      -->
+      <div class="admin-photo-placeholder" aria-hidden="true">👤</div>
+      <div class="admin-info">
+        <h3 class="admin-name">Petra Gamrath</h3>
+        <p class="phd-role">Secretary</p>
+        <p class="phd-email"><a href="mailto:petra.gamrath@uni-leipzig.de">petra.gamrath@uni-leipzig.de</a></p>
+      </div>
+    </div>
   </div>
 
 </div>
