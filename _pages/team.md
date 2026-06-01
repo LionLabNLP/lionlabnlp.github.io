@@ -343,7 +343,7 @@ permalink: /team/
   <!-- PI -->
   <div class="pi-section">
     <div class="pi-photo-wrap">
-      <img src="{{ '/assets/img/leonie.png' | relative_url }}" alt="Leonie Weissweiler">
+      <img src="{{ '/assets/img/members/leonie.png' | relative_url }}" alt="Leonie Weissweiler">
     </div>
     <div class="pi-info">
       <p class="pi-role">Principal Investigator</p>
@@ -365,7 +365,7 @@ permalink: /team/
   <div class="phd-grid">
 
     <div class="phd-card">
-      <img class="phd-photo" src="{{ '/assets/img/jacob.png' | relative_url }}" alt="Jacob Lee Suchardt">
+      <img class="phd-photo" src="{{ '/assets/img/members/jacob.png' | relative_url }}" alt="Jacob Lee Suchardt">
       <h3 class="phd-name"><a href="https://scholar.google.com/citations?user=S4YThOIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Jacob Lee Suchardt M.Sc.</a></h3>
       <p class="phd-role">PhD Student</p>
       <p class="phd-since">Since April 2026</p>
@@ -379,7 +379,7 @@ permalink: /team/
     </div>
 
     <div class="phd-card">
-      <img class="phd-photo" src="{{ '/assets/img/toshiki.jpg' | relative_url }}" alt="Toshiki Nakai">
+      <img class="phd-photo" src="{{ '/assets/img/members/toshiki.jpg' | relative_url }}" alt="Toshiki Nakai">
       <h3 class="phd-name"><a href="https://scholar.google.com/citations?hl=en&user=gKPYpYQAAAAJ" target="_blank" rel="noopener">Toshiki Nakai M.Sc.</a></h3>
       <p class="phd-role">PhD Student</p>
       <p class="phd-since">Since April 2026</p>

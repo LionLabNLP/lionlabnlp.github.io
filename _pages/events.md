@@ -152,10 +152,6 @@ permalink: /events/
     <p class="event-speaker">Dr. Arianna Muti — Bocconi University, Milan</p>
 
     <p class="event-body">
-      We're excited to welcome Arianna Muti for an invited talk on misogyny and classism in NLP.
-      Lunch with the speaker at 11:30 in the mensa.
-      Can't make it in person?
-      <a href="https://docs.google.com/spreadsheets/d/1_H7D9hwJizNyzT1nWvZ3-NC_nhNr7LHtsuInynfEPS4/edit?usp=sharing" target="_blank" rel="noopener">Zoom link and 1-on-1 sign-ups here.</a>
     </p>
 
     <div class="event-abstract">
@@ -184,9 +180,6 @@ permalink: /events/
     <p class="event-speaker">Prof. Yang Janet Liu — University of Pittsburgh</p>
 
     <p class="event-body">
-      We're pleased to welcome Yang Janet Liu for a talk on discourse and LLM evaluation.
-      Lunch with the speaker at 11:30 in the mensa; dinner at 18:00 (email Leonie by 15 May to join).
-      <a href="https://docs.google.com/spreadsheets/d/1A0vJITBmVxFspPqbpbsmAEvZI9upun-55NqGcjeWKWU/edit?usp=sharing" target="_blank" rel="noopener">Zoom link and 1-on-1 sign-ups here.</a>
     </p>
 
     <div class="event-abstract">
