@@ -145,7 +145,7 @@ permalink: /events/
   <div class="event-card">
     <div class="event-meta-row">
       <span class="event-tag">Invited Talk</span>
-      <span class="event-date">Wednesday, 27 May 2025 · 13:00</span>
+      <span class="event-date">Wednesday, 27 May 2026 · 13:00</span>
       <span class="event-location">Paulinum, Room P702 · Leipzig</span>
     </div>
     <h2 class="event-title">Implicit Misogyny and Classism in NLP</h2>
@@ -173,7 +173,7 @@ permalink: /events/
   <div class="event-card">
     <div class="event-meta-row">
       <span class="event-tag">Invited Talk</span>
-      <span class="event-date">Tuesday, 19 May 2025 · 13:00</span>
+      <span class="event-date">Tuesday, 19 May 2026 · 13:00</span>
       <span class="event-location">Paulinum, Room P702 · Leipzig</span>
     </div>
     <h2 class="event-title">What Is Discourse, and What Do LLMs Know About It?</h2>
