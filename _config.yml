@@ -3,7 +3,7 @@ description: >
   LION Lab (Linguistically-Oriented NLP) — research group at the University of Leipzig
   working at the intersection of linguistic theory and natural language processing.
 baseurl: "/"
-url: https://lionlabnlp.github.io/ # TODO: update to your final URL
+url: https://lion-lab.netlify.app # TODO: update to your final URL
 
 permalink: "/blog/:title/"
 

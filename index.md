@@ -178,7 +178,7 @@ permalink: /
           GitHub
         </a>
         <a href="https://huggingface.co/LIONLab-NLP" target="_blank" rel="noopener">🤗 HuggingFace</a>
-        <a href="https://x.com/LIONLabNLP" target="_blank" rel="noopener">
+        <a href="https://twitter.com/LIONLabNLP" target="_blank" rel="noopener">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
           X / Twitter
         </a>
@@ -193,23 +193,13 @@ permalink: /
   <!-- News preview -->
   <p class="lion-section-label">Latest News</p>
 
+  {% for item in site.data.news limit:5 %}
   <div class="news-item">
-    <p class="news-item-date">2026</p>
-    <p class="news-item-title">Jacob presented three papers at LREC 2026</p>
-    <p class="news-item-body">Including WikIPA, Fill-in-the-Blanks, and DiNoS (at the SLiDE Workshop).</p>
+    <p class="news-item-date">{{ item.date }}</p>
+    <p class="news-item-title">{{ item.title }}</p>
+    <p class="news-item-body">{{ item.body }}</p>
   </div>
-
-  <div class="news-item">
-    <p class="news-item-date">2026</p>
-    <p class="news-item-title">New paper accepted at CoNLL 2026</p>
-    <p class="news-item-body">Language Models Learn Constructional Semantics, Not To Mention Syntax — Wesley Scivetti et al.</p>
-  </div>
-
-  <div class="news-item">
-    <p class="news-item-date">April 2026</p>
-    <p class="news-item-title">Welcome, Jacob and Toshiki!</p>
-    <p class="news-item-body">Jacob Lee Suchardt and Toshiki Nakai join the lab as PhD students.</p>
-  </div>
+  {% endfor %}
 
   <a href="/news" class="see-all-link">All news →</a>
 

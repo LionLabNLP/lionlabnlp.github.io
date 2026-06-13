@@ -1,0 +1,30 @@
+# News entries — most recent first.
+# Each entry has: date, title, body (HTML allowed).
+# To add a news item, copy one block and paste it at the TOP of the list.
+
+- date: "June 2026"
+  title: "Leonie gave an invited talk at Heidelberg University
+  body: >
+    Leonie gave an invited talk on "Expanding the Linguistic Evaluation of Language Models, or: What to do now that LMs are good" at the <a href="https://www.cl.uni-heidelberg.de/colloquium/>Computational Linguistics Colloquium</a> at Heidelberg University.
+
+
+- date: "May 2026"
+  title: "Jacob presented three papers at LREC 2026"
+  body: >
+    Jacob presented two papers at the LREC 2026: 
+    <a href="https://lrec.elra.info/lrec2026-main-668" target="_blank" rel="noopener">WikIPA: Integrating WikiPron and Lingua Libre for Multilingual IPA Transcription</a>,
+    <a href="https://lrec.elra.info/lrec2026-main-090" target="_blank" rel="noopener">Fill-in-the-Blanks: Automatic Generation and Evaluation of Language Models' Pseudonyms for English and Swedish Texts</a>,
+    and <a href="https://pustejovsky.github.io/slide-lrec2026/book.pdf#page=205" target="_blank" rel="noopener">DiNoS: Creating a Data-Driven German Noun Phrase Lexicon from Universal Dependencies</a>
+     at the <a href="https://www.slide-workshop.org/index.html" target="_blank" rel="noopener">SLiDE Workshop</a>.
+
+- date: "April 2026"
+  title: "New paper accepted at CoNLL 2026"
+  body: >
+    <a href="https://openreview.net/forum?id=97IvVs7z5c" target="_blank" rel="noopener">Language Models Learn Constructional Semantics, Not To Mention Syntax</a>
+    by Wesley Scivetti, Ethan Gotlieb Wilcox, Nathan Schneider, Kanishka Misra, and Leonie Weissweiler
+    has been accepted at the 30th Conference on Computational Natural Language Learning.
+
+- date: "April 2026"
+  title: "Welcome, Jacob and Toshiki!"
+  body: >
+    <a href="https://scholar.google.com/citations?user=S4YThOIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Jacob Lee Suchardt</a> and <a href="https://scholar.google.com/citations?hl=en&user=gKPYpYQAAAAJ" target="_blank" rel="noopener">Toshiki Nakai</a> join the lab as PhD students. Welcome to both!
