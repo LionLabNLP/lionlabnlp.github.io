@@ -3,8 +3,8 @@
 # To add a news item, copy one block and paste it at the TOP of the list.
 
 - date: "June 2026"
-  title: "Leonie gave an invited talk at Heidelberg University
-  body: "Leonie gave an invited talk on "Expanding the Linguistic Evaluation of Language Models, or: What to do now that LMs are good" at the <a href="https://www.cl.uni-heidelberg.de/colloquium/>Computational Linguistics Colloquium</a> at Heidelberg University."
+  title: "Leonie gave an invited talk at Heidelberg University"
+  body: "Leonie gave an invited talk on \"Expanding the Linguistic Evaluation of Language Models, or: What to do now that LMs are good\" at the <a href=\"https://www.cl.uni-heidelberg.de/colloquium/\">Computational Linguistics Colloquium</a> at Heidelberg University."
 
 
 - date: "May 2026"
