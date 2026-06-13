@@ -1,14 +1,14 @@
 <style>
   /* ── Shared page layout & typography ── */
+  /* Colour palette: #FF8600 main · #FFAE00 light · #E26600 dark · #B34E00 darkest */
+
   .lion-page {
     max-width: 1100px;
     margin: 0 auto;
     padding: 5rem 2.5rem 7rem;
   }
 
-  .lion-page-header {
-    margin-bottom: 4rem;
-  }
+  .lion-page-header { margin-bottom: 4rem; }
 
   .lion-page-header h1 {
     font-family: 'Playfair Display', Georgia, serif;
@@ -23,7 +23,7 @@
   .lion-page-rule {
     width: 3rem;
     height: 3px;
-    background: #DF6907;
+    background: #E26600;
   }
 
   .lion-section-label {
@@ -31,17 +31,16 @@
     font-size: 0.72rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #DF6907;
+    color: #E26600;
     margin-bottom: 2rem;
   }
 
   .lion-divider {
     border: none;
-    border-top: 1px solid #e8dfd4;
+    border-top: 1px solid #f0e4d4;
     margin: 3.5rem 0;
   }
 
-  /* Body text */
   .lion-prose {
     font-family: 'Lora', Georgia, serif;
     font-size: 1rem;
@@ -49,26 +48,20 @@
     line-height: 1.8;
   }
 
-  .lion-prose p {
-    margin-bottom: 1.25rem;
-  }
+  .lion-prose p { margin-bottom: 1.25rem; }
 
   .lion-prose a {
-    color: #DF6907;
+    color: #E26600;
     text-decoration: none;
-    border-bottom: 1px solid #DF6907;
+    border-bottom: 1px solid #E26600;
     transition: opacity 0.2s;
   }
 
-  .lion-prose a:hover {
-    opacity: 0.7;
-  }
+  .lion-prose a:hover { opacity: 0.7; }
 
-  /* Dash lists */
   .lion-list {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 0; margin: 0;
     display: flex;
     flex-direction: column;
     gap: 0.55rem;
@@ -87,12 +80,20 @@
     content: '—';
     position: absolute;
     left: 0;
-    color: #DF6907;
+    color: #E26600;
     font-size: 0.8rem;
     top: 0.15em;
   }
 
-  /* Section heading (h2) */
+  .lion-list li a {
+    color: #E26600;
+    text-decoration: none;
+    border-bottom: 1px solid #E26600;
+    transition: opacity 0.2s;
+  }
+
+  .lion-list li a:hover { opacity: 0.7; }
+
   .lion-h2 {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.6rem;
@@ -102,7 +103,6 @@
     line-height: 1.2;
   }
 
-  /* Section heading (h3) */
   .lion-h3 {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.2rem;
@@ -120,8 +120,6 @@
   }
 
   @media (max-width: 700px) {
-    .lion-page {
-      padding: 3rem 1.5rem 5rem;
-    }
+    .lion-page { padding: 3rem 1.5rem 5rem; }
   }
 </style>

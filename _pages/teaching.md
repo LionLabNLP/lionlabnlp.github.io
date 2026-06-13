@@ -10,10 +10,10 @@ permalink: /teaching/
 <style>
   .course-entry {
     padding: 1.75rem 0;
-    border-bottom: 1px solid #e8dfd4;
+    border-bottom: 1px solid #f0e4d4;
   }
 
-  .course-entry:first-of-type { border-top: 1px solid #e8dfd4; }
+  .course-entry:first-of-type { border-top: 1px solid #f0e4d4; }
 
   .course-name {
     font-family: 'Playfair Display', Georgia, serif;
@@ -40,10 +40,10 @@ permalink: /teaching/
 
   .thesis-entry {
     padding: 2rem 0;
-    border-bottom: 1px solid #e8dfd4;
+    border-bottom: 1px solid #f0e4d4;
   }
 
-  .thesis-entry:first-of-type { border-top: 1px solid #e8dfd4; }
+  .thesis-entry:first-of-type { border-top: 1px solid #f0e4d4; }
 
   .thesis-header {
     display: flex;
@@ -59,7 +59,7 @@ permalink: /teaching/
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: #fff;
-    background: #DF6907;
+    background: #E26600;
     padding: 0.15rem 0.55rem;
     flex-shrink: 0;
   }
@@ -79,9 +79,9 @@ permalink: /teaching/
   }
 
   .thesis-body a {
-    color: #DF6907;
+    color: #E26600;
     text-decoration: none;
-    border-bottom: 1px solid #DF6907;
+    border-bottom: 1px solid #E26600;
     transition: opacity 0.2s;
   }
 

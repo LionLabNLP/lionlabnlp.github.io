@@ -30,7 +30,7 @@ permalink: /team/
   .team-rule {
     width: 3rem;
     height: 3px;
-    background: #DF6907;
+    background: #E26600;
   }
 
   /* ── PI Section ── */
@@ -41,7 +41,7 @@ permalink: /team/
     align-items: start;
     padding-bottom: 4rem;
     margin-bottom: 4rem;
-    border-bottom: 1px solid #e8dfd4;
+    border-bottom: 1px solid #f0e4d4;
   }
 
   .pi-photo-wrap {
@@ -62,8 +62,8 @@ permalink: /team/
     left: -8px;
     width: 32px;
     height: 32px;
-    border-top: 3px solid #DF6907;
-    border-left: 3px solid #DF6907;
+    border-top: 3px solid #E26600;
+    border-left: 3px solid #E26600;
   }
 
   .pi-photo-wrap::after {
@@ -73,8 +73,8 @@ permalink: /team/
     right: -8px;
     width: 32px;
     height: 32px;
-    border-bottom: 3px solid #DF6907;
-    border-right: 3px solid #DF6907;
+    border-bottom: 3px solid #E26600;
+    border-right: 3px solid #E26600;
   }
 
   .pi-info {
@@ -86,7 +86,7 @@ permalink: /team/
     font-size: 0.72rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #DF6907;
+    color: #E26600;
     margin-bottom: 0.75rem;
   }
 
@@ -102,12 +102,12 @@ permalink: /team/
   .pi-name a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 1.5px solid #DF6907;
+    border-bottom: 1.5px solid #E26600;
     transition: color 0.2s;
   }
 
   .pi-name a:hover {
-    color: #DF6907;
+    color: #E26600;
   }
 
   .pi-email {
@@ -121,13 +121,13 @@ permalink: /team/
   .pi-email a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid #c8b89a;
+    border-bottom: 1px solid #f0d4b0;
     transition: color 0.2s, border-color 0.2s;
   }
 
   .pi-email a:hover {
-    color: #DF6907;
-    border-color: #DF6907;
+    color: #E26600;
+    border-color: #E26600;
   }
 
   /* ── Shared list style ── */
@@ -153,7 +153,7 @@ permalink: /team/
     content: '—';
     position: absolute;
     left: 0;
-    color: #DF6907;
+    color: #E26600;
     font-size: 0.8rem;
     top: 0.1em;
   }
@@ -164,7 +164,7 @@ permalink: /team/
     font-size: 0.72rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #DF6907;
+    color: #E26600;
     margin-bottom: 2.5rem;
   }
 
@@ -176,7 +176,7 @@ permalink: /team/
 
   .phd-card {
     padding: 0 3rem 0 0;
-    border-right: 1px solid #e8dfd4;
+    border-right: 1px solid #f0e4d4;
   }
 
   .phd-card:last-child {
@@ -204,12 +204,12 @@ permalink: /team/
   .phd-name a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 1.5px solid #DF6907;
+    border-bottom: 1.5px solid #E26600;
     transition: color 0.2s;
   }
 
   .phd-name a:hover {
-    color: #DF6907;
+    color: #E26600;
   }
 
   .phd-role {
@@ -217,7 +217,7 @@ permalink: /team/
     font-size: 0.7rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #DF6907;
+    color: #E26600;
     margin-bottom: 0.4rem;
   }
 
@@ -238,13 +238,13 @@ permalink: /team/
   .phd-email a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid #c8b89a;
+    border-bottom: 1px solid #f0d4b0;
     transition: color 0.2s, border-color 0.2s;
   }
 
   .phd-email a:hover {
-    color: #DF6907;
-    border-color: #DF6907;
+    color: #E26600;
+    border-color: #E26600;
   }
 
   .phd-card .member-details li {
@@ -252,14 +252,14 @@ permalink: /team/
   }
 
   .phd-card .member-details li::before {
-    color: #c8b89a;
+    color: #f0d4b0;
   }
 
   /* ── Administration ── */
   .admin-section {
     margin-top: 3.5rem;
     padding-top: 3.5rem;
-    border-top: 1px solid #e8dfd4;
+    border-top: 1px solid #f0e4d4;
   }
 
   .admin-card {
@@ -273,7 +273,7 @@ permalink: /team/
     width: 100px;
     height: 100px;
     background: #f0ebe3;
-    border: 1px solid #e8dfd4;
+    border: 1px solid #f0e4d4;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -324,7 +324,7 @@ permalink: /team/
     .phd-card:last-child {
       padding: 2rem 0;
       border-right: none;
-      border-bottom: 1px solid #e8dfd4;
+      border-bottom: 1px solid #f0e4d4;
     }
 
     .phd-card:last-child {
@@ -343,7 +343,7 @@ permalink: /team/
   <!-- PI -->
   <div class="pi-section">
     <div class="pi-photo-wrap">
-      <img src="{{ '/assets/img/members/leonie_square.JPG' | relative_url }}" alt="Leonie Weissweiler">
+      <img src="{{ '/assets/img/leonie.png' | relative_url }}" alt="Leonie Weissweiler">
     </div>
     <div class="pi-info">
       <p class="pi-role">Principal Investigator</p>
@@ -365,7 +365,7 @@ permalink: /team/
   <div class="phd-grid">
 
     <div class="phd-card">
-      <img class="phd-photo" src="{{ '/assets/img/members/jacob_square.JPG' | relative_url }}" alt="Jacob Lee Suchardt">
+      <img class="phd-photo" src="{{ '/assets/img/jacob.png' | relative_url }}" alt="Jacob Lee Suchardt">
       <h3 class="phd-name"><a href="https://scholar.google.com/citations?user=S4YThOIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Jacob Lee Suchardt M.Sc.</a></h3>
       <p class="phd-role">PhD Student</p>
       <p class="phd-since">Since April 2026</p>
@@ -379,7 +379,7 @@ permalink: /team/
     </div>
 
     <div class="phd-card">
-      <img class="phd-photo" src="{{ '/assets/img/members/toshiki_square.JPG' | relative_url }}" alt="Toshiki Nakai">
+      <img class="phd-photo" src="{{ '/assets/img/toshiki.jpg' | relative_url }}" alt="Toshiki Nakai">
       <h3 class="phd-name"><a href="https://scholar.google.com/citations?hl=en&user=gKPYpYQAAAAJ" target="_blank" rel="noopener">Toshiki Nakai M.Sc.</a></h3>
       <p class="phd-role">PhD Student</p>
       <p class="phd-since">Since April 2026</p>
@@ -398,7 +398,7 @@ permalink: /team/
   <div class="admin-section">
     <p class="phd-heading">Administration</p>
     <div class="admin-card">
-      <img class="admin-photo" src="{{ '/assets/img/members/petra.jpg' | relative_url }}" alt="Petra Gamrath">
+           <img class="admin-photo" src="{{ '/assets/img/petra.jpg' | relative_url }}" alt="Petra Gamrath">
       <div class="admin-info">
         <h3 class="admin-name">Petra Gamrath</h3>
         <p class="phd-role">Secretary</p>

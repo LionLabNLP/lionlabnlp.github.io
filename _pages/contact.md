@@ -32,13 +32,13 @@ permalink: /contact/
   .contact-detail a {
     color: #3a2e20;
     text-decoration: none;
-    border-bottom: 1px solid #c8b89a;
+    border-bottom: 1px solid #f0d4b0;
     transition: color 0.2s, border-color 0.2s;
   }
 
   .contact-detail a:hover {
-    color: #DF6907;
-    border-color: #DF6907;
+    color: #E26600;
+    border-color: #E26600;
   }
 
   .contact-label {
@@ -69,13 +69,12 @@ permalink: /contact/
   <div class="contact-grid">
 
     <div class="contact-block">
-      <h2>Jun.-Prof. Dr. Leonie Weissweiler</h2>
+      <h2>Jun.-Prof. Dr. Leonie Weißweiler</h2>
       <p class="contact-detail">
         Fakultät für Mathematik und Informatik<br>
         Institut für Informatik<br>
         Augustusplatz 10<br>
         04109 Leipzig<br>
-        Germany<br>
         Room P816
       </p>
       <p class="contact-label">Phone</p>
@@ -96,8 +95,6 @@ permalink: /contact/
       <p class="contact-detail">+49 341 9732230</p>
       <p class="contact-label">Email</p>
       <p class="contact-detail"><a href="mailto:petra.gamrath@uni-leipzig.de">petra.gamrath@uni-leipzig.de</a></p>
-      <p class="contact-label">University page</p>
-      <p class="contact-detail"><a href="http://roary.informatik.uni-leipzig.de/link/95#bkmrk-petra.gamrath%40uni-le" target="_blank" rel="noopener">Staff page</a></p>
     </div>
 
   </div>

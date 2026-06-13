@@ -13,18 +13,18 @@ permalink: /publications/
     grid-template-columns: 60px 1fr;
     gap: 1.5rem;
     padding: 1.75rem 0;
-    border-bottom: 1px solid #e8dfd4;
+    border-bottom: 1px solid #f0e4d4;
   }
 
   .pub-entry:first-of-type {
-    border-top: 1px solid #e8dfd4;
+    border-top: 1px solid #f0e4d4;
   }
 
   .pub-year {
     font-family: 'Lora', Georgia, serif;
     font-size: 0.75rem;
     letter-spacing: 0.1em;
-    color: #DF6907;
+    color: #E26600;
     padding-top: 0.2rem;
     text-align: right;
   }
@@ -41,11 +41,11 @@ permalink: /publications/
   .pub-title a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid #DF6907;
+    border-bottom: 1px solid #E26600;
     transition: color 0.2s;
   }
 
-  .pub-title a:hover { color: #DF6907; }
+  .pub-title a:hover { color: #E26600; }
 
   .pub-authors {
     font-family: 'Lora', Georgia, serif;
@@ -67,7 +67,7 @@ permalink: /publications/
 
   .pub-venue em {
     font-style: normal;
-    color: #DF6907;
+    color: #E26600;
   }
 
   .pub-abstract {
@@ -76,7 +76,7 @@ permalink: /publications/
     color: #5a4e40;
     line-height: 1.75;
     margin-top: 0.75rem;
-    border-left: 2px solid #e8dfd4;
+    border-left: 2px solid #f0e4d4;
     padding-left: 1rem;
     display: none;
   }
@@ -90,7 +90,7 @@ permalink: /publications/
     font-size: 0.72rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #DF6907;
+    color: #E26600;
     background: none;
     border: none;
     cursor: pointer;
@@ -122,7 +122,7 @@ permalink: /publications/
     <p class="pub-year">2026</p>
     <div>
       <p class="pub-title">
-        <a href="https://openreview.net/forum?id=97IvVs7z5c" target="_blank" rel="noopener">
+        <a href="https://arxiv.org/abs/2605.31586" target="_blank" rel="noopener">
           Language Models Learn Constructional Semantics, Not To Mention Syntax: Investigating LM Understanding of Paired-Focus Constructions
         </a>
       </p>

@@ -10,12 +10,10 @@ permalink: /events/
 <style>
   .event-card {
     padding: 2.5rem 0;
-    border-bottom: 1px solid #e8dfd4;
+    border-bottom: 1px solid #f0e4d4;
   }
 
-  .event-card:first-of-type {
-    border-top: 1px solid #e8dfd4;
-  }
+  .event-card:first-of-type { border-top: 1px solid #f0e4d4; }
 
   .event-meta-row {
     display: flex;
@@ -31,8 +29,9 @@ permalink: /events/
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: #fff;
-    background: #DF6907;
+    background: #E26600;
     padding: 0.15rem 0.55rem;
+    flex-shrink: 0;
   }
 
   .event-date {
@@ -48,6 +47,24 @@ permalink: /events/
     color: #a09080;
   }
 
+  .event-main {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .event-speaker-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .event-content { min-width: 0; }
+
   .event-title {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.4rem;
@@ -60,7 +77,7 @@ permalink: /events/
   .event-speaker {
     font-family: 'Lora', Georgia, serif;
     font-size: 0.88rem;
-    color: #DF6907;
+    color: #E26600;
     margin-bottom: 1.25rem;
   }
 
@@ -73,30 +90,21 @@ permalink: /events/
   }
 
   .event-body a {
-    color: #DF6907;
+    color: #E26600;
     text-decoration: none;
-    border-bottom: 1px solid #DF6907;
+    border-bottom: 1px solid #E26600;
     transition: opacity 0.2s;
   }
 
   .event-body a:hover { opacity: 0.7; }
 
   .event-abstract {
-    border-left: 2px solid #e8dfd4;
+    border-left: 2px solid #f0e4d4;
     padding-left: 1.25rem;
     margin: 1.25rem 0;
   }
 
-  .event-abstract-label {
-    font-family: 'Lora', Georgia, serif;
-    font-size: 0.68rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #a09080;
-    margin-bottom: 0.5rem;
-  }
-
-  .event-bio-label {
+  .event-section-label {
     font-family: 'Lora', Georgia, serif;
     font-size: 0.68rem;
     letter-spacing: 0.14em;
@@ -107,9 +115,9 @@ permalink: /events/
   }
 
   .mailing-list-block {
-    background: #fdf8f0;
-    border: 1px solid #e8dfd4;
-    padding: 2rem 2.5rem;
+    background: #fff8f0;
+    border: 1px solid #f0e4d4;
+    padding: 1.5rem 2rem;
     margin-bottom: 3rem;
   }
 
@@ -122,9 +130,16 @@ permalink: /events/
   }
 
   .mailing-list-block a {
-    color: #DF6907;
+    color: #E26600;
     text-decoration: none;
-    border-bottom: 1px solid #DF6907;
+    border-bottom: 1px solid #E26600;
+  }
+
+  @media (max-width: 600px) {
+    .event-main {
+      grid-template-columns: 1fr;
+    }
+    .event-speaker-photo { width: 100px; height: 100px; }
   }
 </style>
 
@@ -137,7 +152,7 @@ permalink: /events/
 
   <div class="mailing-list-block">
     <p>Sign up for our mailing list to be informed about future events:
-      <a href="https://lists.uni-leipzig.de/mailman/listinfo/nlp-talks" target="_blank" rel="noopener">join the mailing list →</a>
+      <a href="https://docs.google.com/spreadsheets/d/1_H7D9hwJizNyzT1nWvZ3-NC_nhNr7LHtsuInynfEPS4/edit?usp=sharing" target="_blank" rel="noopener">join the mailing list →</a>
     </p>
   </div>
 
@@ -145,55 +160,63 @@ permalink: /events/
   <div class="event-card">
     <div class="event-meta-row">
       <span class="event-tag">Invited Talk</span>
-      <span class="event-date">Wednesday, 27 May 2026 · 13:00</span>
+      <span class="event-date">Wednesday, 27 May 2025 · 13:00</span>
       <span class="event-location">Paulinum, Room P702 · Leipzig</span>
     </div>
-    <h2 class="event-title">Implicit Misogyny and Classism in NLP</h2>
-    <p class="event-speaker">Dr. Arianna Muti — Bocconi University, Milan</p>
-
-    <p class="event-body">
-    </p>
-
-    <div class="event-abstract">
-      <p class="event-abstract-label">Abstract</p>
-      <p class="event-body" style="margin:0;">
-        Implicit misogyny and classism are difficult for NLP systems because they are often conveyed indirectly, through presuppositions, stereotypes, and unstated assumptions rather than explicit hateful expressions. Arianna presents work on analysing these implicit forms of harm in social media — framing misogyny detection as an argumentative reasoning task, and introducing ACID, a resource for studying how lower-SES people are perceived across cultures.
-      </p>
+    <div class="event-main">
+      <img class="event-speaker-photo"
+           src="{{ '/assets/img/speakers/arianna_muti.jpeg' | relative_url }}"
+           alt="Arianna Muti">
+      <div class="event-content">
+        <h2 class="event-title">Implicit Misogyny and Classism in NLP</h2>
+        <p class="event-speaker">Dr. Arianna Muti — Bocconi University, Milan</p>
+        <p class="event-body">
+        </p>
+        <div class="event-abstract">
+          <p class="event-section-label">Abstract</p>
+          <p class="event-body" style="margin:0;">
+            Implicit misogyny and classism are difficult for NLP systems because they are often conveyed indirectly, through presuppositions, stereotypes, and unstated assumptions rather than explicit hateful expressions. Arianna presents work on analysing these implicit forms of harm in social media — framing misogyny detection as an argumentative reasoning task, and introducing ACID, a resource for studying how lower-SES people are perceived across cultures.
+          </p>
+        </div>
+        <p class="event-section-label">Bio</p>
+        <p class="event-body">
+          <a href="https://milanlp.github.io/people/arianna-muti/" target="_blank" rel="noopener">Arianna Muti</a>
+          is a Postdoctoral Research Fellow at Bocconi University, part of the MilaNLP group.
+          Her research focuses on NLP with particular attention to detection and explanation of implicit misogyny and classism in social media. She is currently working on PERSONAE, developing identity-aware language technologies.
+        </p>
+      </div>
     </div>
-
-    <p class="event-bio-label">Bio</p>
-    <p class="event-body">
-      <a href="https://milanlp.github.io/people/arianna-muti/" target="_blank" rel="noopener">Arianna Muti</a>
-      is a Postdoctoral Research Fellow at Bocconi University, part of the MilaNLP group.
-      Her research focuses on NLP with particular attention to detection and explanation of implicit misogyny and classism in social media. She is currently working on PERSONAE, developing identity-aware language technologies.
-    </p>
   </div>
 
   <!-- ── Event 2 ── -->
   <div class="event-card">
     <div class="event-meta-row">
       <span class="event-tag">Invited Talk</span>
-      <span class="event-date">Tuesday, 19 May 2026 · 13:00</span>
+      <span class="event-date">Tuesday, 19 May 2025 · 13:00</span>
       <span class="event-location">Paulinum, Room P702 · Leipzig</span>
     </div>
-    <h2 class="event-title">What Is Discourse, and What Do LLMs Know About It?</h2>
-    <p class="event-speaker">Prof. Yang Janet Liu — University of Pittsburgh</p>
-
-    <p class="event-body">
-    </p>
-
-    <div class="event-abstract">
-      <p class="event-abstract-label">Abstract</p>
-      <p class="event-body" style="margin:0;">
-        As LLM-generated output becomes increasingly fluent, evaluating what they know and how reliably they generalise has become critical. At the discourse level, meaning is conveyed beyond single sentences, shaped by linguistic conventions, communicative goals, and variation in human interpretation. Janet presents work examining LLMs' grasp of discourse coherence, how breaking down model reasoning into discourse units can account for human label variation, and how incorporating discourse relations can improve faithfulness evaluation in long-form summarisation.
-      </p>
+    <div class="event-main">
+      <img class="event-speaker-photo"
+           src="{{ '/assets/img/speakers/janet_liu.webp' | relative_url }}"
+           alt="Yang Janet Liu">
+      <div class="event-content">
+        <h2 class="event-title">What Is Discourse, and What Do LLMs Know About It?</h2>
+        <p class="event-speaker">Prof. Yang Janet Liu — University of Pittsburgh</p>
+        <p class="event-body">
+        </p>
+        <div class="event-abstract">
+          <p class="event-section-label">Abstract</p>
+          <p class="event-body" style="margin:0;">
+            As LLM-generated output becomes increasingly fluent, evaluating what they know and how reliably they generalise has become critical. At the discourse level, meaning is conveyed beyond single sentences, shaped by linguistic conventions, communicative goals, and variation in human interpretation. Janet presents work examining LLMs' grasp of discourse coherence, how breaking down model reasoning into discourse units can account for human label variation, and how incorporating discourse relations can improve faithfulness evaluation in long-form summarisation.
+          </p>
+        </div>
+        <p class="event-section-label">Bio</p>
+        <p class="event-body">
+          <a href="https://janetlauyeung.github.io/" target="_blank" rel="noopener">Yang Janet Liu</a>
+          is an Assistant Professor in the Department of Linguistics at the University of Pittsburgh, with a secondary appointment in the Intelligent Systems Program. Her research focuses on computational approaches to discourse-level phenomena, LLM evaluation, and how pragmatic variation shapes language use and model behaviour. She earned her PhD from Georgetown University and was previously a postdoctoral researcher in the MaiNLP Lab at LMU Munich.
+        </p>
+      </div>
     </div>
-
-    <p class="event-bio-label">Bio</p>
-    <p class="event-body">
-      <a href="https://janetlauyeung.github.io/" target="_blank" rel="noopener">Yang Janet Liu</a>
-      is an Assistant Professor in the Department of Linguistics at the University of Pittsburgh, with a secondary appointment in the Intelligent Systems Program. Her research focuses on computational approaches to discourse-level phenomena, LLM evaluation, and how pragmatic variation shapes language use and model behaviour. She earned her PhD from Georgetown University and was previously a postdoctoral researcher in the MaiNLP Lab at LMU Munich.
-    </p>
   </div>
 
 </div>

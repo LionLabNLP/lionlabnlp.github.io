@@ -8,48 +8,35 @@ permalink: /
 {% include page-styles.html %}
 
 <style>
-  /* ── About-specific ── */
+  /* ── Hero: big logo left, group photo right ── */
   .about-hero {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
     align-items: center;
-    gap: 2.5rem;
     margin-bottom: 3rem;
   }
 
-  .about-hero-logo {
-    width: 160px;
-    flex-shrink: 0;
+  .about-hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 
   .about-hero-logo img {
     width: 100%;
+    max-width: 480px;
     height: auto;
     display: block;
   }
 
-  .about-hero-title {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: clamp(2.2rem, 5vw, 3.8rem);
-    font-weight: 400;
-    color: #1a1209;
-    letter-spacing: -0.01em;
-    line-height: 1;
-    margin: 0 0 1rem;
-  }
-
-  .about-intro {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    gap: 5rem;
-    align-items: start;
-    margin-bottom: 4rem;
-  }
-
-  /* Social links — stacked column */
+  /* Social links — single horizontal row */
   .about-social {
     display: flex;
-    flex-direction: column;
-    gap: 0.65rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.25rem 2rem;
+    align-items: center;
   }
 
   .about-social a {
@@ -60,42 +47,49 @@ permalink: /
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 0.6rem;
+    gap: 0.5rem;
     transition: color 0.2s;
   }
 
-  .about-social a:hover {
-    color: #DF6907;
-  }
+  .about-social a:hover { color: #E26600; }
 
   .about-social img {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     object-fit: contain;
     flex-shrink: 0;
-    opacity: 0.75;
+    opacity: 0.7;
   }
 
-  .about-social a:hover img {
-    opacity: 1;
+  .about-social a:hover img { opacity: 1; }
+
+  /* Group photo */
+  .about-group-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Body text below hero */
+  .about-body {
+    margin-bottom: 4rem;
   }
 
   /* News preview */
   .news-item {
     padding: 1.5rem 0;
-    border-bottom: 1px solid #e8dfd4;
+    border-bottom: 1px solid #f0e4d4;
   }
 
-  .news-item:first-of-type {
-    border-top: 1px solid #e8dfd4;
-  }
+  .news-item:first-of-type { border-top: 1px solid #f0e4d4; }
 
   .news-item-date {
     font-family: 'Lora', Georgia, serif;
     font-size: 0.72rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #DF6907;
+    color: #E26600;
     margin-bottom: 0.3rem;
   }
 
@@ -115,9 +109,9 @@ permalink: /
   }
 
   .news-item-body a {
-    color: #DF6907;
+    color: #E26600;
     text-decoration: none;
-    border-bottom: 1px solid #DF6907;
+    border-bottom: 1px solid #E26600;
     transition: opacity 0.2s;
   }
 
@@ -128,9 +122,9 @@ permalink: /
     font-size: 0.82rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #DF6907;
+    color: #E26600;
     text-decoration: none;
-    border-bottom: 1px solid #DF6907;
+    border-bottom: 1px solid #E26600;
     margin-top: 1.5rem;
     display: inline-block;
     transition: opacity 0.2s;
@@ -143,7 +137,7 @@ permalink: /
     margin-top: 1.5rem;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 2.5rem;
     flex-wrap: wrap;
   }
 
@@ -156,16 +150,16 @@ permalink: /
   }
 
   .funding-block a {
-    color: #3a2e20;
+    color: #E26600;
     text-decoration: none;
-    border-bottom: 1px solid #c8b89a;
-    transition: color 0.2s;
+    border-bottom: 1px solid #E26600;
+    transition: opacity 0.2s;
   }
 
-  .funding-block a:hover { color: #DF6907; }
+  .funding-block a:hover { opacity: 0.7; }
 
   .funding-logo {
-    height: 48px;
+    height: 200px;
     width: auto;
     display: block;
     flex-shrink: 0;
@@ -173,74 +167,68 @@ permalink: /
 
   @media (max-width: 800px) {
     .about-hero {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 1.5rem;
-    }
-    .about-hero-logo { width: 100px; }
-    .about-intro {
       grid-template-columns: 1fr;
-      gap: 2rem;
     }
+    .about-hero-logo img { max-width: 280px; }
+    .funding-logo { height: 100px; }
   }
 </style>
 
 <div class="lion-page">
 
-  <!-- Hero: logo + title -->
+  <!-- Hero -->
   <div class="about-hero">
-    <div class="about-hero-logo">
-      <img src="{{ '/assets/img/logos/lion_lab.svg' | relative_url }}" alt="LION Lab">
+    <div class="about-hero-left">
+      <div class="about-hero-logo">
+        <img src="{{ '/assets/img/logos/lion_lab.svg' | relative_url }}" alt="LION Lab">
+      </div>
+      <div class="about-social">
+        <a href="https://github.com/LionLabNLP/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/img/logos/github.svg' | relative_url }}" alt="">
+          GitHub
+        </a>
+        <a href="https://huggingface.co/LIONLab-NLP" target="_blank" rel="noopener">
+          <img src="{{ '/assets/img/logos/huggingface.svg' | relative_url }}" alt="">
+          Hugging Face
+        </a>
+        <a href="https://x.com/LIONLabNLP" target="_blank" rel="noopener">
+          <img src="{{ '/assets/img/logos/twitter.svg' | relative_url }}" alt="">
+          X / Twitter
+        </a>
+        <a href="https://bsky.app/profile/lionlab.bsky.social" target="_blank" rel="noopener">
+          <img src="{{ '/assets/img/logos/bluesky.svg' | relative_url }}" alt="">
+          Bluesky
+        </a>
+        <a href="https://www.linkedin.com/company/lion-lab-leipzig" target="_blank" rel="noopener">
+          <img src="{{ '/assets/img/logos/linkedin.png' | relative_url }}" alt="">
+          LinkedIn
+        </a>
+      </div>
     </div>
-    <div>
-      <h1 class="about-hero-title">LION Lab</h1>
-      <div class="lion-page-rule"></div>
-    </div>
+    <img class="about-group-photo"
+         src="{{ '/assets/img/members/group_cropped.JPG' | relative_url }}"
+         alt="LION Lab group photo">
   </div>
 
-  <div class="about-intro">
-    <div class="lion-prose">
-      <p>
-        We are a research group at the
-        <a href="https://www.informatik.uni-leipzig.de/" target="_blank" rel="noopener">Department of Computer Science</a>
-        at <a href="https://www.uni-leipzig.de/" target="_blank" rel="noopener">Leipzig University</a>, Germany,
-        led by <a href="https://leonieweissweiler.github.io/" target="_blank" rel="noopener">Jun.-Prof. Dr. Leonie Weissweiler</a>.
-      </p>
-      <p>
-        We work on linguistically-oriented natural language processing — asking what language
-        models actually learn about the structure of language, and using insights from linguistic
-        theory to build better, more interpretable NLP systems.
-      </p>
-      <!-- TODO: expand with research statement -->
-    </div>
-
-    <div class="about-social">
-      <a href="https://github.com/LionLabNLP/" target="_blank" rel="noopener">
-        <img src="{{ '/assets/img/logos/github.svg' | relative_url }}" alt="">
-        GitHub
-      </a>
-      <a href="https://huggingface.co/LIONLab-NLP" target="_blank" rel="noopener">
-        <img src="{{ '/assets/img/logos/huggingface.svg' | relative_url }}" alt="">
-        Hugging Face
-      </a>
-      <a href="https://x.com/LIONLabNLP" target="_blank" rel="noopener">
-        <img src="{{ '/assets/img/logos/twitter.svg' | relative_url }}" alt="">
-        X / Twitter
-      </a>
-      <a href="https://bsky.app/profile/lionlab.bsky.social" target="_blank" rel="noopener">
-        <img src="{{ '/assets/img/logos/bluesky.svg' | relative_url }}" alt="">
-        Bluesky
-      </a>
-      <a href="https://www.linkedin.com/company/lion-lab-leipzig" target="_blank" rel="noopener">
-        <img src="{{ '/assets/img/logos/linkedin.png' | relative_url }}" alt="">
-        LinkedIn
-      </a>
-    </div>
+  <!-- Intro text -->
+  <div class="about-body lion-prose">
+    <p>
+      We are a research group at the
+      <a href="https://www.informatik.uni-leipzig.de/" target="_blank" rel="noopener">Department of Computer Science</a>
+      at <a href="https://www.uni-leipzig.de/" target="_blank" rel="noopener">Leipzig University</a>, Germany,
+      led by <a href="https://leonieweissweiler.github.io/" target="_blank" rel="noopener">Jun.-Prof. Dr. Leonie Weissweiler</a>.
+    </p>
+    <p>
+      We work on linguistically-oriented natural language processing — asking what language
+      models actually learn about the structure of language, and using insights from linguistic
+      theory to build better, more interpretable NLP systems.
+    </p>
+    <!-- TODO: expand with research statement -->
   </div>
 
   <hr class="lion-divider">
 
-  <!-- News preview: auto-pulls first 5 items from _data/news.yml -->
+  <!-- News preview -->
   <p class="lion-section-label">Latest News</p>
 
   {% for item in site.data.news limit:5 %}
@@ -259,12 +247,14 @@ permalink: /
   <p class="lion-section-label">Funding</p>
   <div class="funding-block">
     <a href="https://scads.ai/" target="_blank" rel="noopener">
-      <img class="funding-logo" src="{{ '/assets/img/logos/scads_rgb.png' | relative_url }}" alt="ScaDS.AI Dresden/Leipzig">
+      <img class="funding-logo"
+           src="{{ '/assets/img/logos/scads_rgb.png' | relative_url }}"
+           alt="ScaDS.AI Dresden/Leipzig">
     </a>
     <p>We are grateful for support from
       <a href="https://scads.ai/" target="_blank" rel="noopener">ScaDS.AI Dresden/Leipzig</a>
       (Center for Scalable Data Analytics and Artificial Intelligence).
-      <!-- TODO: add further funders here in the same format -->
+      <!-- TODO: add further funders here -->
     </p>
   </div>
 
