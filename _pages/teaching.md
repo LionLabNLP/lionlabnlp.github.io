@@ -99,7 +99,7 @@ permalink: /teaching/
 
   <div class="course-entry">
     <p class="course-name">Natural Language Processing</p>
-    <p class="course-meta">Lecture · B.Sc. Digital Humanities, B.Sc. Computer Science</p>
+    <p class="course-meta">Lecture · B.Sc. Digital Humanities, B.Sc. Computer Science · Summer Semester</p>
     <p class="course-desc">
       This course introduces students to the field of Natural Language Processing. We start with
       classic NLP tasks, then cover prerequisites to language models such as preprocessing and
@@ -110,7 +110,7 @@ permalink: /teaching/
 
   <div class="course-entry">
     <p class="course-name">Foundations of Machine Learning</p>
-    <p class="course-meta">Lecture · B.Sc. Digital Humanities, B.Sc. Computer Science</p>
+    <p class="course-meta">Lecture · B.Sc. Digital Humanities, B.Sc. Computer Science · Winter Semester</p>
     <p class="course-desc">
       For a given task and measure of success, a computer program learns when its performance
       improves with experience. This course introduces machine learning as a guided search through
@@ -139,8 +139,10 @@ permalink: /teaching/
   <div class="lion-prose" style="margin-bottom: 2rem;">
     <p>
       We offer B.Sc. and M.Sc. thesis topics to students at Leipzig University in Computer Science,
-      Digital Humanities, or Data Science. If you have your own topic that fits our research
-      interests, we welcome that too.
+      Digital Humanities, or Data Science. Potential topics are detailed below and updated regularly,
+      but we also welcome topic suggestions that fit our general research areas. We generally require
+      that students have successfully completed at least our Natural Language Processing and 
+      Machine Learning courses, or equivalents if their bachelor's degree is not from Leipzig University.
     </p>
     <p>
       To apply, email us with <strong>[THESIS]</strong> in the subject line, including: the topic
@@ -186,21 +188,22 @@ permalink: /teaching/
       <p class="thesis-title">Unsupervised Discovery of Unaccusative and Unergative Verbs</p>
     </div>
     <p class="thesis-body">
-      Computational approaches to argument structure and verb classes.
-      See <a href="https://arxiv.org/pdf/2111.00808" target="_blank" rel="noopener">arxiv.org/pdf/2111.00808</a> for background.
+      Within the broader category of intransitive verbs, unaccusative (e.g., <i>You fall</i>) and unergative (e.g., <i>You resign</i>) verbs have special syntactic
+      behaviour relating to the semantic role of the subject, with is agentive for unaccusative verbs and patient-like for unergative verbs. These syntactic behaviours are 
+      not trivial to detect because in standard sentences, the distinction is only visible through the semantics of the subject. <a href="https://arxiv.org/pdf/2111.00808" target="_blank" rel="noopener">Previous work</a> has made a first attempt at unsupervised discovery of both categories, and the thesis would attempt to approve on this
+      with more modern methods, or possibly extend it to further languages where unaccusative and unergative verbs might have different properties.
     </p>
   </div>
 
   <div class="thesis-entry">
     <div class="thesis-header">
       <span class="thesis-level">B.Sc. / M.Sc.</span>
-      <p class="thesis-title">Noun Compound Benchmark</p>
+      <p class="thesis-title">Complex Noun Compound Benchmark</p>
     </div>
     <p class="thesis-body">
-      Testing models' understanding of noun compounds (e.g. "child camel jockey slave") by probing
-      whether they can answer relational questions such as "is this a type of X?". Potential basis
-      in the <a href="https://github.com/ilndwhr/CoBra" target="_blank" rel="noopener">CoBra dataset</a>;
-      German data could be gathered from corpus searches and hand-annotated.
+      Noun compounds provide an interesting test case for LLMs' understanding of complex noun semantics, as well as generalisation to novel compounds. <a href="https://aclanthology.org/2023.findings-acl.169.pdf">Previous work</a> has investigated this for compounds of two nouns. Compounds of more than two nouns are semantically far more complex and 
+      remain unexplored as a test case for LLMs. We might for example ask, is a <i>child camel jockey slave</i> a type of (child|camel|jockey|slave)? Data for this could e.g. come
+      from the recently release <a href="https://github.com/ilndwhr/CoBra/tree/main">Compound Branching Resource</a>, or could be automatically collected from corpora and then hand-annotated. The thesis would lead to the creation of a (possibly multilingual) benchmark of LLMs' understanding of complex noun compounds and their internal structure.
     </p>
   </div>
 
