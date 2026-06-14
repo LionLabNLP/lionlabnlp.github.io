@@ -25,7 +25,7 @@ permalink: /
 
   .about-hero-logo img {
     width: 100%;
-    max-width: 480px;
+    max-width: 576px;
     height: auto;
     display: block;
   }
@@ -69,6 +69,8 @@ permalink: /
     height: 100%;
     object-fit: cover;
     display: block;
+    outline: 4px solid #E26600;
+    outline-offset: 6px;
   }
 
   /* Body text below hero */
@@ -136,6 +138,7 @@ permalink: /
   .funding-block {
     margin-top: 1.5rem;
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 2.5rem;
     flex-wrap: wrap;
@@ -147,6 +150,8 @@ permalink: /
     color: #3a2e20;
     line-height: 1.7;
     margin: 0;
+    flex: 1;
+    min-width: 200px;
   }
 
   .funding-block a {
@@ -169,7 +174,7 @@ permalink: /
     .about-hero {
       grid-template-columns: 1fr;
     }
-    .about-hero-logo img { max-width: 280px; }
+    .about-hero-logo img { max-width: 320px; }
     .funding-logo { height: 100px; }
   }
 </style>
@@ -193,7 +198,7 @@ permalink: /
         </a>
         <a href="https://x.com/LIONLabNLP" target="_blank" rel="noopener">
           <img src="{{ '/assets/img/logos/twitter.svg' | relative_url }}" alt="">
-          X / Twitter
+        X
         </a>
         <a href="https://bsky.app/profile/lionlab.bsky.social" target="_blank" rel="noopener">
           <img src="{{ '/assets/img/logos/bluesky.svg' | relative_url }}" alt="">

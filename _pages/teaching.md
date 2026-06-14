@@ -14,6 +14,7 @@ permalink: /teaching/
   }
 
   .course-entry:first-of-type { border-top: 1px solid #f0e4d4; }
+  .course-entry:last-of-type { border-bottom: none; }
 
   .course-name {
     font-family: 'Playfair Display', Georgia, serif;
@@ -99,7 +100,7 @@ permalink: /teaching/
 
   <div class="course-entry">
     <p class="course-name">Natural Language Processing</p>
-    <p class="course-meta">Lecture · B.Sc. Digital Humanities, B.Sc. Computer Science · Summer Semester</p>
+    <p class="course-meta">Lecture · B.Sc. Digital Humanities, B.Sc. Computer Science · Summer Semester</p>    
     <p class="course-desc">
       This course introduces students to the field of Natural Language Processing. We start with
       classic NLP tasks, then cover prerequisites to language models such as preprocessing and
@@ -111,7 +112,7 @@ permalink: /teaching/
   <div class="course-entry">
     <p class="course-name">Foundations of Machine Learning</p>
     <p class="course-meta">Lecture · B.Sc. Digital Humanities, B.Sc. Computer Science · Winter Semester</p>
-    <p class="course-desc">
+        <p class="course-desc">
       For a given task and measure of success, a computer program learns when its performance
       improves with experience. This course introduces machine learning as a guided search through
       a space of potential hypotheses. Students gain a broad overview of learning paradigms —

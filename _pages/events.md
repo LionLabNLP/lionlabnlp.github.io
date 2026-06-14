@@ -71,6 +71,7 @@ permalink: /events/
     font-weight: 400;
     color: #1a1209;
     line-height: 1.25;
+    margin-top: 0;
     margin-bottom: 0.25rem;
   }
 
@@ -170,8 +171,6 @@ permalink: /events/
       <div class="event-content">
         <h2 class="event-title">Implicit Misogyny and Classism in NLP</h2>
         <p class="event-speaker">Dr. Arianna Muti — Bocconi University, Milan</p>
-        <p class="event-body">
-        </p>
         <div class="event-abstract">
           <p class="event-section-label">Abstract</p>
           <p class="event-body" style="margin:0;">
@@ -202,8 +201,6 @@ permalink: /events/
       <div class="event-content">
         <h2 class="event-title">What Is Discourse, and What Do LLMs Know About It?</h2>
         <p class="event-speaker">Prof. Yang Janet Liu — University of Pittsburgh</p>
-        <p class="event-body">
-        </p>
         <div class="event-abstract">
           <p class="event-section-label">Abstract</p>
           <p class="event-body" style="margin:0;">

@@ -265,6 +265,7 @@ permalink: /team/
   .admin-card {
     display: flex;
     align-items: flex-start;
+    padding-top: 0;
     gap: 2rem;
     padding-top: 0.5rem;
   }
@@ -293,7 +294,7 @@ permalink: /team/
   }
 
   .admin-info {
-    padding-top: 0.25rem;
+    padding-top: 0;
   }
 
   .admin-name {
@@ -398,7 +399,7 @@ permalink: /team/
   <div class="admin-section">
     <p class="phd-heading">Administration</p>
     <div class="admin-card">
-           <img class="admin-photo" src="{{ '/assets/img/members/petra_square.jpg' | relative_url }}" alt="Petra Gamrath">
+      <img class="admin-photo" src="{{ '/assets/img/members/petra_square.JPG' | relative_url }}" alt="Petra Gamrath">
       <div class="admin-info">
         <h3 class="admin-name">Petra Gamrath</h3>
         <p class="phd-role">Secretary</p>

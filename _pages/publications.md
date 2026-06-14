@@ -123,6 +123,7 @@ permalink: /publications/
     <div>
       <p class="pub-title">
         <a href="https://arxiv.org/abs/2605.31586" target="_blank" rel="noopener">
+
           Language Models Learn Constructional Semantics, Not To Mention Syntax: Investigating LM Understanding of Paired-Focus Constructions
         </a>
       </p>
