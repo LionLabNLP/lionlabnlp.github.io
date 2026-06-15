@@ -120,15 +120,6 @@ body {
   opacity: 0.8;
 }
 
-/* Decorative rule between logo and links */
-.lion-navbar-inner::before {
-  content: '';
-  display: block;
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35) 50%, transparent);
-  max-width: 4rem;
-}
 
 /* ── Nav links ── */
 .lion-nav-links {

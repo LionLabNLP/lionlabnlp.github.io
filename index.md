@@ -28,6 +28,7 @@ permalink: /
     width: 100%;
     max-width: 690px;
     height: auto;
+    aspect-ratio: 5250 / 2000;
     display: block;
   }
 
