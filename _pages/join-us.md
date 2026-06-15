@@ -47,6 +47,8 @@ permalink: /join-us/
     <p>
       We offer B.Sc. and M.Sc. thesis topics to students at Leipzig University.
       See the <a href="/teaching">Teaching page</a> for open topics and application instructions.
+
+      There are currently no open positions for student assistants.
     </p>
   </div>
 

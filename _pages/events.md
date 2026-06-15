@@ -24,7 +24,7 @@ permalink: /events/
   }
 
   .event-tag {
-    font-family: 'Lora', Georgia, serif;
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
     font-size: 0.68rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -106,7 +106,7 @@ permalink: /events/
   }
 
   .event-section-label {
-    font-family: 'Lora', Georgia, serif;
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
     font-size: 0.68rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;

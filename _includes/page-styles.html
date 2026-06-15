@@ -1,5 +1,6 @@
 <style>
   /* ── Shared page layout & typography ── */
+  /* Amasis MT Pro is used for all-caps labels — falls back to Georgia if not installed */
   /* Colour palette: #FF8600 main · #FFAE00 light · #E26600 dark · #B34E00 darkest */
 
   .lion-page {
@@ -27,7 +28,7 @@
   }
 
   .lion-section-label {
-    font-family: 'Lora', Georgia, serif;
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
     font-size: 0.72rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;

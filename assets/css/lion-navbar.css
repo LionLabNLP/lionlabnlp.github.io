@@ -5,6 +5,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lora:wght@400;500&display=swap');
 
+/* ── Amasis MT Pro — used for all-caps labels ──
+   This is a commercial font. Ensure you have a valid license and have placed
+   the font files at assets/fonts/AmasisMTPro-Regular.woff2 etc.
+   Falls back to Georgia if not available. */
+@font-face {
+  font-family: 'Amasis MT Pro';
+  src: url('/assets/fonts/AmasisMTPro-Regular.woff2') format('woff2'),
+       url('/assets/fonts/AmasisMTPro-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --lion-caps-font: 'Amasis MT Pro', Georgia, serif;
+}
+
+
 :root {
   --lion-main:       #FF8600;
   --lion-light:      #FFAE00;
@@ -87,7 +105,7 @@ body {
 }
 
 .lion-logo-sub {
-  font-family: 'Lora', Georgia, serif;
+  font-family: var(--lion-caps-font);
   font-size: 0.62rem;
   font-style: normal;
   color: rgba(255,255,255,0.8);
@@ -122,9 +140,9 @@ body {
 }
 
 .lion-nav-links li a {
-  font-family: 'Lora', Georgia, serif;
+  font-family: var(--lion-caps-font);
   font-size: 0.88rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.9);

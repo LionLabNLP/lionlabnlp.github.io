@@ -55,7 +55,7 @@ permalink: /teaching/
   }
 
   .thesis-level {
-    font-family: 'Lora', Georgia, serif;
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
     font-size: 0.68rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -112,7 +112,7 @@ permalink: /teaching/
   <div class="course-entry">
     <p class="course-name">Foundations of Machine Learning</p>
     <p class="course-meta">Lecture · B.Sc. Digital Humanities, B.Sc. Computer Science · Winter Semester</p>
-        <p class="course-desc">
+    <p class="course-desc">
       For a given task and measure of success, a computer program learns when its performance
       improves with experience. This course introduces machine learning as a guided search through
       a space of potential hypotheses. Students gain a broad overview of learning paradigms —
@@ -133,9 +133,7 @@ permalink: /teaching/
     </p>
   </div>
 
-  <hr class="lion-divider">
-
-  <p class="lion-section-label">Open Thesis Positions</p>
+  <p class="lion-section-label" style="margin-top: 3rem;">Open Thesis Positions</p>
 
   <div class="lion-prose" style="margin-bottom: 2rem;">
     <p>

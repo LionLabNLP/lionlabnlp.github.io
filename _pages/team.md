@@ -82,7 +82,7 @@ permalink: /team/
   }
 
   .pi-role {
-    font-family: 'Lora', Georgia, serif;
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
     font-size: 0.72rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -160,7 +160,7 @@ permalink: /team/
 
   /* ── PhD Section ── */
   .phd-heading {
-    font-family: 'Lora', Georgia, serif;
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
     font-size: 0.72rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -213,7 +213,7 @@ permalink: /team/
   }
 
   .phd-role {
-    font-family: 'Lora', Georgia, serif;
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
     font-size: 0.7rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;

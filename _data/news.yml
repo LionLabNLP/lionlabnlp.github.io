@@ -3,16 +3,16 @@
 # To add a news item, copy one block and paste it at the TOP of the list.
 
 - date: "June 2026"
-  title: "Leonie gave an invited talk at Heidelberg University"
-  body: "Leonie gave an invited talk on \"Expanding the Linguistic Evaluation of Language Models, or: What to do now that LMs are good\" at the <a href=\"https://www.cl.uni-heidelberg.de/colloquium/\">Computational Linguistics Colloquium</a> at Heidelberg University."
+  title: "Leonie Weissweiler gave an invited talk at Heidelberg University"
+  body: "Leonie Weissweiler gave an invited talk on \"Expanding the Linguistic Evaluation of Language Models, or: What to do now that LMs are good\" at the <a href=\"https://www.cl.uni-heidelberg.de/colloquium/\">Computational Linguistics Colloquium</a> at Heidelberg University."
 
 - date: "May 2026"
-  title: "Leonie to be Tutorial Chair at COLING 2027"
-  body: "Leonie will be the Tutorial Chair at <a href=\"https://2027.coling-iccl.org/\">COLING 2027</a> in Macau, together with <a href=\"https://www.utn.de/person/prof-dr-michael-roth/\">Michael Roth</a>. The tutorial chairs can be reached at <a href=\"mailto:coling27tutorialchairs@googlegroups.com\">coling27tutorialchairs@googlegroups.com</a>."
+  title: "Leonie Weissweiler to be Tutorial Chair at COLING 2027"
+  body: "Leonie Weissweiler will be the Tutorial Chair at <a href=\"https://2027.coling-iccl.org/\">COLING 2027</a> in Macau, together with <a href=\"https://www.utn.de/person/prof-dr-michael-roth/\">Michael Roth</a>. The tutorial chairs can be reached at <a href=\"mailto:coling27tutorialchairs@googlegroups.com\">coling27tutorialchairs@googlegroups.com</a>."
 
 - date: "May 2026"
-  title: "Jacob presented three papers at LREC 2026"
-  body: "Jacob presented two papers at the LREC 2026: <a href=\"https://lrec.elra.info/lrec2026-main-668\" target=\"_blank\" rel=\"noopener\">WikIPA: Integrating WikiPron and Lingua Libre for Multilingual IPA Transcription</a>, <a href=\"https://lrec.elra.info/lrec2026-main-090\" target=\"_blank\" rel=\"noopener\">Fill-in-the-Blanks: Automatic Generation and Evaluation of Language Models' Pseudonyms for English and Swedish Texts</a>, and <a href=\"https://pustejovsky.github.io/slide-lrec2026/book.pdf#page=205\" target=\"_blank\" rel=\"noopener\">DiNoS: Creating a Data-Driven German Noun Phrase Lexicon from Universal Dependencies</a>\" at the <a href=\"https://www.slide-workshop.org/index.html\" target=\"_blank\" rel=\"noopener\">SLiDE Workshop</a>."
+  title: "Jacob Lee Suchardt presented three papers at LREC 2026"
+  body: "Jacob Lee Suchardt presented two papers at the LREC 2026: <a href=\"https://lrec.elra.info/lrec2026-main-668\" target=\"_blank\" rel=\"noopener\">WikIPA: Integrating WikiPron and Lingua Libre for Multilingual IPA Transcription</a>, <a href=\"https://lrec.elra.info/lrec2026-main-090\" target=\"_blank\" rel=\"noopener\">Fill-in-the-Blanks: Automatic Generation and Evaluation of Language Models' Pseudonyms for English and Swedish Texts</a>, and <a href=\"https://pustejovsky.github.io/slide-lrec2026/book.pdf#page=205\" target=\"_blank\" rel=\"noopener\">DiNoS: Creating a Data-Driven German Noun Phrase Lexicon from Universal Dependencies</a>\" at the <a href=\"https://www.slide-workshop.org/index.html\" target=\"_blank\" rel=\"noopener\">SLiDE Workshop</a>."
 
 - date: "April 2026"
   title: "New paper accepted at CoNLL 2026"

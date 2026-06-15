@@ -20,12 +20,13 @@ permalink: /
   .about-hero-left {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 2rem;
   }
 
   .about-hero-logo img {
     width: 100%;
-    max-width: 576px;
+    max-width: 690px;
     height: auto;
     display: block;
   }
@@ -63,14 +64,40 @@ permalink: /
 
   .about-social a:hover img { opacity: 1; }
 
-  /* Group photo */
+  /* Group photo with corner bracket decoration (matches team page PI photo) */
+  .about-group-wrap {
+    position: relative;
+  }
+
   .about-group-photo {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-    outline: 4px solid #E26600;
-    outline-offset: 6px;
+  }
+
+  .about-group-wrap::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 32px;
+    height: 32px;
+    border-top: 3px solid #E26600;
+    border-left: 3px solid #E26600;
+    z-index: 1;
+  }
+
+  .about-group-wrap::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    width: 32px;
+    height: 32px;
+    border-bottom: 3px solid #E26600;
+    border-right: 3px solid #E26600;
+    z-index: 1;
   }
 
   /* Body text below hero */
@@ -87,7 +114,7 @@ permalink: /
   .news-item:first-of-type { border-top: 1px solid #f0e4d4; }
 
   .news-item-date {
-    font-family: 'Lora', Georgia, serif;
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
     font-size: 0.72rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -120,7 +147,7 @@ permalink: /
   .news-item-body a:hover { opacity: 0.7; }
 
   .see-all-link {
-    font-family: 'Lora', Georgia, serif;
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
     font-size: 0.82rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -174,7 +201,7 @@ permalink: /
     .about-hero {
       grid-template-columns: 1fr;
     }
-    .about-hero-logo img { max-width: 320px; }
+    .about-hero-logo img { max-width: 384px; }
     .funding-logo { height: 100px; }
   }
 </style>
@@ -198,7 +225,7 @@ permalink: /
         </a>
         <a href="https://x.com/LIONLabNLP" target="_blank" rel="noopener">
           <img src="{{ '/assets/img/logos/twitter.svg' | relative_url }}" alt="">
-        X
+
         </a>
         <a href="https://bsky.app/profile/lionlab.bsky.social" target="_blank" rel="noopener">
           <img src="{{ '/assets/img/logos/bluesky.svg' | relative_url }}" alt="">
@@ -210,9 +237,11 @@ permalink: /
         </a>
       </div>
     </div>
-    <img class="about-group-photo"
-         src="{{ '/assets/img/members/group_cropped.JPG' | relative_url }}"
-         alt="LION Lab group photo">
+    <div class="about-group-wrap">
+      <img class="about-group-photo"
+           src="{{ '/assets/img/members/group_cropped.JPG' | relative_url }}"
+           alt="LION Lab group photo">
+    </div>
   </div>
 
   <!-- Intro text -->

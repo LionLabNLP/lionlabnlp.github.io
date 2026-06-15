@@ -21,7 +21,7 @@ permalink: /news/
   }
 
   .news-entry-date {
-    font-family: 'Lora', Georgia, serif;
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
     font-size: 0.75rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
