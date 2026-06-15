@@ -367,13 +367,13 @@ permalink: /team/
 
     <div class="phd-card">
       <img class="phd-photo" src="{{ '/assets/img/members/jacob_square.JPG' | relative_url }}" alt="Jacob Lee Suchardt">
-      <h3 class="phd-name"><a href="https://scholar.google.com/citations?user=S4YThOIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Jacob Lee Suchardt M.Sc.</a></h3>
+      <h3 class="phd-name"><a href="https://scholar.google.com/citations?user=S4YThOIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Jacob Lee Suchardt M.A.</a></h3>
       <p class="phd-role">PhD Student</p>
       <p class="phd-since">Since April 2026</p>
       <p class="phd-email"><a href="mailto:jacob.suchardt@uni-leipzig.de">jacob.suchardt@uni-leipzig.de</a></p>
       <ul class="member-details">
-        <li>M.A. Language Technology, Gothenburg University</li>
-        <li>B.A. Computational Linguistics &amp; Japanese Studies, Bochum University</li>
+        <li>M.A. in Language Technology, Gothenburg University</li>
+        <li>B.A. in Computational Linguistics &amp; Japanese Studies, Bochum University</li>
         <li>Multilinguality and linguistic competency of language models</li>
         <li>Speech Processing, Phonetics, and Phonology</li>
       </ul>
