@@ -5,21 +5,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lora:wght@400;500&display=swap');
 
-/* ── Amasis MT Pro — used for all-caps labels ──
-   This is a commercial font. Ensure you have a valid license and have placed
-   the font files at assets/fonts/AmasisMTPro-Regular.woff2 etc.
-   Falls back to Georgia if not available. */
 @font-face {
-  font-family: 'Amasis MT Pro';
-  src: url('/assets/fonts/AmasisMTPro-Regular.woff2') format('woff2'),
-       url('/assets/fonts/AmasisMTPro-Regular.woff') format('woff');
+  font-family: 'Bespoke Slab';
+  src: url('/assets/fonts/BespokeSlab-Regular.woff2') format('woff2'),
+       url('/assets/fonts/BespokeSlab-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 :root {
-  --lion-caps-font: 'Amasis MT Pro', Georgia, serif;
+  --lion-caps-font: 'Bespoke Slab', Georgia, serif;
 }
 
 
@@ -36,6 +32,7 @@
 
 body {
   padding-top: var(--lion-nav-height);
+  background-color: #FBF7F0;
 }
 
 /* ── Navbar shell ── */
@@ -188,7 +185,7 @@ body {
 
 /* ── Mobile ── */
 @media (max-width: 768px) {
-  body { padding-top: var(--lion-nav-height); }
+
   .lion-menu-toggle { display: flex; }
   .lion-navbar-inner::before { display: none; }
 
