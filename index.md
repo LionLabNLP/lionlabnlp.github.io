@@ -226,7 +226,7 @@ permalink: /
         </a>
         <a href="https://x.com/LIONLabNLP" target="_blank" rel="noopener">
           <img src="{{ '/assets/img/logos/twitter.svg' | relative_url }}" alt="">
-
+          X
         </a>
         <a href="https://bsky.app/profile/lionlab.bsky.social" target="_blank" rel="noopener">
           <img src="{{ '/assets/img/logos/bluesky.svg' | relative_url }}" alt="">
