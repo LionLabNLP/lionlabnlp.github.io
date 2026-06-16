@@ -232,7 +232,7 @@ permalink: /
           <img src="{{ '/assets/img/logos/bluesky.svg' | relative_url }}" alt="">
           Bluesky
         </a>
-        <a href="https://www.linkedin.com/company/lion-lab-leipzig" target="_blank" rel="noopener">
+        <a href="https://www.linkedin.com/company/lionlabnlp" target="_blank" rel="noopener">
           <img src="{{ '/assets/img/logos/linkedin.png' | relative_url }}" alt="">
           LinkedIn
         </a>
