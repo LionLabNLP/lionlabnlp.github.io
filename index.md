@@ -213,7 +213,7 @@ permalink: /
   <div class="about-hero">
     <div class="about-hero-left">
       <div class="about-hero-logo">
-        <img src="{{ '/assets/img/logos/lion_lab.svg' | relative_url }}" alt="LION Lab">
+        <img src="{{ '/assets/img/logos/lionlablogo-full-transparent.svg' | relative_url }}" alt="LION Lab">
       </div>
       <div class="about-social">
         <a href="https://github.com/LionLabNLP/" target="_blank" rel="noopener">
