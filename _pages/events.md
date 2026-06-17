@@ -153,7 +153,7 @@ permalink: /events/
 
   <div class="mailing-list-block">
     <p>Sign up for our mailing list to be informed about future events:
-      <a href="https://docs.google.com/spreadsheets/d/1_H7D9hwJizNyzT1nWvZ3-NC_nhNr7LHtsuInynfEPS4/edit?usp=sharing" target="_blank" rel="noopener">join the mailing list →</a>
+      <a href="https://lists.uni-leipzig.de/mailman/listinfo/nlp-talks" target="_blank" rel="noopener">join the mailing list →</a>
     </p>
   </div>
 
