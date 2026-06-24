@@ -1,3 +1,7 @@
+- date: "June 2026"
+  title: "Leonie Weissweiler presented at the Digital Humanities Open Garden 2026"
+  body: "Leonie Weissweiler gave a talk on <em>Hybrid Human-LLM Corpus Construction and LLM Evaluation for the Caused-Motion Construction</em> at the <a href=\"https://fdhl.info/veranstaltungen/digital-humanities-open-garden/opengarden2026/\" target=\"_blank\" rel=\"noopener\">Digital Humanities Open Garden 2026</a>, hosted by the FDHL at the Sächsische Akademie der Wissenschaften zu Leipzig."
+
 # News entries — most recent first.
 # Each entry has: date, title, body (HTML allowed).
 # To add a news item, copy one block and paste it at the TOP of the list.
@@ -12,7 +16,7 @@
 
 - date: "May 2026"
   title: "Jacob Lee Suchardt presented three papers at LREC 2026"
-  body: "Jacob Lee Suchardt presented two papers at the LREC 2026: <a href=\"https://lrec.elra.info/lrec2026-main-668\" target=\"_blank\" rel=\"noopener\">WikIPA: Integrating WikiPron and Lingua Libre for Multilingual IPA Transcription</a>, <a href=\"https://lrec.elra.info/lrec2026-main-090\" target=\"_blank\" rel=\"noopener\">Fill-in-the-Blanks: Automatic Generation and Evaluation of Language Models' Pseudonyms for English and Swedish Texts</a>, and <a href=\"https://pustejovsky.github.io/slide-lrec2026/book.pdf#page=205\" target=\"_blank\" rel=\"noopener\">DiNoS: Creating a Data-Driven German Noun Phrase Lexicon from Universal Dependencies</a>\" at the <a href=\"https://www.slide-workshop.org/index.html\" target=\"_blank\" rel=\"noopener\">SLiDE Workshop</a>."
+  body: "Jacob Lee Suchardt presented two papers at LREC 2026: <a href=\"https://lrec.elra.info/lrec2026-main-668\" target=\"_blank\" rel=\"noopener\">WikIPA: Integrating WikiPron and Lingua Libre for Multilingual IPA Transcription</a> and <a href=\"https://lrec.elra.info/lrec2026-main-090\" target=\"_blank\" rel=\"noopener\">Fill-in-the-Blanks: Automatic Generation and Evaluation of Language Models' Pseudonyms for English and Swedish Texts</a>, and <a href=\"https://pustejovsky.github.io/slide-lrec2026/book.pdf#page=205\" target=\"_blank\" rel=\"noopener\">DiNoS: Creating a Data-Driven German Noun Phrase Lexicon from Universal Dependencies</a> at the <a href=\"https://www.slide-workshop.org/index.html\" target=\"_blank\" rel=\"noopener\">SLiDE Workshop</a>."
 
 - date: "April 2026"
   title: "New paper accepted at CoNLL 2026"

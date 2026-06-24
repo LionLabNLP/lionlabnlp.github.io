@@ -177,8 +177,7 @@ permalink: /events/
       <span class="event-date">Thursday, 18 June 2026 · 16:00</span>
       <span class="event-location">Sächsische Akademie der Wissenschaften · Leipzig</span>
     </div>
-    <div class="event-main">
-      <div class="event-content">
+    <div class="event-content">
         <h2 class="event-title">Hybrid Human-LLM Corpus Construction and LLM Evaluation for the Caused-Motion Construction</h2>
         <p class="event-speaker">Jun.-Prof. Dr. Leonie Weissweiler — <a href="https://fdhl.info/veranstaltungen/digital-humanities-open-garden/opengarden2026/" target="_blank" rel="noopener">Digital Humanities Open Garden 2026</a></p>
         <div class="event-abstract">
@@ -187,7 +186,6 @@ permalink: /events/
             The <a href="https://fdhl.info/veranstaltungen/digital-humanities-open-garden/opengarden2026/" target="_blank" rel="noopener">Digital Humanities Open Garden</a> is an open event hosted by the FDHL, bringing together DH-interested researchers, students, and practitioners from Leipzig and the wider region. The 2026 edition takes place at the garden of the Sächsische Akademie der Wissenschaften, Karl-Tauchnitz-Str. 1, followed by a BBQ from 17:00.
           </p>
         </div>
-      </div>
     </div>
   </div>
 
