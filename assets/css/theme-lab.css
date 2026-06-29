@@ -1,0 +1,20 @@
+/* ============================================================
+   LION Lab — colour theme
+   Swap this file on your personal site with theme-personal.css
+   ============================================================ */
+:root {
+  /* Brand colours */
+  --lion-main:        #FF8600;   /* navbar background */
+  --lion-light:       #FFAE00;   /* light accent */
+  --lion-dark:        #E26600;   /* links, dashes, tags, rules */
+  --lion-darkest:     #B34E00;   /* hover states */
+
+  /* Neutrals — adjust per site if needed */
+  --lion-ink:         #1a1209;   /* headings */
+  --lion-body:        #3a2e20;   /* body text */
+  --lion-muted:       #7a6a55;   /* secondary text, emails */
+  --lion-faint:       #a09080;   /* metadata, captions */
+  --lion-border:      #f0e4d4;   /* dividers, card borders */
+  --lion-bg-tint:     #fff8f0;   /* subtle background blocks */
+  --lion-white:       #ffffff;
+}
