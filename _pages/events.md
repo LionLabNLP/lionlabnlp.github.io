@@ -95,6 +95,17 @@ permalink: /events/
     margin-bottom: 1.25rem;
   }
 
+  .event-speaker a {
+    color: var(--lion-dark);
+    text-decoration: none;
+    border-bottom: 1px solid var(--lion-dark);
+    transition: opacity 0.2s;
+  }
+
+  .event-speaker a:hover {
+    opacity: 0.7;
+  }
+
   .event-body {
     font-family: 'Lora', Georgia, serif;
     font-size: 0.9rem;
