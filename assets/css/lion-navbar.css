@@ -5,41 +5,40 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lora:wght@400;500&display=swap');
 
-/* ── Amasis MT Pro — commercial font for all-caps labels ──
-   Place font files at assets/fonts/AmasisMTPro-Regular.woff2 etc.
-   Falls back to Georgia if unavailable. */
 @font-face {
-  font-family: 'Amasis MT Pro';
-  src: url('/assets/fonts/AmasisMTPro-Regular.woff2') format('woff2'),
-       url('/assets/fonts/AmasisMTPro-Regular.woff') format('woff');
+  font-family: 'Bespoke Slab';
+  src: url('/assets/fonts/BespokeSlab-Regular.woff2') format('woff2'),
+       url('/assets/fonts/BespokeSlab-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 :root {
-  --lion-caps-font:          'Amasis MT Pro', Georgia, serif;
-  --lion-nav-height:         72px;
+  --lion-caps-font: 'Bespoke Slab', Georgia, serif;
+  --lion-nav-height: 72px;
   --lion-nav-height-scrolled: 56px;
 }
 
 body {
   padding-top: var(--lion-nav-height);
+  background-color: var(--lion-bg-page);
 }
 
-/* ── Shell ── */
+/* ── Navbar shell ── */
 .lion-navbar {
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
   height: var(--lion-nav-height);
   background-color: var(--lion-main);
+  border-bottom: none;
   transition: height 0.25s ease, box-shadow 0.25s ease;
 }
 
 .lion-navbar-scrolled {
   height: var(--lion-nav-height-scrolled);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 20px rgba(26, 18, 9, 0.25);
 }
 
 /* ── Inner layout ── */
@@ -54,15 +53,6 @@ body {
   gap: 2rem;
 }
 
-.lion-navbar-inner::before {
-  content: '';
-  display: block;
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35) 50%, transparent);
-  max-width: 4rem;
-}
-
 /* ── Logo ── */
 .lion-navbar-logo {
   text-decoration: none;
@@ -74,8 +64,17 @@ body {
   line-height: 1.1;
 }
 
-.lion-logo-icon { font-size: 1.75rem; line-height: 1; flex-shrink: 0; }
-.lion-logo-img  { height: 44px; width: auto; display: block; }
+.lion-logo-icon {
+  font-size: 1.75rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.lion-logo-img {
+  height: 55px;
+  width: auto;
+  display: block;
+}
 
 .lion-logo-wordmark {
   display: flex;
@@ -95,14 +94,18 @@ body {
 .lion-logo-sub {
   font-family: var(--lion-caps-font);
   font-size: 0.62rem;
+  font-style: normal;
   color: rgba(255,255,255,0.8);
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin-top: 2px;
+  transition: opacity 0.2s;
 }
 
 .lion-navbar-logo:hover .lion-logo-text,
-.lion-navbar-logo:hover .lion-logo-sub { opacity: 0.8; }
+.lion-navbar-logo:hover .lion-logo-sub {
+  opacity: 0.8;
+}
 
 /* ── Nav links ── */
 .lion-nav-links {
@@ -138,9 +141,9 @@ body {
   transition: transform 0.22s ease;
 }
 
-.lion-nav-links li a:hover             { color: var(--lion-white); }
-.lion-nav-links li a:hover::after      { transform: scaleX(1); }
-.lion-nav-links li a.lion-nav-active   { color: var(--lion-white); }
+.lion-nav-links li a:hover { color: var(--lion-white); }
+.lion-nav-links li a:hover::after { transform: scaleX(1); }
+.lion-nav-links li a.lion-nav-active { color: var(--lion-white); }
 .lion-nav-links li a.lion-nav-active::after { transform: scaleX(1); }
 
 /* ── Hamburger ── */
@@ -171,6 +174,7 @@ body {
 
 /* ── Mobile ── */
 @media (max-width: 768px) {
+
   .lion-menu-toggle { display: flex; }
   .lion-navbar-inner::before { display: none; }
 
@@ -193,6 +197,7 @@ body {
     padding: 0.75rem 2rem;
     font-size: 0.95rem;
     border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.9);
   }
 
   .lion-nav-links li:last-child a { border-bottom: none; }

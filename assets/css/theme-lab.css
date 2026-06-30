@@ -9,12 +9,13 @@
   --lion-dark:        #E26600;   /* links, dashes, tags, rules */
   --lion-darkest:     #B34E00;   /* hover states */
 
-  /* Neutrals — adjust per site if needed */
+  /* Neutrals */
   --lion-ink:         #1a1209;   /* headings */
   --lion-body:        #3a2e20;   /* body text */
   --lion-muted:       #7a6a55;   /* secondary text, emails */
   --lion-faint:       #a09080;   /* metadata, captions */
   --lion-border:      #f0e4d4;   /* dividers, card borders */
   --lion-bg-tint:     #fff8f0;   /* subtle background blocks */
+  --lion-bg-page:     #FBF7F0;   /* page background */
   --lion-white:       #ffffff;
 }
