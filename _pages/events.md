@@ -175,7 +175,7 @@ permalink: /events/
     <div class="event-meta-row">
       <span class="event-tag">Invited Talk</span>
       <span class="event-date">Monday, 20 July 2026 · 10:00</span>
-      <span class="event-location">Paulinum, Room P901</span>
+      <span class="event-location">Paulinum, Room P905</span>
     </div>
     <div class="event-main">
       <img class="event-speaker-photo"
@@ -203,7 +203,7 @@ permalink: /events/
     <div class="event-meta-row">
       <span class="event-tag">Invited Talk</span>
       <span class="event-date">Tuesday, 14 July 2026 · 10:00</span>
-      <span class="event-location">Paulinum, Room P901</span>
+      <span class="event-location">Paulinum, Room P905</span>
     </div>
     <div class="event-main">
       <img class="event-speaker-photo"
