@@ -194,7 +194,7 @@ permalink: /events/
            alt="Bastian Bunzeck">
       <div class="event-content">
         <h2 class="event-title">LLMs Are Not Usage-Based (Yet)</h2>
-        <p class="event-speaker">Bastian Bunzeck — Bielefeld University</p>
+        <p class="event-speaker"><a href="https://bbunzeck.github.io/" target="_blank" rel="noopener">Bastian Bunzeck</a> — Bielefeld University</p>
         <div class="event-abstract">
           <p class="event-section-label">Abstract</p>
           <p class="event-body" style="margin:0;">
@@ -222,7 +222,7 @@ permalink: /events/
            alt="David R. Mortensen">
       <div class="event-content">
         <h2 class="event-title">The Reconstruction will not be Supervised: Towards Neural Implementations of the Comparative Method</h2>
-        <p class="event-speaker">Prof. David R. Mortensen — Carnegie Mellon University</p>
+        <p class="event-speaker">Prof. <a href="https://www.lti.cs.cmu.edu/people/faculty/mortensen-david.html" target="_blank" rel="noopener">David R. Mortensen</a> — Carnegie Mellon University</p>
         <div class="event-abstract">
           <p class="event-section-label">Abstract</p>
           <p class="event-body" style="margin:0;">
@@ -250,7 +250,7 @@ permalink: /events/
            alt="Nina Böbel">
       <div class="event-content">
         <h2 class="event-title">Language as a (Linguistic) Network</h2>
-        <p class="event-speaker">Dr. Nina Böbel — Heinrich Heine University Düsseldorf</p>
+        <p class="event-speaker">Dr. <a href="https://www.germanistik.hhu.de/abteilungen/abteilung-i-germanistische-sprachwissenschaft/univ-prof-dr-alexander-ziem/team-des-lehrstuhls-univ-prof-dr-alexander-ziem/nina-boebel-ma" target="_blank" rel="noopener">Nina Böbel</a> — Heinrich Heine University Düsseldorf</p>
         <div class="event-abstract">
           <p class="event-section-label">Abstract</p>
           <p class="event-body" style="margin:0;">
@@ -272,15 +272,20 @@ permalink: /events/
       <span class="event-date">Thursday, 18 June 2026 · 16:00</span>
       <span class="event-location">Sächsische Akademie der Wissenschaften</span>
     </div>
-    <div class="event-content">
+    <div class="event-main">
+      <img class="event-speaker-photo"
+           src="{{ '/assets/img/members/leonie_square.JPG' | relative_url }}"
+           alt="Leonie Weißweiler">
+      <div class="event-content">
         <h2 class="event-title">Hybrid Human-LLM Corpus Construction and LLM Evaluation for the Caused-Motion Construction</h2>
-        <p class="event-speaker">Jun.-Prof. Dr. Leonie Weißweiler — <a href="https://fdhl.info/veranstaltungen/digital-humanities-open-garden/opengarden2026/" target="_blank" rel="noopener">Digital Humanities Open Garden 2026</a></p>
+        <p class="event-speaker">Jun.-Prof. Dr. <a href="https://leonieweissweiler.github.io/" target="_blank" rel="noopener">Leonie Weißweiler</a> — <a href="https://fdhl.info/veranstaltungen/digital-humanities-open-garden/opengarden2026/" target="_blank" rel="noopener">Digital Humanities Open Garden 2026</a></p>
         <div class="event-abstract">
           <p class="event-section-label">About the event</p>
           <p class="event-body" style="margin:0;">
             The <a href="https://fdhl.info/veranstaltungen/digital-humanities-open-garden/opengarden2026/" target="_blank" rel="noopener">Digital Humanities Open Garden</a> is an open event hosted by the FDHL, bringing together DH-interested researchers, students, and practitioners from Leipzig and the wider region. The 2026 edition takes place at the garden of the Sächsische Akademie der Wissenschaften, Karl-Tauchnitz-Str. 1, followed by a BBQ from 17:00.
           </p>
         </div>
+      </div>
     </div>
   </div>
 
@@ -297,7 +302,7 @@ permalink: /events/
            alt="Arianna Muti">
       <div class="event-content">
         <h2 class="event-title">Implicit Misogyny and Classism in NLP</h2>
-        <p class="event-speaker">Dr. Arianna Muti — Bocconi University, Milan</p>
+        <p class="event-speaker">Dr. <a href="https://milanlp.github.io/people/arianna-muti/" target="_blank" rel="noopener">Arianna Muti</a> — Bocconi University, Milan</p>
         <div class="event-abstract">
           <p class="event-section-label">Abstract</p>
           <p class="event-body" style="margin:0;">
@@ -306,8 +311,7 @@ permalink: /events/
         </div>
         <p class="event-section-label">Bio</p>
         <p class="event-body">
-          <a href="https://milanlp.github.io/people/arianna-muti/" target="_blank" rel="noopener">Arianna Muti</a>
-          is a Postdoctoral Research Fellow at Bocconi University, part of the MilaNLP group.
+          Arianna Muti is a Postdoctoral Research Fellow at Bocconi University, part of the MilaNLP group.
           Her research focuses on NLP with particular attention to detection and explanation of implicit misogyny and classism in social media. She is currently working on PERSONAE, developing identity-aware language technologies.
         </p>
       </div>
@@ -327,7 +331,7 @@ permalink: /events/
            alt="Yang Janet Liu">
       <div class="event-content">
         <h2 class="event-title">What Is Discourse, and What Do LLMs Know About It?</h2>
-        <p class="event-speaker">Prof. Yang Janet Liu — University of Pittsburgh</p>
+        <p class="event-speaker">Prof. <a href="https://janetlauyeung.github.io/" target="_blank" rel="noopener">Yang Janet Liu</a> — University of Pittsburgh</p>
         <div class="event-abstract">
           <p class="event-section-label">Abstract</p>
           <p class="event-body" style="margin:0;">
@@ -336,8 +340,7 @@ permalink: /events/
         </div>
         <p class="event-section-label">Bio</p>
         <p class="event-body">
-          <a href="https://janetlauyeung.github.io/" target="_blank" rel="noopener">Yang Janet Liu</a>
-          is an Assistant Professor in the Department of Linguistics at the University of Pittsburgh, with a secondary appointment in the Intelligent Systems Program. Her research focuses on computational approaches to discourse-level phenomena, LLM evaluation, and how pragmatic variation shapes language use and model behaviour. She earned her PhD from Georgetown University and was previously a postdoctoral researcher in the MaiNLP Lab at LMU Munich.
+          Yang Janet Liu is an Assistant Professor in the Department of Linguistics at the University of Pittsburgh, with a secondary appointment in the Intelligent Systems Program. Her research focuses on computational approaches to discourse-level phenomena, LLM evaluation, and how pragmatic variation shapes language use and model behaviour. She earned her PhD from Georgetown University and was previously a postdoctoral researcher in the MaiNLP Lab at LMU Munich.
         </p>
       </div>
     </div>
