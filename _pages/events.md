@@ -181,6 +181,34 @@ permalink: /events/
     </p>
   </div>
 
+  <!-- ── Bastian Bunzeck ── -->
+  <div class="event-card">
+    <div class="event-meta-row">
+      <span class="event-tag">Invited Talk</span>
+      <span class="event-date">Tuesday, 11 August 2026 · 10:00</span>
+      <span class="event-location">Paulinum, Room P905</span>
+    </div>
+    <div class="event-main">
+      <img class="event-speaker-photo"
+           src="{{ '/assets/img/speakers/bastian_bunzeck.png' | relative_url }}"
+           alt="Bastian Bunzeck">
+      <div class="event-content">
+        <h2 class="event-title">LLMs Are Not Usage-Based (Yet)</h2>
+        <p class="event-speaker">Bastian Bunzeck — Bielefeld University</p>
+        <div class="event-abstract">
+          <p class="event-section-label">Abstract</p>
+          <p class="event-body" style="margin:0;">
+            The meteoric rise of language models over the last couple of years is certainly impressive, but it has provoked mixed responses from the scientists who actually study language. While (L)LMs have been largely dismissed by Generative/Chomskian linguists, usage-based communities and Construction Grammar have embraced them more openly, with many taking them as evidence for their own approaches. I will argue that while (L)LMs certainly put aspects like the importance of frequency, statistical learning and distributional properties for language learning into practice, they still lack "usage" in the sense of, inter alia, Elena Lieven or Michael Tomasello. I will present ongoing work on how language models trained on developmentally plausible data compare to findings from usage-based linguistics, how such models fail to reflect key patterns of human interaction, and how approaches like instruction-tuning can be used to enhance models' capacity to model realistic use.
+          </p>
+        </div>
+        <p class="event-section-label">Bio</p>
+        <p class="event-body">
+          Bastian Bunzeck is a Doctoral Researcher at Bielefeld University with Sina Zarrieß, where he is working on his dissertation project about developmental plausibility in neural language models. He studied English Linguistics and Computer Science at the Universities of Jena (Germany) and Leuven (Belgium). His current research is focused on child-directed speech and the nature of linguistic input data, what is learnable from different types of input, and the role of interaction in human and artificial language learning.
+        </p>
+      </div>
+    </div>
+  </div>
+
   <!-- ── David Mortensen ── -->
   <div class="event-card">
     <div class="event-meta-row">
