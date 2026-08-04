@@ -37,6 +37,7 @@ permalink: /join-us/
 
   <ul class="lion-list" style="margin-bottom: 2rem;">
     <li><a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" target="_blank" rel="noopener">Marie Skłodowska-Curie Postdoctoral Fellowships</a></li>
+    <li><a href="https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin" target="_blank" rel="noopener">Walter Benjamin Programme</a> (DFG)</li>
   </ul>
 
   <hr class="lion-divider">

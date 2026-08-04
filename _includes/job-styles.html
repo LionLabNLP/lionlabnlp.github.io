@@ -1,0 +1,51 @@
+<style>
+  /* ── Job posting pages (/jobs/*) ── */
+  /* Used together with page-styles.html. Colours come from theme-*.css. */
+
+  .job-facts {
+    background: var(--lion-bg-tint);
+    border: 1px solid var(--lion-border);
+    padding: 1.5rem 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .job-fact {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.45rem 0;
+  }
+
+  .job-fact-label {
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--lion-faint);
+    flex: 0 0 11rem;
+    padding-top: 0.25em;
+  }
+
+  .job-fact-value {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.95rem;
+    color: var(--lion-body);
+    line-height: 1.6;
+    min-width: 0;
+  }
+
+  .job-section { margin-bottom: 2.5rem; }
+
+  .job-section .lion-h2 { margin-top: 0; }
+
+  .job-apply {
+    border-left: 2px solid var(--lion-dark);
+    padding-left: 1.5rem;
+  }
+
+  @media (max-width: 700px) {
+    .job-facts { padding: 1.25rem 1.5rem; }
+    .job-fact { gap: 0.15rem; }
+    .job-fact-label { flex: 1 0 100%; }
+  }
+</style>

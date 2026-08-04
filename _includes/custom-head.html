@@ -1,3 +1,7 @@
+<!-- Pages with `noindex: true` in their front matter are reachable by URL but kept
+     out of search engines — used for job postings that aren't announced yet. -->
+{% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+
 <!-- Theme: defines all colour CSS variables. Swap this file on the personal site. -->
 <link rel="stylesheet" href="{{ '/assets/css/theme-lab.css' | relative_url }}">
 
