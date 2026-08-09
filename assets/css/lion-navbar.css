@@ -21,6 +21,11 @@
 }
 
 body {
+  /* The navbar is position:fixed and so ignores body's default 8px margin,
+     while .lion-page does not. Above 1100px both centre on the viewport and
+     it cancels out, but below that the page shifts 8px right of the navbar.
+     Zero it so the two stay aligned at every width. */
+  margin: 0;
   padding-top: var(--lion-nav-height);
   background-color: var(--lion-bg-page);
 }
@@ -41,16 +46,24 @@ body {
   box-shadow: 0 2px 20px rgba(26, 18, 9, 0.25);
 }
 
-/* ── Inner layout ── */
+/* ── Inner layout ──
+   max-width and side padding deliberately match .lion-page in page-styles.html
+   so the navbar's outer edges line up with the page content beneath it.
+   Keep the two in sync if either changes. */
 .lion-navbar-inner {
-  max-width: 1280px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 2.5rem;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+}
+
+/* .lion-page drops to 1.5rem side padding here — follow it. */
+@media (max-width: 700px) {
+  .lion-navbar-inner { padding: 0 1.5rem; }
 }
 
 /* ── Logo ── */
