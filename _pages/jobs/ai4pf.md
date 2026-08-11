@@ -25,25 +25,25 @@ sitemap: false
 <div class="lion-page">
 
   <div class="lion-page-header">
-    <h1>PhD positions at Leipzig University in Natural Language Processing/Computational Linguistics</h1>
+    <h1>PhD positions at Leipzig University in Interpretability for Protein Language Models</h1>
     <div class="lion-page-rule"></div>
   </div>
 
   <div class="lion-prose" style="margin-bottom: 2rem;">
     <p>
-      There are two open PhD positions in Natural Language Processing available at the
-      Institute for Computer Science at Leipzig University, in the group of Leonie Weissweiler.
+      There is an open PhD position in Interpretability for Protein Language Models available at LION Lab, at the
+      Institute for Computer Science at Leipzig University.
     </p>
   </div>
 
   <div class="job-facts">
     <div class="job-fact">
       <span class="job-fact-label">Preferred starting date</span>
-      <span class="job-fact-value">April 1, 2026 (later possible).</span>
+      <span class="job-fact-value">November 1, 2026 (later possible).</span>
     </div>
     <div class="job-fact">
       <span class="job-fact-label">Application deadline</span>
-      <span class="job-fact-value">January 15, 2026 (after that, the position will remain open until filled)</span>
+      <span class="job-fact-value">October 1, 2026 (after that, the position will remain open until filled)</span>
     </div>
     <div class="job-fact">
       <span class="job-fact-label">Positions</span>
@@ -55,8 +55,7 @@ sitemap: false
     <h2 class="lion-h2">Topics</h2>
     <div class="lion-prose">
       <p>
-        The positions are not bound to a specific project, which will allow us some freedom to
-        find a project that is interesting to everyone involved.
+        The position will be funded by a DFG project within the Priority Programme <a href="https://www.dfg.de/de/aktuelles/neuigkeiten-themen/info-wissenschaft/2025/ifw-25-82">Artificial Intelligence for Protein Function (AI4PF)</a>.
       </p>
       <p>
         The long-term goal of my research is to use language models of any size to investigate
@@ -91,29 +90,12 @@ sitemap: false
   </div>
 
   <div class="job-section">
-    <h2 class="lion-h2">ScaDS.AI</h2>
-    <div class="lion-prose">
-      <p>
-        PhD students will be affiliated with the Leipzig Center for Scalable Data Analytics and
-        Artificial Intelligence <a href="https://scads.ai/" target="_blank" rel="noopener">ScaDS.AI</a>,
-        a national AI Competence Center funded by the Federal Ministry of Research, Technology and
-        Space (BMFTR) and the Free State of Saxony. This means that students will be integrated
-        into the ScaDS.AI Graduate School which organises a yearly retreat, a biweekly seminar, a
-        public scientific lecture series and offers other support and networking opportunities.
-        Scads.AI also generously provides access to its significant compute resources.
-      </p>
-    </div>
-  </div>
-
-  <div class="job-section">
     <h2 class="lion-h2">Funding</h2>
     <div class="lion-prose">
       <p>
         The positions are fully funded as TVL-13 100% for three years. You can familiarise
-        yourself with the pay scheme
-        here{% comment %}TODO: link "here" — pay scheme (TV-L E13 table){% endcomment %}.
-        PhD students will have teaching obligations of two hours per week during the semester,
-        typically in the shape of a tutorial.
+        yourself with the pay scheme <a href="https://oeffentlicher-dienst.info/c/t/rechner/tv-l/west?id=tv-l-2025">here</a>.
+        PhD students will have no formal teaching obligations, but will have the opportunity to teach if you wish, for example giving a tutorial for our NLP and ML undergraduate lectures.
       </p>
     </div>
   </div>
@@ -122,20 +104,28 @@ sitemap: false
     <h2 class="lion-h2">Candidates</h2>
     <div class="lion-prose">
       <p>
-        Ideal PhD candidates have a master's degree in computational linguistics, computer science
-        or a related discipline, a strong interest in natural language processing and language,
+        Ideal PhD candidates have a master's degree in computational linguistics, bioinformatics, computer science, data science, 
+        or a related discipline, a strong interest in both natural language processing and biology,
         excellent mathematical and programming skills and are team players. Knowledge of German is
         a plus, but not required. However, strong written and spoken English skills are essential.
       </p>
       <p>
-        International applicants can find more information on doing a PhD in Germany
-        here{% comment %}TODO: link "here" — Federal Government / Research in Germany{% endcomment %}
-        (provided by the Federal Government) and specific to Leipzig
-        here{% comment %}TODO: link "here" — Leipzig University international PhD info{% endcomment %}.
+        International applicants can find more information on doing a PhD in Germany <a href="https://www.uni-leipzig.de/fileadmin/ul/Dokumente/2020_RIG_Doing-a-PhD_barrierefrei.pdf">
+        here </a> (provided by the Federal Government) and specific to Leipzig <a href="https://www.uni-leipzig.de/en/international/teaching-and-research-at-leipzig-university/doctorates"> here </a>.
       </p>
       <p>
         Leipzig University is strongly committed to diversity and especially welcomes applications
         from members of underrepresented groups.
+      </p>
+    </div>
+  </div>
+
+  <div class="job-section">
+    <h2 class="lion-h2">LION Lab</h2>
+    <div class="lion-prose">
+      <p>
+        The LION (Linguistically-Oriented Natural Language Processing Lab) is a new research group at Leipzig University, led by Jun.-Prof. Dr. Leonie Weissweiler. 
+        For more information, you can check out the <a href="https://lionlabnlp.github.io/">lab website</a> and <a href="https://leonieweissweiler.github.io/"> Jun.-Prof. Weissweiler's personal website </a>.
       </p>
     </div>
   </div>
@@ -146,7 +136,7 @@ sitemap: false
       <p>
         Leipzig University is the second-oldest university in Germany. It looks back on over 600
         years of tradition and is a comprehensive university with 14 faculties, 465 professorships,
-        around 31,000 students and a variety of subjects in 158 degree programs. Leipzig has a
+        around 31,000 students and a variety of subjects in 158 degree programmes. Leipzig has a
         well-connected research landscape: the university is part of a local network that includes
         Max Planck, Helmholtz, Fraunhofer, and Leibniz institutes, providing opportunities for
         collaboration across different areas of science.
@@ -158,7 +148,7 @@ sitemap: false
       </p>
       <p>
         You can find information about pursuing a PhD at Leipzig University, compiled by the PhD
-        student council, here{% comment %}TODO: link "here" — Leipzig PhD student council guide{% endcomment %}.
+        student council, <a href="https://www.mathcs.uni-leipzig.de/fileadmin/Einrichtung_RAL/Dokumente/2024_Promotionsleitfaden.pdf">here</a>.
       </p>
     </div>
   </div>
@@ -171,9 +161,7 @@ sitemap: false
       <p>
         To apply, email your CV, transcripts, a copy or draft of your Master's thesis and a 1-page
         research proposal to
-        <a href="mailto:leonie.weissweiler@lingfil.uu.se">leonie.weissweiler@lingfil.uu.se</a>{% comment %}
-        TODO: this is the Uppsala address from the old posting — should it be uni-leipzig.de?
-        {% endcomment %}
+        <a href="mailto:leonie.weissweiler@uni-leipzig.de">leonie.weissweiler@uni-leipzig.de</a>
         under the header <strong>[LEIPZIG-PHD]</strong>. The research proposal should not be in the
         scope of an entire PhD, but should rather be an idea for a first project that you would be
         interested in working on, and show that you are able to formulate a research question and

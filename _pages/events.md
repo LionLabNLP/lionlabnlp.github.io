@@ -181,6 +181,36 @@ permalink: /events/
     </p>
   </div>
 
+  <!-- ── Anja Reusch ── -->
+  <div class="event-card">
+    <div class="event-meta-row">
+      <span class="event-tag">Invited Talk</span>
+      <span class="event-date">Tuesday, 25 August 2026 · 10:00</span>
+      <span class="event-location">Paulinum, Room P905</span>
+    </div>
+    <div class="event-main">
+      <img class="event-speaker-photo"
+           src="{{ '/assets/img/speakers/anja_reusch.png' | relative_url }}"
+           alt="Bastian Bunzeck">
+      <div class="event-content">
+        <h2 class="event-title">LLMs Are Not Usage-Based (Yet)</h2>
+        <p class="event-speaker"><a href="https://anja.re/" target="_blank" rel="noopener">Anja Reusch</a> — Technion</p>
+        <div class="event-abstract">
+          <p class="event-section-label">Abstract</p>
+          <p class="event-body" style="margin:0;">
+            One way to improve retrieval systems is by understanding their internals. In my research, I use methods from mechanistic interpretability to build this understanding and study how retrieval models work.
+            In this talk, I first present a series of analysis experiments that build an understanding of generative retrieval, that is, end-to-end language-model-based retrieval. I then show how this understanding can be used to improve generative retrieval and make it more applicable to real-world scenarios. In the end, I highlight ongoing research beyond generative retrieval.
+          </p>
+        </div>
+        <p class="event-section-label">Bio</p>
+        <p class="event-body">
+          Anja Reusch is a postdoctoral researcher in the lab of Yonatan Belinkov at the Technion. Before that, she completed her PhD in the Database Research Group at TU Dresden in Germany where she worked on retrieval models for mathematical documents. Her main area of research is Interpretability in Information Retrieval and Natural Language Processing.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
   <!-- ── Bastian Bunzeck ── -->
   <div class="event-card">
     <div class="event-meta-row">
