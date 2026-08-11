@@ -191,10 +191,10 @@ permalink: /events/
     <div class="event-main">
       <img class="event-speaker-photo"
            src="{{ '/assets/img/speakers/anja_reusch.png' | relative_url }}"
-           alt="Bastian Bunzeck">
+           alt="Anja Reusch">
       <div class="event-content">
         <h2 class="event-title">LLMs Are Not Usage-Based (Yet)</h2>
-        <p class="event-speaker"><a href="https://anja.re/" target="_blank" rel="noopener">Anja Reusch</a> — Technion</p>
+        <p class="event-speaker"><a href="https://anja.re/" target="_blank" rel="noopener">Dr. Anja Reusch</a> — Technion</p>
         <div class="event-abstract">
           <p class="event-section-label">Abstract</p>
           <p class="event-body" style="margin:0;">
