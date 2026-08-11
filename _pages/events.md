@@ -193,7 +193,7 @@ permalink: /events/
            src="{{ '/assets/img/speakers/anja_reusch.png' | relative_url }}"
            alt="Anja Reusch">
       <div class="event-content">
-        <h2 class="event-title">LLMs Are Not Usage-Based (Yet)</h2>
+        <h2 class="event-title">Interpretability for Improving Retrieval Models</h2>
         <p class="event-speaker"><a href="https://anja.re/" target="_blank" rel="noopener">Dr. Anja Reusch</a> — Technion</p>
         <div class="event-abstract">
           <p class="event-section-label">Abstract</p>
