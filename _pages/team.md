@@ -381,7 +381,7 @@ permalink: /team/
 
     <div class="phd-card">
       <img class="phd-photo" src="{{ '/assets/img/members/toshiki_square.JPG' | relative_url }}" alt="Toshiki Nakai">
-      <h3 class="phd-name"><a href="https://scholar.google.com/citations?hl=en&user=gKPYpYQAAAAJ" target="_blank" rel="noopener">Toshiki Nakai M.Sc.</a></h3>
+      <h3 class="phd-name"><a href="https://konta3738.github.io/website/" target="_blank" rel="noopener">Toshiki Nakai M.Sc.</a></h3>
       <p class="phd-role">PhD Student</p>
       <p class="phd-since">Since April 2026</p>
       <p class="phd-email"><a href="mailto:toshiki.nakai@uni-leipzig.de">toshiki.nakai@uni-leipzig.de</a></p>
