@@ -1,7 +1,7 @@
 ---
 layout: default
-title: PhD Positions in Natural Language Processing / Computational Linguistics
-description: Two fully funded PhD positions at Leipzig University in the group of Leonie Weissweiler.
+title: PhD Student Position in Natural Language Processing / Computational Linguistics
+description: Fully funded PhD student position at LION Lab, Leipzig University.
 permalink: /jobs/ai4pf/
 noindex: true
 sitemap: false
@@ -25,7 +25,7 @@ sitemap: false
 <div class="lion-page">
 
   <div class="lion-page-header">
-    <h1>PhD positions at Leipzig University in Interpretability for Protein Language Models</h1>
+    <h1>PhD student position at Leipzig University in Interpretability for Protein Language Models</h1>
     <div class="lion-page-rule"></div>
   </div>
 
@@ -55,7 +55,7 @@ sitemap: false
     <h2 class="lion-h2">Topics</h2>
     <div class="lion-prose">
       <p>
-        The position will be funded by a DFG project within the Priority Programme <a href="https://www.dfg.de/de/aktuelles/neuigkeiten-themen/info-wissenschaft/2025/ifw-25-82">Artificial Intelligence for Protein Function (AI4PF)</a>. The project will be carried out by two PhD students, one working on the computational side, based at LION Lab at the <a href="https://www.mathcs.uni-leipzig.de/ifi">Institute for Computer Science</a> (this position) and one working on the practical side, based at <a href="https://www.schoederlab.org/">Schoeder Lab</a> at the <a href="https://meilerlab.org/institute-for-drug-discovery-leipzig_/">Institute for Drug Discovery</a>>, both at <a href="https://www.uni-leipzig.de/en">Leipzig University</a>. 
+        The position will be funded by a DFG project within the Priority Programme <a href="https://www.dfg.de/de/aktuelles/neuigkeiten-themen/info-wissenschaft/2025/ifw-25-82">Artificial Intelligence for Protein Function (AI4PF)</a>. The project will be carried out by two PhD students, one working on the computational side, based at LION Lab at the <a href="https://www.mathcs.uni-leipzig.de/ifi">Institute for Computer Science</a> (this position) and one working on the practical side, based at <a href="https://www.schoederlab.org/">Schoeder Lab</a> at the <a href="https://meilerlab.org/institute-for-drug-discovery-leipzig_/">Institute for Drug Discovery</a>, both at <a href="https://www.uni-leipzig.de/en">Leipzig University</a>. 
       </p>
       <p>
         The ovearching goal of the project will be to adapt methods from (mechanistic) interpretability developed by the NLP community for LLMs to protein language models (pLMs). pLMs have been trained on billions of protein sequences and acquired complex knowledge of their structured in an unsupervised way, which can be compared to how LLMs have acquired complex linguistic knowledge despite only having been trained on raw text data. pLMs and LLMs are also similar in that they have both achieved far better results at their respective tasks than earlier approaches that explicitly modelled existing insights into the structure of the training data. While in NLP, this has led to high research activity in the field of interpretability, aiming to extract and make explicit the structural knowledge acquired by LLMs, this has so far been underexplored for pLMs. 
