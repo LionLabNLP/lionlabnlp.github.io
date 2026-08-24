@@ -2,7 +2,7 @@
 layout: default
 title: PhD Positions in Natural Language Processing / Computational Linguistics
 description: Two fully funded PhD positions at Leipzig University in the group of Leonie Weissweiler.
-permalink: /jobs/phd-positions/
+permalink: /jobs/ai4pf/
 noindex: true
 sitemap: false
 ---
@@ -55,36 +55,18 @@ sitemap: false
     <h2 class="lion-h2">Topics</h2>
     <div class="lion-prose">
       <p>
-        The position will be funded by a DFG project within the Priority Programme <a href="https://www.dfg.de/de/aktuelles/neuigkeiten-themen/info-wissenschaft/2025/ifw-25-82">Artificial Intelligence for Protein Function (AI4PF)</a>.
+        The position will be funded by a DFG project within the Priority Programme <a href="https://www.dfg.de/de/aktuelles/neuigkeiten-themen/info-wissenschaft/2025/ifw-25-82">Artificial Intelligence for Protein Function (AI4PF)</a>. The project will be carried out by two PhD students, one working on the computational side, based at LION Lab at the <a href="https://www.mathcs.uni-leipzig.de/ifi">Institute for Computer Science</a> (this position) and one working on the practical side, based at <a href="https://www.schoederlab.org/">Schoeder Lab</a> at the <a href="https://meilerlab.org/institute-for-drug-discovery-leipzig_/">Institute for Drug Discovery</a>>, both at <a href="https://www.uni-leipzig.de/en">Leipzig University</a>. 
       </p>
       <p>
-        The long-term goal of my research is to use language models of any size to investigate
-        long-standing questions in linguistics about the abstraction levels and mechanisms of
-        language, how they are similar across languages but also different in each one, and how
-        they evolved. Language models can be used as simulations of language learning, and by
-        studying how they learn and then process language, we can gain insights into how language
-        could work, and then compare that to human behavioural data.
+        The ovearching goal of the project will be to adapt methods from (mechanistic) interpretability developed by the NLP community for LLMs to protein language models (pLMs). pLMs have been trained on billions of protein sequences and acquired complex knowledge of their structured in an unsupervised way, which can be compared to how LLMs have acquired complex linguistic knowledge despite only having been trained on raw text data. pLMs and LLMs are also similar in that they have both achieved far better results at their respective tasks than earlier approaches that explicitly modelled existing insights into the structure of the training data. While in NLP, this has led to high research activity in the field of interpretability, aiming to extract and make explicit the structural knowledge acquired by LLMs, this has so far been underexplored for pLMs. 
       </p>
       <p>
-        In the short term, this will require that we build better evaluations so that we can
-        quantify to which degree a language model has acquired a particular language and compare
-        against other models and languages, especially low-resource languages which are often
-        structurally very different from the high-resource languages for which evaluations are
-        already available. It will also require better interpretability methods so that we can not
-        only quantify how well a phenomenon is learned, but also compare the mechanism used by the
-        language model against different hypotheses of human language learning.
+        The first step of the project will be to extend interpretability methods to test pLMs' knowledge of toxicity and immunogenicity, and then use the findings to develop a pLM into a classifier for immunogenicity. This classifier will then be applied for the steering of de novo protein generation with a minimal number of immunogenic peptide sequences. Later in the project, we will explore other applications for the transfer of interpretability methods to pLMs. 
       </p>
       <p>
-        For a better understanding of my research interests, you can also check out my
-        <a href="https://scholar.google.com/citations?user=o4fK4n4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile</a>
-        and my <a href="https://leonieweissweiler.github.io/" target="_blank" rel="noopener">website</a>.
-      </p>
-      <p>
-        PhD students will be able to take advantage of a large international network of
+        Beyond the local collaboration with Schoeder Lab, the PhD student will be able to take advantage of a large international network of
         collaborators, and we will arrange a research stay abroad for several months for each
         student at some point during their PhD, with a host appropriate for their research topics.
-        There are also interesting opportunities for local collaborations, for example with the
-        Max Planck Institute for Evolutionary Anthropology.
       </p>
     </div>
   </div>
@@ -93,9 +75,9 @@ sitemap: false
     <h2 class="lion-h2">Funding</h2>
     <div class="lion-prose">
       <p>
-        The positions are fully funded as TVL-13 100% for three years. You can familiarise
-        yourself with the pay scheme <a href="https://oeffentlicher-dienst.info/c/t/rechner/tv-l/west?id=tv-l-2025">here</a>.
-        PhD students will have no formal teaching obligations, but will have the opportunity to teach if you wish, for example giving a tutorial for our NLP and ML undergraduate lectures.
+        The position is fully funded as TVL-13 100% for three years. Information about the pay scheme is available
+        <a href="https://oeffentlicher-dienst.info/c/t/rechner/tv-l/west?id=tv-l-2026">here</a>.
+        The PhD student will have no formal teaching obligations, but will have the opportunity to teach if they wish, for example giving a tutorial for our NLP and ML undergraduate lectures.
       </p>
     </div>
   </div>
@@ -162,12 +144,9 @@ sitemap: false
         To apply, email your CV, transcripts, a copy or draft of your Master's thesis and a 1-page
         research proposal to
         <a href="mailto:leonie.weissweiler@uni-leipzig.de">leonie.weissweiler@uni-leipzig.de</a>
-        under the header <strong>[LEIPZIG-PHD]</strong>. The research proposal should not be in the
-        scope of an entire PhD, but should rather be an idea for a first project that you would be
-        interested in working on, and show that you are able to formulate a research question and
+        under the header <strong>[PROTEIN-PHD]</strong>. The research proposal should not cover the scope of the entire project, but rather be a description of your own idea within the scope of applying interpretability methods to pLMs, and show that you are able to formulate a research question and
         make a plan for how to answer it.
       </p>
-      <p>Please don't hesitate to email me if you have any other questions.</p>
     </div>
   </div>
 
