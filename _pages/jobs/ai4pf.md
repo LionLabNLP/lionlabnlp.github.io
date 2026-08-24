@@ -61,7 +61,8 @@ sitemap: false
         The ovearching goal of the project will be to adapt methods from (mechanistic) interpretability developed by the NLP community for LLMs to protein language models (pLMs). pLMs have been trained on billions of protein sequences and acquired complex knowledge of their structured in an unsupervised way, which can be compared to how LLMs have acquired complex linguistic knowledge despite only having been trained on raw text data. pLMs and LLMs are also similar in that they have both achieved far better results at their respective tasks than earlier approaches that explicitly modelled existing insights into the structure of the training data. While in NLP, this has led to high research activity in the field of interpretability, aiming to extract and make explicit the structural knowledge acquired by LLMs, this has so far been underexplored for pLMs. 
       </p>
       <p>
-        The first step of the project will be to extend interpretability methods to test pLMs' knowledge of toxicity and immunogenicity, and then use the findings to develop a pLM into a classifier for immunogenicity. This classifier will then be applied for the steering of de novo protein generation with a minimal number of immunogenic peptide sequences. Later in the project, we will explore other applications for the transfer of interpretability methods to pLMs. 
+        For the computational side of the project, the first step will be to extend interpretability methods to test pLMs' knowledge of toxicity and immunogenicity, and then use the findings to develop a pLM into a classifier for immunogenicity. This classifier will then be applied for the steering of de novo protein generation with a minimal number of immunogenic peptide sequences. In the meantime, the wetlab PhD student based at Schoeder Lab will establish an immunogenic profile for de novo proteins, and then both PhD students will collaborate on generating minimally immunogenic proteins and evaluating how well this succeeded.
+        Later in the project, we will explore other applications for the transfer of interpretability methods to pLMs. 
       </p>
       <p>
         Beyond the local collaboration with Schoeder Lab, the PhD student will be able to take advantage of a large international network of
@@ -88,7 +89,7 @@ sitemap: false
       <p>
         Ideal PhD candidates have a master's degree in computational linguistics, bioinformatics, computer science, data science, 
         or a related discipline, a strong interest in both natural language processing and biology,
-        excellent mathematical and programming skills and are team players. Knowledge of German is
+        excellent mathematical and programming skills, and are team players. Knowledge of German is
         a plus, but not required. However, strong written and spoken English skills are essential.
       </p>
       <p>
@@ -106,8 +107,8 @@ sitemap: false
     <h2 class="lion-h2">LION Lab</h2>
     <div class="lion-prose">
       <p>
-        The LION (Linguistically-Oriented Natural Language Processing Lab) is a new research group at Leipzig University, led by Jun.-Prof. Dr. Leonie Weissweiler. 
-        For more information, you can check out the <a href="https://lionlabnlp.github.io/">lab website</a> and <a href="https://leonieweissweiler.github.io/"> Jun.-Prof. Weissweiler's personal website </a>.
+        The LION (Linguistically-Oriented Natural Language Processing) Lab is a new research group at Leipzig University, led by Jun.-Prof. Dr. Leonie Weissweiler. 
+        For more information, you can check out the <a href="https://lionlabnlp.github.io/">lab website</a> and <a href="https://leonieweissweiler.github.io/">Jun.-Prof. Weissweiler's personal website</a>.
       </p>
     </div>
   </div>
@@ -141,7 +142,7 @@ sitemap: false
     <h2 class="lion-h2">Application</h2>
     <div class="lion-prose">
       <p>
-        To apply, email your CV, transcripts, a copy or draft of your Master's thesis and a 1-page
+        To apply, email your CV, transcripts, a copy or draft of your master's thesis and a 1-page
         research proposal to
         <a href="mailto:leonie.weissweiler@uni-leipzig.de">leonie.weissweiler@uni-leipzig.de</a>
         under the header <strong>[PROTEIN-PHD]</strong>. The research proposal should not cover the scope of the entire project, but rather be a description of your own idea within the scope of applying interpretability methods to pLMs, and show that you are able to formulate a research question and
