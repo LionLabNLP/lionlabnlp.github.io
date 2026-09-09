@@ -5,6 +5,16 @@
 # News entries — most recent first.
 # Each entry has: date, title, body (HTML allowed).
 # To add a news item, copy one block and paste it at the TOP of the list.
+#
+# Optional picture, shown on the right of the entry:
+#   image: "/assets/img/news/lrec-2026.jpg"
+#   image_alt: "Jacob presenting his poster at LREC"   # defaults to the title
+#
+# The picture is cropped to a 120px square from the centre, biased slightly
+# towards the top so faces survive. Any aspect ratio works, but square or
+# near-square sources lose the least. Entries with no image simply leave the
+# column empty. Downscale before committing — roughly 400px on the short side
+# is plenty.
 
 - date: "June 2026"
   title: "Leonie Weissweiler gave an invited talk at Heidelberg University"

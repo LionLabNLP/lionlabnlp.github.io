@@ -10,8 +10,9 @@ permalink: /news/
 <style>
   .news-entry {
     display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: 2rem;
+    grid-template-columns: 110px 1fr 120px;
+    column-gap: 0.85rem;
+    align-items: center;
     padding: 2rem 0;
     border-bottom: 1px solid #f0e4d4;
   }
@@ -27,6 +28,20 @@ permalink: /news/
     text-transform: uppercase;
     color: #E26600;
     padding-top: 0.2rem;
+    align-self: start;
+  }
+
+  .news-entry-text { align-self: start; }
+
+  /* Optional picture, cropped to a uniform square and centred against the text.
+     The extra margin makes up the gap the tight date column gives away. */
+  .news-entry-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center 30%;
+    display: block;
+    margin-left: 1.15rem;
   }
 
   .news-entry-title {
@@ -54,7 +69,8 @@ permalink: /news/
   .news-entry-body a:hover { opacity: 0.7; }
 
   @media (max-width: 600px) {
-    .news-entry { grid-template-columns: 1fr; gap: 0.5rem; }
+    .news-entry { grid-template-columns: 1fr; row-gap: 0.5rem; }
+    .news-entry-photo { margin-left: 0; }
   }
 </style>
 
@@ -68,10 +84,16 @@ permalink: /news/
   {% for item in site.data.news %}
   <div class="news-entry">
     <p class="news-entry-date">{{ item.date }}</p>
-    <div>
+    <div class="news-entry-text">
       <p class="news-entry-title">{{ item.title }}</p>
       <p class="news-entry-body">{{ item.body }}</p>
     </div>
+    {% if item.image %}
+    <img class="news-entry-photo"
+         src="{{ item.image | relative_url }}"
+         alt="{{ item.image_alt | default: item.title | strip_html }}"
+         loading="lazy">
+    {% endif %}
   </div>
   {% endfor %}
 
