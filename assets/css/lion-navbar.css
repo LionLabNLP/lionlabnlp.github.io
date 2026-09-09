@@ -3,7 +3,9 @@
    All colours are CSS variables defined in theme-*.css
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lora:wght@400;500&display=swap');
+/* Playfair Display was dropped when headings moved to Bespoke Slab; Lora is
+   still the body face. */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
 
 @font-face {
   font-family: 'Bespoke Slab';
@@ -96,9 +98,11 @@ body {
 }
 
 .lion-logo-text {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: var(--lion-heading-font);
   font-size: 1.55rem;
-  font-weight: 600;
+  /* 400, not 600: only a regular cut of Bespoke Slab is bundled, so a heavier
+     weight would be synthesised by the browser. */
+  font-weight: 400;
   color: var(--lion-white);
   letter-spacing: 0.04em;
   transition: opacity 0.2s;

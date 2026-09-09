@@ -18,7 +18,7 @@ permalink: /team/
   }
 
   .team-header h1 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: var(--lion-heading-font);
     font-size: clamp(2.8rem, 6vw, 4.5rem);
     font-weight: 400;
     color: #1a1209;
@@ -91,7 +91,7 @@ permalink: /team/
   }
 
   .pi-name {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: var(--lion-heading-font);
     font-size: 2rem;
     font-weight: 400;
     color: #1a1209;
@@ -193,7 +193,7 @@ permalink: /team/
   }
 
   .phd-name {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: var(--lion-heading-font);
     font-size: 1.35rem;
     font-weight: 400;
     color: #1a1209;
@@ -298,7 +298,7 @@ permalink: /team/
   }
 
   .admin-name {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: var(--lion-heading-font);
     font-size: 1.35rem;
     font-weight: 400;
     color: #1a1209;

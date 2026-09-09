@@ -3,6 +3,13 @@
    Swap this file on your personal site with theme-personal.css
    ============================================================ */
 :root {
+  /* Typography
+     Headings are set in Bespoke Slab, the same face as the nav links and the
+     all-caps section labels; body prose stays Lora. Only a 400 weight of
+     Bespoke Slab is bundled, so headings must not ask for bold — the browser
+     would synthesise it. */
+  --lion-heading-font: 'Bespoke Slab', Georgia, serif;
+
   /* Brand colours */
   --lion-main:        #FF8600;   /* navbar background */
   --lion-light:       #FFAE00;   /* light accent */

@@ -37,7 +37,10 @@ permalink: /
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1.25rem 2rem;
+    /* The five links need 402px of content; at the previous 2rem column gap
+       that came to 530px in a 526px column, so LinkedIn wrapped onto a line of
+       its own. 0.75rem brings it to 450px and keeps them on one row. */
+    gap: 1rem 0.75rem;
     align-items: center;
   }
 
@@ -124,7 +127,7 @@ permalink: /
   }
 
   .news-item-title {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: var(--lion-heading-font);
     font-size: 1.05rem;
     font-weight: 400;
     color: #1a1209;

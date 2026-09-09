@@ -79,7 +79,7 @@ permalink: /events/
   .event-content { min-width: 0; }
 
   .event-title {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: var(--lion-heading-font);
     font-size: 1.4rem;
     font-weight: 400;
     color: var(--lion-ink);
