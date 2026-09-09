@@ -189,9 +189,11 @@ permalink: /events/
       <span class="event-location">Paulinum, Room P905</span>
     </div>
     <div class="event-main">
-      <img class="event-speaker-photo"
-           src="{{ '/assets/img/speakers/anja_reusch.png' | relative_url }}"
-           alt="Anja Reusch">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/speakers/anja_reusch.png' | relative_url }}"
+             alt="Anja Reusch">
+      </div>
       <div class="event-content">
         <h2 class="event-title">Interpretability for Improving Retrieval Models</h2>
         <p class="event-speaker">Dr. <a href="https://anja.re/" target="_blank" rel="noopener">Anja Reusch</a> — Technion</p>
@@ -219,9 +221,11 @@ permalink: /events/
       <span class="event-location">Paulinum, Room P905</span>
     </div>
     <div class="event-main">
-      <img class="event-speaker-photo"
-           src="{{ '/assets/img/speakers/bastian_bunzeck.png' | relative_url }}"
-           alt="Bastian Bunzeck">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/speakers/bastian_bunzeck.png' | relative_url }}"
+             alt="Bastian Bunzeck">
+      </div>
       <div class="event-content">
         <h2 class="event-title">LLMs Are Not Usage-Based (Yet)</h2>
         <p class="event-speaker"><a href="https://bbunzeck.github.io/" target="_blank" rel="noopener">Bastian Bunzeck</a> — Bielefeld University</p>
@@ -247,9 +251,11 @@ permalink: /events/
       <span class="event-location">Paulinum, Room P905</span>
     </div>
     <div class="event-main">
-      <img class="event-speaker-photo"
-           src="{{ '/assets/img/speakers/david_mortensen.png' | relative_url }}"
-           alt="David R. Mortensen">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/speakers/david_mortensen.png' | relative_url }}"
+             alt="David R. Mortensen">
+      </div>
       <div class="event-content">
         <h2 class="event-title">The Reconstruction will not be Supervised: Towards Neural Implementations of the Comparative Method</h2>
         <p class="event-speaker">Prof. <a href="https://www.lti.cs.cmu.edu/people/faculty/mortensen-david.html" target="_blank" rel="noopener">David R. Mortensen</a> — Carnegie Mellon University</p>
@@ -275,9 +281,11 @@ permalink: /events/
       <span class="event-location">Paulinum, Room P905</span>
     </div>
     <div class="event-main">
-      <img class="event-speaker-photo"
-           src="{{ '/assets/img/speakers/nina_boebel.jpg' | relative_url }}"
-           alt="Nina Böbel">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/speakers/nina_boebel.jpg' | relative_url }}"
+             alt="Nina Böbel">
+      </div>
       <div class="event-content">
         <h2 class="event-title">Language as a (Linguistic) Network</h2>
         <p class="event-speaker">Dr. <a href="https://www.germanistik.hhu.de/abteilungen/abteilung-i-germanistische-sprachwissenschaft/univ-prof-dr-alexander-ziem/team-des-lehrstuhls-univ-prof-dr-alexander-ziem/nina-boebel-ma" target="_blank" rel="noopener">Nina Böbel</a> — Heinrich Heine University Düsseldorf</p>
@@ -303,9 +311,11 @@ permalink: /events/
       <span class="event-location">Sächsische Akademie der Wissenschaften</span>
     </div>
     <div class="event-main">
-      <img class="event-speaker-photo"
-           src="{{ '/assets/img/members/leonie_square.JPG' | relative_url }}"
-           alt="Leonie Weißweiler">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/members/leonie_square.JPG' | relative_url }}"
+             alt="Leonie Weißweiler">
+      </div>
       <div class="event-content">
         <h2 class="event-title">Hybrid Human-LLM Corpus Construction and LLM Evaluation for the Caused-Motion Construction</h2>
         <p class="event-speaker">Jun.-Prof. Dr. <a href="https://leonieweissweiler.github.io/" target="_blank" rel="noopener">Leonie Weißweiler</a> — <a href="https://fdhl.info/veranstaltungen/digital-humanities-open-garden/opengarden2026/" target="_blank" rel="noopener">Digital Humanities Open Garden 2026</a></p>
@@ -327,9 +337,11 @@ permalink: /events/
       <span class="event-location">Paulinum, Room P702</span>
     </div>
     <div class="event-main">
-      <img class="event-speaker-photo"
-           src="{{ '/assets/img/speakers/arianna_muti.jpeg' | relative_url }}"
-           alt="Arianna Muti">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/speakers/arianna_muti.jpeg' | relative_url }}"
+             alt="Arianna Muti">
+      </div>
       <div class="event-content">
         <h2 class="event-title">Implicit Misogyny and Classism in NLP</h2>
         <p class="event-speaker">Dr. <a href="https://milanlp.github.io/people/arianna-muti/" target="_blank" rel="noopener">Arianna Muti</a> — Bocconi University, Milan</p>
@@ -356,9 +368,11 @@ permalink: /events/
       <span class="event-location">Paulinum, Room P702</span>
     </div>
     <div class="event-main">
-      <img class="event-speaker-photo"
-           src="{{ '/assets/img/speakers/janet_liu.webp' | relative_url }}"
-           alt="Yang Janet Liu">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/speakers/janet_liu.webp' | relative_url }}"
+             alt="Yang Janet Liu">
+      </div>
       <div class="event-content">
         <h2 class="event-title">What Is Discourse, and What Do LLMs Know About It?</h2>
         <p class="event-speaker">Prof. <a href="https://janetlauyeung.github.io/" target="_blank" rel="noopener">Yang Janet Liu</a> — University of Pittsburgh</p>

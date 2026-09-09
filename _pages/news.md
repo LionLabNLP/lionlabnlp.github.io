@@ -10,7 +10,9 @@ permalink: /news/
 <style>
   .news-entry {
     display: grid;
-    grid-template-columns: 110px 1fr 120px;
+    /* The picture column carries the extra 1.15rem itself, so the gap before
+       the picture stays at 2rem while the date sits tight against the text. */
+    grid-template-columns: 110px 1fr calc(120px + 1.15rem);
     column-gap: 0.85rem;
     align-items: center;
     padding: 2rem 0;
@@ -34,14 +36,19 @@ permalink: /news/
   .news-entry-text { align-self: start; }
 
   /* Optional picture, cropped to a uniform square and centred against the text.
-     The extra margin makes up the gap the tight date column gives away. */
+     The frame is pushed to the right of its column so its right edge lines up
+     with the page content. */
+  .news-entry .lion-photo-frame {
+    width: 120px;
+    margin-left: auto;
+  }
+
   .news-entry-photo {
     width: 120px;
     height: 120px;
     object-fit: cover;
     object-position: center 30%;
     display: block;
-    margin-left: 1.15rem;
   }
 
   .news-entry-title {
@@ -69,8 +76,8 @@ permalink: /news/
   .news-entry-body a:hover { opacity: 0.7; }
 
   @media (max-width: 600px) {
-    .news-entry { grid-template-columns: 1fr; row-gap: 0.5rem; }
-    .news-entry-photo { margin-left: 0; }
+    .news-entry { grid-template-columns: 1fr; row-gap: 0.9rem; }
+    .news-entry .lion-photo-frame { margin-left: 0; }
   }
 </style>
 
@@ -89,10 +96,12 @@ permalink: /news/
       <p class="news-entry-body">{{ item.body }}</p>
     </div>
     {% if item.image %}
-    <img class="news-entry-photo"
-         src="{{ item.image | relative_url }}"
-         alt="{{ item.image_alt | default: item.title | strip_html }}"
-         loading="lazy">
+    <div class="lion-photo-frame">
+      <img class="news-entry-photo"
+           src="{{ item.image | relative_url }}"
+           alt="{{ item.image_alt | default: item.title | strip_html }}"
+           loading="lazy">
+    </div>
     {% endif %}
   </div>
   {% endfor %}

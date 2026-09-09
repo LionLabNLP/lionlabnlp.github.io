@@ -97,6 +97,38 @@
 
   .lion-list li a:hover { opacity: 0.7; }
 
+  /* ── Photo frame ──
+     Corner brackets matching the group photo on the home page and the PI photo
+     on the team page, scaled down for thumbnails. Wrap an <img> in a div with
+     this class; the brackets sit just outside the image's edges. */
+  .lion-photo-frame {
+    position: relative;
+    display: block;
+  }
+
+  .lion-photo-frame::before,
+  .lion-photo-frame::after {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    z-index: 1;
+  }
+
+  .lion-photo-frame::before {
+    top: -5px;
+    left: -5px;
+    border-top: 2px solid var(--lion-dark);
+    border-left: 2px solid var(--lion-dark);
+  }
+
+  .lion-photo-frame::after {
+    bottom: -5px;
+    right: -5px;
+    border-bottom: 2px solid var(--lion-dark);
+    border-right: 2px solid var(--lion-dark);
+  }
+
   .lion-h2 {
     font-family: var(--lion-heading-font);
     font-size: 1.6rem;

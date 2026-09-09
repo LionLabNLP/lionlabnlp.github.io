@@ -109,13 +109,27 @@ permalink: /
     margin-bottom: 4rem;
   }
 
-  /* News preview */
+  /* News preview — text left, optional picture right, matching the News page */
   .news-item {
+    display: grid;
+    grid-template-columns: 1fr 120px;
+    column-gap: 2rem;
+    align-items: center;
     padding: 1.5rem 0;
     border-bottom: 1px solid #f0e4d4;
   }
 
   .news-item:first-of-type { border-top: 1px solid #f0e4d4; }
+
+  .news-item-text { align-self: start; }
+
+  .news-item-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center 30%;
+    display: block;
+  }
 
   .news-item-date {
     font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
@@ -205,6 +219,7 @@ permalink: /
     .about-hero {
       grid-template-columns: 1fr;
     }
+    .news-item { grid-template-columns: 1fr; row-gap: 0.9rem; }
     .about-hero-logo img { max-width: 384px; }
     .funding-logo { height: 100px; }
   }
@@ -271,9 +286,19 @@ permalink: /
 
   {% for item in site.data.news limit:5 %}
   <div class="news-item">
-    <p class="news-item-date">{{ item.date }}</p>
-    <p class="news-item-title">{{ item.title }}</p>
-    <p class="news-item-body">{{ item.body }}</p>
+    <div class="news-item-text">
+      <p class="news-item-date">{{ item.date }}</p>
+      <p class="news-item-title">{{ item.title }}</p>
+      <p class="news-item-body">{{ item.body }}</p>
+    </div>
+    {% if item.image %}
+    <div class="lion-photo-frame">
+      <img class="news-item-photo"
+           src="{{ item.image | relative_url }}"
+           alt="{{ item.image_alt | default: item.title | strip_html }}"
+           loading="lazy">
+    </div>
+    {% endif %}
   </div>
   {% endfor %}
 
