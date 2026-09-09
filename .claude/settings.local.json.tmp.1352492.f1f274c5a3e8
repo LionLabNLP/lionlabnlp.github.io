@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git pull *)",
+      "WebSearch",
+      "WebFetch(domain:www.germanistik.hhu.de)",
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(git merge *)",
+      "Bash(git fetch *)",
+      "Bash(git branch *)",
+      "WebFetch(domain:docs.google.com)",
+      "WebFetch(domain:doc-14-c4-docstext.googleusercontent.com)",
+      "Bash(ruby -v)",
+      "Bash(ruby -ryaml -e ' *)",
+      "Bash(git add *)",
+      "Bash(git commit -q -m ' *)",
+      "Bash(git commit -q --amend -m 'Add job posting pages and DFG Walter Benjamin fellowship *)",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(python3 -)",
+      "Bash(git commit -q -m 'Add optional pictures to news entries and tighten the date column *)",
+      "Read(//home/weissweiler/**)",
+      "WebFetch(domain:ml4chem2026.github.io)",
+      "Bash(python3 -c ' *)",
+      "Bash(git commit -q -m 'Add August and May news items; note HITS talk alongside Heidelberg *)"
+    ]
+  }
+}

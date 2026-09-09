@@ -1,7 +1,3 @@
-- date: "June 2026"
-  title: "Leonie Weissweiler presented at the Digital Humanities Open Garden 2026"
-  body: "Leonie Weissweiler gave a talk on <em>Hybrid Human-LLM Corpus Construction and LLM Evaluation for the Caused-Motion Construction</em> at the <a href=\"https://fdhl.info/veranstaltungen/digital-humanities-open-garden/opengarden2026/\" target=\"_blank\" rel=\"noopener\">Digital Humanities Open Garden 2026</a>, hosted by the FDHL at the Sächsische Akademie der Wissenschaften zu Leipzig."
-
 # News entries — most recent first.
 # Each entry has: date, title, body (HTML allowed).
 # To add a news item, copy one block and paste it at the TOP of the list.
@@ -16,13 +12,29 @@
 # column empty. Downscale before committing — roughly 400px on the short side
 # is plenty.
 
+- date: "August 2026"
+  title: "Jacob Lee Suchardt presented a poster at the UniDive General Meeting"
+  body: "Jacob Lee Suchardt presented a poster on <em>Transcription of Unseen Languages with Speech-to-IPA Models</em>, based on his EMNLP 2025 paper <a href=\"https://aclanthology.org/2025.emnlp-main.1600/\" target=\"_blank\" rel=\"noopener\">Towards Language-Agnostic STIPA: Universal Phonetic Transcription to Support Language Documentation at Scale</a>, at the <a href=\"https://unidive.lisn.upsaclay.fr/\" target=\"_blank\" rel=\"noopener\">UniDive</a> General Meeting, hosted by the <a href=\"https://www.racai.ro/en/\" target=\"_blank\" rel=\"noopener\">Research Institute for Artificial Intelligence of the Romanian Academy (RACAI)</a> in Bucharest."
+
+- date: "August 2026"
+  title: "Leonie Weissweiler took part in the ML4Chem 2026 career round table"
+  body: "Leonie Weissweiler joined the <a href=\"https://ml4chem2026.github.io/#program\" target=\"_blank\" rel=\"noopener\">career round table</a> at ML4Chem 2026 — Modern ML in Chemistry, a discussion of research careers inside and outside academia, hosted by the Faculty of Chemistry at Leipzig University."
+
 - date: "June 2026"
-  title: "Leonie Weissweiler gave an invited talk at Heidelberg University"
-  body: "Leonie Weissweiler gave an invited talk on \"Expanding the Linguistic Evaluation of Language Models, or: What to do now that LMs are good\" at the <a href=\"https://www.cl.uni-heidelberg.de/colloquium/\">Computational Linguistics Colloquium</a> at Heidelberg University."
+  title: "Leonie Weissweiler presented at the Digital Humanities Open Garden 2026"
+  body: "Leonie Weissweiler gave a talk on <em>Hybrid Human-LLM Corpus Construction and LLM Evaluation for the Caused-Motion Construction</em> at the <a href=\"https://fdhl.info/veranstaltungen/digital-humanities-open-garden/opengarden2026/\" target=\"_blank\" rel=\"noopener\">Digital Humanities Open Garden 2026</a>, hosted by the FDHL at the Sächsische Akademie der Wissenschaften zu Leipzig."
+
+- date: "June 2026"
+  title: "Leonie Weissweiler gave invited talks at Heidelberg University and HITS"
+  body: "Leonie Weissweiler gave an invited talk on \"Expanding the Linguistic Evaluation of Language Models, or: What to do now that LMs are good\" at the <a href=\"https://www.cl.uni-heidelberg.de/colloquium/\">Computational Linguistics Colloquium</a> at Heidelberg University, and at the <a href=\"https://www.h-its.org/\" target=\"_blank\" rel=\"noopener\">Heidelberg Institute for Theoretical Studies (HITS)</a>."
 
 - date: "May 2026"
   title: "Leonie Weissweiler to be Tutorial Chair at COLING 2027"
   body: "Leonie Weissweiler will be the Tutorial Chair at <a href=\"https://2027.coling-iccl.org/\">COLING 2027</a> in Macau, together with <a href=\"https://www.utn.de/person/prof-dr-michael-roth/\">Michael Roth</a>. The tutorial chairs can be reached at <a href=\"mailto:coling27tutorialchairs@googlegroups.com\">coling27tutorialchairs@googlegroups.com</a>."
+
+- date: "May 2026"
+  title: "Leonie Weissweiler gave an invited talk at the MPI for Evolutionary Anthropology"
+  body: "Leonie Weissweiler gave an invited talk on <em>Computational Typology?</em> in the <a href=\"https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/\" target=\"_blank\" rel=\"noopener\">Department of Linguistic and Cultural Evolution</a> at the Max Planck Institute for Evolutionary Anthropology in Leipzig."
 
 - date: "May 2026"
   title: "Jacob Lee Suchardt presented three papers at LREC 2026"
