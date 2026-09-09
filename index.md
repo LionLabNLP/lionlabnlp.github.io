@@ -109,11 +109,12 @@ permalink: /
     margin-bottom: 4rem;
   }
 
-  /* News preview — text left, optional picture right, matching the News page */
+  /* News preview — same three-column layout as the News page: date column,
+     text, optional picture on the right. Keep the two in sync. */
   .news-item {
     display: grid;
-    grid-template-columns: 1fr 120px;
-    column-gap: 2rem;
+    grid-template-columns: 110px 1fr calc(120px + 1.15rem);
+    column-gap: 0.85rem;
     align-items: center;
     padding: 1.5rem 0;
     border-bottom: 1px solid #f0e4d4;
@@ -122,6 +123,11 @@ permalink: /
   .news-item:first-of-type { border-top: 1px solid #f0e4d4; }
 
   .news-item-text { align-self: start; }
+
+  .news-item .lion-photo-frame {
+    width: 120px;
+    margin-left: auto;
+  }
 
   .news-item-photo {
     width: 120px;
@@ -137,7 +143,8 @@ permalink: /
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #E26600;
-    margin-bottom: 0.3rem;
+    padding-top: 0.15rem;
+    align-self: start;
   }
 
   .news-item-title {
@@ -220,6 +227,7 @@ permalink: /
       grid-template-columns: 1fr;
     }
     .news-item { grid-template-columns: 1fr; row-gap: 0.9rem; }
+    .news-item .lion-photo-frame { margin-left: 0; }
     .about-hero-logo img { max-width: 384px; }
     .funding-logo { height: 100px; }
   }
@@ -286,8 +294,8 @@ permalink: /
 
   {% for item in site.data.news limit:5 %}
   <div class="news-item">
+    <p class="news-item-date">{{ item.date }}</p>
     <div class="news-item-text">
-      <p class="news-item-date">{{ item.date }}</p>
       <p class="news-item-title">{{ item.title }}</p>
       <p class="news-item-body">{{ item.body }}</p>
     </div>

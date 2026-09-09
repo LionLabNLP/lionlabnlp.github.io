@@ -85,10 +85,19 @@ body {
   flex-shrink: 0;
 }
 
+/* 64px in the 72px bar leaves 4px of clearance above and below. Any taller and
+   it touches the edges, since the bar height is fixed. */
 .lion-logo-img {
-  height: 55px;
+  height: 64px;
   width: auto;
   display: block;
+  transition: height 0.25s ease;
+}
+
+/* The bar shrinks to 56px on scroll, so the logo shrinks with it — at the old
+   55px it was flush against both edges in this state. */
+.lion-navbar-scrolled .lion-logo-img {
+  height: 48px;
 }
 
 .lion-logo-wordmark {
