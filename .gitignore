@@ -1,5 +1,7 @@
 node_modules/
 .bundle/
+.claude/settings.local.json
+.claude/settings.local.json.tmp.*
 _site/
 .DS_Store
 .sass-cache/
