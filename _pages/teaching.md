@@ -170,6 +170,24 @@ permalink: /teaching/
 
   <div class="thesis-entry">
     <div class="thesis-header">
+      <span class="thesis-level">M.Sc.</span>
+      <p class="thesis-title">Grammatical Structures in the Implicit Vocabulary of LLMs</p>
+    </div>
+    <p class="thesis-body">
+      <a href="https://aclanthology.org/2024.emnlp-main.543/" target="_blank" rel="noopener">Recent</a>
+      <a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/aef75887979ae1287b5deb54a1e3cbda-Abstract-Conference.html" target="_blank" rel="noopener">work</a>
+      has discovered that in their lower layers, LLMs form an implicit vocabulary, merging or
+      &lsquo;detokenising&rsquo; subword tokens back into representations of complete words. While
+      results suggest that LLMs do this not only for multi-token words, but also for multi-word
+      expressions or more complex small phrases, the linguistic nature of these representations
+      has not been studied. Extending previous methods to the study of the implicit vocabulary
+      beyond words would form a contribution to the question of implicit learning of grammatical
+      structures in LLMs.
+    </p>
+  </div>
+
+  <div class="thesis-entry">
+    <div class="thesis-header">
       <span class="thesis-level">B.Sc. / M.Sc.</span>
       <p class="thesis-title">Expanding and Improving Universal Dependencies for German</p>
     </div>
