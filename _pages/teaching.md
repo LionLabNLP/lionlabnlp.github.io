@@ -152,6 +152,24 @@ permalink: /teaching/
 
   <div class="thesis-entry">
     <div class="thesis-header">
+      <span class="thesis-level">M.Sc.</span>
+      <p class="thesis-title">Multilingual Benchmark for Speech Language Models</p>
+    </div>
+    <p class="thesis-body">
+      Although speech-text language models such as Qwen2-Audio and SeamlessM4T have shown
+      remarkable abilities to process both speech and text across multiple languages, it remains
+      unclear to what extent these models rely on morphosyntactic and prosodic cues when
+      interpreting spoken language. Inspired by
+      <a href="https://aclanthology.org/2024.wmt-1.119/" target="_blank" rel="noopener">existing</a>
+      <a href="https://aclanthology.org/2024.findings-eacl.46.pdf" target="_blank" rel="noopener">benchmarks</a>
+      for evaluating prosodic understanding, this thesis aims to develop a multilingual benchmark
+      for systematically evaluating how speech language models process prosodic and
+      morphosyntactic information across languages.
+    </p>
+  </div>
+
+  <div class="thesis-entry">
+    <div class="thesis-header">
       <span class="thesis-level">B.Sc. / M.Sc.</span>
       <p class="thesis-title">Expanding and Improving Universal Dependencies for German</p>
     </div>
