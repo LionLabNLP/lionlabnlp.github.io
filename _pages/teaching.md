@@ -152,6 +152,21 @@ permalink: /teaching/
 
   <div class="thesis-entry">
     <div class="thesis-header">
+      <span class="thesis-level">B.Sc.</span>
+      <p class="thesis-title">Last Translation Benchmark</p>
+    </div>
+    <p class="thesis-body">
+      The <a href="https://last-translation-benchmark.vilda.net/" target="_blank" rel="noopener">Last Translation Benchmark</a>
+      is an international initiative to collect translation examples that are currently unsolvable
+      by LLMs, together with handwritten rules to evaluate on them automatically. A thesis could
+      consist of contributing to this benchmark in a systematic way, for example by targeting a
+      specific set of constructions, or a language that is so far underrepresented, or a
+      semi-automatic approach to discovering potential new examples.
+    </p>
+  </div>
+
+  <div class="thesis-entry">
+    <div class="thesis-header">
       <span class="thesis-level">M.Sc.</span>
       <p class="thesis-title">Multilingual Benchmark for Speech Language Models</p>
     </div>
