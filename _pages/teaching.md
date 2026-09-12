@@ -219,10 +219,11 @@ permalink: /teaching/
   <div class="thesis-entry">
     <div class="thesis-header">
       <span class="thesis-level">B.Sc. / M.Sc.</span>
-      <p class="thesis-title">Adopt a UD Treebank</p>
+      <p class="thesis-title">Adopt a Universal Dependencies Treebank</p>
     </div>
     <p class="thesis-body">
-      Most UD treebanks have not been actively maintained since creation, accumulating validation
+      Universal Dependencies (UD) is a framework for consistent annotation of grammar across
+      human languages. Most UD treebanks have not been actively maintained since creation, accumulating validation
       errors that limit their usefulness. If you read (natively or with reasonable comprehension)
       any of the languages in the
       <a href="https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/validation-report.pl" target="_blank" rel="noopener">UD validation report</a>,
