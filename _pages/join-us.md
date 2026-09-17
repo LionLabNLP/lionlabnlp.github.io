@@ -18,7 +18,12 @@ permalink: /join-us/
 
   <div class="lion-prose">
     <p>
-      There are currently no open positions for PhD students or Postdocs.
+      <strong><a href="{{ '/jobs/ai4pf/' | relative_url }}">PhD student position in Interpretability for Protein Language Models</a></strong>
+      — fully funded (TV-L E13) for three years, preferred start 1 January 2027.
+      Applications are reviewed from 15 October 2026, and the position remains open until filled.
+    </p>
+    <p>
+      There are no other open positions for PhD students or Postdocs at the moment.
       We are open to supporting candidates who wish to prepare an application
       to external fellowships. If you're interested, please reach out via
       <a href="mailto:leonie.weissweiler@uni-leipzig.de">email</a>.

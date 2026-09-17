@@ -3,20 +3,12 @@ layout: default
 title: PhD Student Position in Natural Language Processing / Computational Linguistics
 description: Fully funded PhD student position at LION Lab, Leipzig University.
 permalink: /jobs/ai4pf/
-noindex: true
-sitemap: false
 ---
 
 {% comment %}
-  NOT LIVE YET. This page builds and is reachable at /jobs/phd-positions/, but it is
-  deliberately not linked from anywhere and is kept out of search engines.
-
-  To announce it: delete `noindex` and `sitemap` from the front matter above, then
-  link the page from _pages/join-us.md.
-
-  Text converted from the previous PhD recruitment PDF. Several phrases were
-  hyperlinked in the original document; those URLs did not survive the export and
-  are marked with TODO comments below.
+  Live and linked from _pages/join-us.md. When the position is filled, remove that
+  link and add `noindex: true` and `sitemap: false` back to the front matter above
+  to take the page out of search results without deleting it.
 {% endcomment %}
 
 {% include page-styles.html %}
@@ -38,15 +30,15 @@ sitemap: false
 
   <div class="job-facts">
     <div class="job-fact">
-      <span class="job-fact-label">Preferred starting date</span>
-      <span class="job-fact-value">November 1, 2026 (later possible).</span>
-    </div>
-    <div class="job-fact">
       <span class="job-fact-label">Application deadline</span>
-      <span class="job-fact-value">October 1, 2026 (after that, the position will remain open until filled)</span>
+      <span class="job-fact-value">October 15, 2026 (after that, the position will remain open until filled)</span>
     </div>
     <div class="job-fact">
-      <span class="job-fact-label">Positions</span>
+      <span class="job-fact-label">Preferred starting date</span>
+      <span class="job-fact-value">January 1, 2027 (later possible).</span>
+    </div>
+    <div class="job-fact">
+      <span class="job-fact-label">Position</span>
       <span class="job-fact-value">Full-time (TV-L E13) for 3 years</span>
     </div>
   </div>
