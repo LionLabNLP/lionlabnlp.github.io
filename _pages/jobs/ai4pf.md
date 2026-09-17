@@ -1,7 +1,7 @@
 ---
 layout: default
-title: PhD Student Position in Natural Language Processing / Computational Linguistics
-description: Fully funded PhD student position at LION Lab, Leipzig University.
+title: PhD Student Position in Interpretability for Protein Language Models
+description: Fully funded PhD student position at LION Lab, Leipzig University, on interpretability for protein language models.
 permalink: /jobs/ai4pf/
 ---
 
