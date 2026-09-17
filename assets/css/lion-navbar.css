@@ -5,7 +5,8 @@
 
 /* Playfair Display was dropped when headings moved to Bespoke Slab; Lora is
    still the body face. */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+/* 700 is loaded so <strong> renders in a real bold cut rather than a synthesised one. */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
 
 @font-face {
   font-family: 'Bespoke Slab';

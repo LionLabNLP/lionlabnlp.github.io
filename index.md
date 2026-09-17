@@ -52,6 +52,11 @@ permalink: /
 
   .hiring-banner a:hover { opacity: 0.7; }
 
+  .hiring-banner strong {
+    color: #1a1209;
+    font-weight: 700;
+  }
+
   /* ── Hero: big logo left, group photo right ── */
   .about-hero {
     display: grid;
@@ -284,7 +289,7 @@ permalink: /
     <span class="hiring-banner-tag">We're hiring</span>
     <p>
       <a href="{{ '/jobs/ai4pf/' | relative_url }}">PhD student position in Interpretability for Protein Language Models</a>
-      — fully funded for three years, applications reviewed from 15 October 2026.
+      — <strong>application deadline 15 October 2026</strong>
     </p>
   </div>
 
