@@ -16,12 +16,17 @@ permalink: /join-us/
 
   <p class="lion-section-label">PhD &amp; Postdoc Positions</p>
 
-  <div class="lion-prose">
+  <!-- Hiring banner — remove once the position is filled -->
+  <div class="hiring-banner">
+    <span class="hiring-banner-tag">We're hiring</span>
     <p>
-      <strong><a href="{{ '/jobs/ai4pf/' | relative_url }}">PhD student position in Interpretability for Protein Language Models</a></strong>
-      — fully funded (TV-L E13) for three years, preferred start 1 January 2027.
-      Applications are reviewed from 15 October 2026, and the position remains open until filled.
+      <a href="{{ '/jobs/ai4pf/' | relative_url }}">PhD student position in Interpretability for Protein Language Models</a>
+      — <strong>application deadline 15 October 2026</strong><br>
+      Fully funded (TV-L E13) for three years, preferred start 1 January 2027.
     </p>
+  </div>
+
+  <div class="lion-prose">
     <p>
       There are no other open positions for PhD students or Postdocs at the moment.
       We are open to supporting candidates who wish to prepare an application

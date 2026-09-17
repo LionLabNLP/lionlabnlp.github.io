@@ -8,55 +8,6 @@ permalink: /
 {% include page-styles.html %}
 
 <style>
-  /* ── Hiring banner ──
-     Remove this block and its markup below once the position is filled. */
-  .hiring-banner {
-    background: var(--lion-bg-tint);
-    border: 1px solid var(--lion-border);
-    border-left: 3px solid var(--lion-dark);
-    padding: 1.1rem 1.5rem;
-    margin-bottom: 3rem;
-    display: flex;
-    align-items: baseline;
-    gap: 0.9rem;
-    flex-wrap: wrap;
-  }
-
-  .hiring-banner-tag {
-    font-family: var(--lion-caps-font, Georgia, serif);
-    font-size: 0.68rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #fff;
-    background: var(--lion-dark);
-    padding: 0.15rem 0.55rem;
-    flex-shrink: 0;
-  }
-
-  .hiring-banner p {
-    font-family: 'Lora', Georgia, serif;
-    font-size: 0.92rem;
-    color: #3a2e20;
-    line-height: 1.7;
-    margin: 0;
-    flex: 1;
-    min-width: 15rem;
-  }
-
-  .hiring-banner a {
-    color: #E26600;
-    text-decoration: none;
-    border-bottom: 1px solid #E26600;
-    transition: opacity 0.2s;
-  }
-
-  .hiring-banner a:hover { opacity: 0.7; }
-
-  .hiring-banner strong {
-    color: #1a1209;
-    font-weight: 700;
-  }
-
   /* ── Hero: big logo left, group photo right ── */
   .about-hero {
     display: grid;
