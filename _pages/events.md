@@ -196,7 +196,7 @@ permalink: /events/
       </div>
       <div class="event-content">
         <h2 class="event-title">Testing Linguistic Universals with Bayesian Spatiophylogenetic Analyses</h2>
-        <p class="event-speaker">Dr. <a href="https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/hedvig-skirgard/" target="_blank" rel="noopener">Hedvig Skirgård</a> — Max Planck Institute for Evolutionary Anthropology</p>
+        <p class="event-speaker">Dr. <a href="https://sites.google.com/site/hedvigskirgard/" target="_blank" rel="noopener">Hedvig Skirgård</a> — Max Planck Institute for Evolutionary Anthropology</p>
         <div class="event-abstract">
           <p class="event-section-label">Abstract</p>
           <p class="event-body" style="margin:0;">
