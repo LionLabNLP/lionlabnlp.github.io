@@ -181,6 +181,36 @@ permalink: /events/
     </p>
   </div>
 
+  <!-- ── Hedvig Skirgård ── -->
+  <div class="event-card">
+    <div class="event-meta-row">
+      <span class="event-tag">Invited Talk</span>
+      <span class="event-date">Tuesday, 29 September 2026 · 10:00</span>
+      <span class="event-location">Paulinum, Room P905</span>
+    </div>
+    <div class="event-main">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/speakers/hedvig_skirgard.jpg' | relative_url }}"
+             alt="Hedvig Skirgård">
+      </div>
+      <div class="event-content">
+        <h2 class="event-title">Testing Linguistic Universals with Bayesian Spatiophylogenetic Analyses</h2>
+        <p class="event-speaker">Dr. <a href="https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/hedvig-skirgard/" target="_blank" rel="noopener">Hedvig Skirgård</a> — Max Planck Institute for Evolutionary Anthropology</p>
+        <div class="event-abstract">
+          <p class="event-section-label">Abstract</p>
+          <p class="event-body" style="margin:0;">
+            Human languages show astonishing variety, yet their diversity seems constrained by recurring patterns. Linguists have long argued over the extent and causes of these grammatical &lsquo;universals&rsquo;. With a large multidisciplinary team, we put a large number of suggested &lsquo;universals&rsquo; from the Konstanz Universals archive to the test. Using <a href="https://grambank.clld.org/" target="_blank" rel="noopener">Grambank</a> — a comprehensive database of grammatical features across the world's languages — we tested 191 proposed universals with Bayesian analyses that account for both genealogical descent and geographical proximity. We find statistical support for about a third of the proposed linguistic universals. In this talk, I walk you through the analysis workflow and our interpretation of the results.
+          </p>
+        </div>
+        <p class="event-section-label">Bio</p>
+        <p class="event-body">
+          Hedvig Skirgård is a postdoctoral researcher at the Department of Linguistic and Cultural Evolution at the Max Planck Institute for Evolutionary Anthropology whose research explores grammatical diversity and language diversification through the lens of evolutionary linguistics and typology. She investigates the structural and functional constraints that shape language change, with a focus on how historical processes, contact, and pragmatic factors drive variation and change across the world's languages.
+        </p>
+      </div>
+    </div>
+  </div>
+
   <!-- ── Anja Reusch ── -->
   <div class="event-card">
     <div class="event-meta-row">
