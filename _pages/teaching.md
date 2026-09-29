@@ -153,6 +153,48 @@ permalink: /teaching/
   <div class="thesis-entry">
     <div class="thesis-header">
       <span class="thesis-level">B.Sc.</span>
+      <p class="thesis-title">Masked Language Models for Natural Language Pseudonym Generation</p>
+    </div>
+    <p class="thesis-body">
+      Data privacy is a critical issue in NLP which limits data sharing and development of NLP
+      tools to protect natural persons. While anonymisation, i.e., the removal of all Personally
+      Identifiable Information (PII) from the data (&ldquo;Anne&rdquo; &rarr; &ldquo;X&rdquo;), or
+      replacement with placeholders (&ldquo;Anne&rdquo; &rarr; &ldquo;firstname&rdquo;) are common
+      and effective ways to ensure compliance with privacy laws, they render the source data
+      illegible and thus unusable for tool development and downstream applications. MLMs present
+      themselves as a particularly suitable, lightweight, and privacy-friendly tool for the task of
+      predicting pseudonyms from natural language context
+      (<a href="https://aclanthology.org/2026.lrec-1.90/" target="_blank" rel="noopener">cloze-style</a>).
+      A thesis on this topic could work on, e.g.: (i) developing and improving evaluation metrics
+      for natural-language pseudonyms, (ii) refining the prediction pipeline via, e.g., NER and
+      coreference resolution, or (iii) exploring continued pre-training of MLMs using content-word
+      focused training data to improve, e.g., POS accuracy. This thesis offers co-supervision with
+      <a href="https://sites.google.com/view/mariaszawerna/home" target="_blank" rel="noopener">Maria Irena Szawerna</a>,
+      University of Gothenburg.
+    </p>
+  </div>
+
+  <div class="thesis-entry">
+    <div class="thesis-header">
+      <span class="thesis-level">B.Sc. / M.Sc.</span>
+      <p class="thesis-title">Exploring Implicit Grammatical Gender in LLMs</p>
+    </div>
+    <p class="thesis-body">
+      Grammatical gender, while challenging for language learners, is mastered easily by native
+      speakers during language acquisition. Despite its widespread reputation of being arbitrary,
+      lexical gender in German can be predicted fairly reliably via semantic, morphological, and
+      phonological cues using
+      <a href="https://www.cambridge.org/core/journals/language/article/abs/typology-meets-statistical-modeling-the-german-gender-system/8731EB0CEE0FC59EA9A33BEA6311EEDD" target="_blank" rel="noopener">boosting tree models</a>,
+      adding evidence to the regularity of gender assignment. A thesis in this area would explore
+      whether LLMs also show signs of a generalised gender assignment system in German by testing
+      their behaviour on
+      <a href="https://edoc.hu-berlin.de/items/63022332-0d27-4847-9f00-b10ce28cf5ab" target="_blank" rel="noopener">nonce words</a>.
+    </p>
+  </div>
+
+  <div class="thesis-entry">
+    <div class="thesis-header">
+      <span class="thesis-level">B.Sc.</span>
       <p class="thesis-title">Last Translation Benchmark</p>
     </div>
     <p class="thesis-body">
