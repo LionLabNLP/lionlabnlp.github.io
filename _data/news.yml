@@ -12,6 +12,12 @@
 # column empty. Downscale before committing — roughly 400px on the short side
 # is plenty.
 
+- date: "October 2026"
+  title: "New preprint: BLiMPPI, a multilingual benchmark for polarity items"
+  body: "<a href=\"https://arxiv.org/abs/2610.13607\" target=\"_blank\" rel=\"noopener\">BLiMPPI: Benchmark of Linguistic Minimal Pairs for Polarity Items</a> by Arzu Burcu Güven, Anna Rogers, Leonie Weissweiler, Joakim Nivre, and Rob van der Goot is now on arXiv. BLiMPPI contains over 12,000 negative polarity item minimal pairs across 33 languages, built by a pipeline that discovers NPIs in Universal Dependencies treebanks, labels their licensing environments, and perturbs them into minimal pairs."
+  image: "/assets/img/news/blimppi.png"
+  image_alt: "Minimal pair examples from BLiMPPI in Dutch, Swedish and English"
+
 - date: "August 2026"
   title: "Jacob Lee Suchardt presented a poster at the 4th UniDive General Meeting"
   body: "Jacob Lee Suchardt presented a poster on <em>Towards Transcription of (Un-)seen Languages with Speech-to-IPA Models</em>, based on his EMNLP 2025 paper <a href=\"https://aclanthology.org/2025.emnlp-main.1600/\" target=\"_blank\" rel=\"noopener\">Towards Language-Agnostic STIPA: Universal Phonetic Transcription to Support Language Documentation at Scale</a>, at the 4th <a href=\"https://unidive.lisn.upsaclay.fr/\" target=\"_blank\" rel=\"noopener\">UniDive</a> General Meeting, hosted by the <a href=\"https://www.racai.ro/en/\" target=\"_blank\" rel=\"noopener\">Research Institute for Artificial Intelligence of the Romanian Academy (RACAI)</a> in Bucharest."

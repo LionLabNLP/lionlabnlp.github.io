@@ -122,6 +122,24 @@ permalink: /publications/
     <p class="pub-year">2026</p>
     <div>
       <p class="pub-title">
+        <a href="https://arxiv.org/abs/2610.13607" target="_blank" rel="noopener">
+
+          BLiMPPI: Benchmark of Linguistic Minimal Pairs for Polarity Items
+        </a>
+      </p>
+      <p class="pub-authors">Arzu Burcu Güven, Anna Rogers, <strong>Leonie Weissweiler</strong>, Joakim Nivre, Rob van der Goot</p>
+      <p class="pub-venue"><em>Preprint, arXiv:2610.13607</em></p>
+      <button class="pub-toggle" onclick="this.nextElementSibling.classList.toggle('open'); this.textContent = this.nextElementSibling.classList.contains('open') ? 'Hide abstract ↑' : 'Abstract ↓'">Abstract ↓</button>
+      <p class="pub-abstract">
+        Negative polarity items (NPIs), such as "anymore" and "ever", are grammatical only in select environments, predominantly in the context of negation. Because their grammaticality depends on both syntax and semantics, they have a rich, multilingual literature in theoretical linguistics, yet work on NPIs in language models is almost entirely confined to English. We introduce BLiMPPI, a multilingual evaluation suite of over 12,000 NPI minimal pairs in 33 languages, built by a pipeline that discovers NPIs in Universal Dependencies (UD) treebanks, labels their licensing environments, and perturbs these into minimal pairs. Evaluating 12 multilingual and 2 monolingual models alongside n-gram baselines, we find that multilingual models struggle most with lower-resource languages and with pairs that are not n-gram solvable. We further examine the effects of NPI typology, language family, licensing variability, and NPI-licenser distance.
+      </p>
+    </div>
+  </div>
+
+  <div class="pub-entry">
+    <p class="pub-year">2026</p>
+    <div>
+      <p class="pub-title">
         <a href="https://arxiv.org/abs/2605.31586" target="_blank" rel="noopener">
 
           Language Models Learn Constructional Semantics, Not To Mention Syntax: Investigating LM Understanding of Paired-Focus Constructions
