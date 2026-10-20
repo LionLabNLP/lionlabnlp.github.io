@@ -5,6 +5,8 @@ description: Meet the LION Lab team.
 permalink: /team/
 ---
 
+{% include page-styles.html %}
+
 <style>
   .team-page {
     max-width: 1100px;
@@ -159,15 +161,6 @@ permalink: /team/
   }
 
   /* ── PhD Section ── */
-  .phd-heading {
-    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: #E26600;
-    margin-bottom: 2.5rem;
-  }
-
   .phd-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -362,7 +355,7 @@ permalink: /team/
   </div>
 
   <!-- PhD Students -->
-  <p class="phd-heading">PhD Students</p>
+  <p class="lion-section-label">PhD Students</p>
   <div class="phd-grid">
 
     <div class="phd-card">
@@ -397,7 +390,7 @@ permalink: /team/
 
   <!-- Administration -->
   <div class="admin-section">
-    <p class="phd-heading">Administration</p>
+    <p class="lion-section-label">Administration</p>
     <div class="admin-card">
       <img class="admin-photo" src="{{ '/assets/img/members/petra_square.JPG' | relative_url }}" alt="Petra Gamrath">
       <div class="admin-info">
