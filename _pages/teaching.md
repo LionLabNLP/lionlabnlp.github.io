@@ -187,8 +187,7 @@ permalink: /teaching/
       but we also welcome topic suggestions that fit our general research areas.
     </p>
     <p>
-      We generally require
-      that students have successfully completed at least our Natural Language Processing and 
+      We require that students have successfully completed at least our Natural Language Processing and 
       Machine Learning courses, or equivalents if their bachelor's degree is not from Leipzig University.
     </p>
     <p>
