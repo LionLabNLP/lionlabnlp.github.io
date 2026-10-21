@@ -181,6 +181,36 @@ permalink: /events/
     </p>
   </div>
 
+  <!-- ── Michael Roth ── -->
+  <div class="event-card">
+    <div class="event-meta-row">
+      <span class="event-tag">Invited Talk</span>
+      <span class="event-date">Thursday, 5 November 2026 · 10:00</span>
+      <span class="event-location">Paulinum, Room P905</span>
+    </div>
+    <div class="event-main">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/speakers/michael_roth.jpg' | relative_url }}"
+             alt="Michael Roth">
+      </div>
+      <div class="event-content">
+        <h2 class="event-title">Modeling Textual Sources of Misunderstanding and Inferences About Gender</h2>
+        <p class="event-speaker">Prof. Dr. <a href="https://www.utn.de/person/prof-dr-michael-roth/" target="_blank" rel="noopener">Michael Roth</a> — University of Technology Nuremberg</p>
+        <div class="event-abstract">
+          <p class="event-section-label">Abstract</p>
+          <p class="event-body" style="margin:0;">
+            Humans communicate effectively and usually understand each other intuitively, even when statements are ambiguous or lack essential information. But how can we enable computational models to infer implicit information from context and background knowledge or, in case of doubt, to ask targeted clarification questions? In this talk, I will first use examples of implicitness and ambiguity to explain the complex relationship between misunderstandings and potential linguistic causes. I will then present studies from my research group in which we use revision histories of instructional texts to identify and analyze potential sources of misunderstanding. Finally, I turn to recent work on gender in NLP, where a related question arises: what can we legitimately infer about authors and audiences from text alone? I discuss methodological problems in common approaches to inferring gender and what they imply for the responsible design of models, tasks and datasets.
+          </p>
+        </div>
+        <p class="event-section-label">Bio</p>
+        <p class="event-body">
+          Michael Roth is a professor of natural language processing, whose work connects computational linguistics and artificial intelligence. Since October 2024, he has led the Natural Language Understanding Lab at the University of Technology Nuremberg, where his research focuses on implicit and underspecified language, modeling sources of misunderstanding as well as biases in NLP tasks, data and models. Previously, he led a DFG Emmy Noether research group and held research positions in Saarbrücken, Heidelberg, Stuttgart, Edinburgh, and Illinois. He is also active in the community as an action editor for Computational Linguistics and organizer of international workshops, conferences (e.g. CoNLL 2025) and shared tasks (e.g. SemEval 2026 Task 5 on narrative understanding).
+        </p>
+      </div>
+    </div>
+  </div>
+
   <!-- ── Hedvig Skirgård ── -->
   <div class="event-card">
     <div class="event-meta-row">
