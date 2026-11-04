@@ -71,6 +71,10 @@ permalink: /contact/
     <div class="contact-block">
       <h2>Jun.-Prof. Dr. Leonie Weißweiler</h2>
       <p class="contact-detail">
+        <!-- German rather than "Leipzig University": the rest of the block is
+             German so that post actually arrives, and a lone English line at
+             the top of a German address reads as a mistake. -->
+        Universität Leipzig<br>
         Fakultät für Mathematik und Informatik<br>
         Institut für Informatik<br>
         Augustusplatz 10<br>
@@ -86,7 +90,7 @@ permalink: /contact/
     </div>
 
     <div class="contact-block">
-      <h2>Sekretariat</h2>
+      <h2>Secretary</h2>
       <p class="contact-detail">
         Petra Gamrath<br>
         Room P825
