@@ -139,6 +139,51 @@ permalink: /events/
     margin-top: 1.25rem;
   }
 
+  /* ── Outage notice ──
+     Temporary: remove this block and the matching markup once the university
+     mailing list is reachable again. */
+  .outage-notice {
+    background: #fdf3f1;
+    border: 1px solid #f0cdc6;
+    border-left: 3px solid #b3261e;
+    padding: 1.1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+  }
+
+  .outage-notice-tag {
+    font-family: var(--lion-caps-font, 'Amasis MT Pro', Georgia, serif);
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #b3261e;
+    padding: 0.15rem 0.55rem;
+    flex-shrink: 0;
+  }
+
+  .outage-notice p {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.92rem;
+    color: var(--lion-body);
+    line-height: 1.7;
+    margin: 0;
+    flex: 1;
+    min-width: 15rem;
+  }
+
+  .outage-notice a {
+    color: #b3261e;
+    text-decoration: none;
+    border-bottom: 1px solid #b3261e;
+    transition: opacity 0.2s;
+  }
+
+  .outage-notice a:hover { opacity: 0.7; }
+
   .mailing-list-block {
     background: var(--lion-bg-tint);
     border: 1px solid var(--lion-border);
@@ -175,10 +220,56 @@ permalink: /events/
     <div class="lion-page-rule"></div>
   </div>
 
+  <!-- Outage notice — remove once the university mailing list works again -->
+  <div class="outage-notice">
+    <span class="outage-notice-tag">Notice</span>
+    <p>
+      Because of the continuing server outages at Leipzig University, we cannot use our
+      regular mailing list until further notice. Updates on the outages are posted on the
+      <a href="https://www.uni-leipzig.de/" target="_blank" rel="noopener">university website</a>.
+      In the meantime, you can sign up to our temporary list to keep receiving talk
+      announcements:
+      <a href="https://groups.google.com/g/nlp-talks" target="_blank" rel="noopener">groups.google.com/g/nlp-talks</a>.
+    </p>
+  </div>
+
   <div class="mailing-list-block">
     <p>Sign up for our mailing list to be informed about future events:
       <a href="https://lists.uni-leipzig.de/mailman/listinfo/nlp-talks" target="_blank" rel="noopener">join the mailing list →</a>
     </p>
+  </div>
+
+  <!-- ── Amanda Kann ── -->
+  <div class="event-card">
+    <div class="event-meta-row">
+      <span class="event-tag">Invited Talk</span>
+      <span class="event-date">Thursday, 12 November 2026 · 10:00</span>
+      <span class="event-location">Paulinum, Room P905</span>
+    </div>
+    <div class="event-main">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/speakers/amanda_kann.webp' | relative_url }}"
+             alt="Amanda Kann">
+      </div>
+      <div class="event-content">
+        <h2 class="event-title">What can('t) translations tell us about language?</h2>
+        <p class="event-speaker"><a href="https://akann.se/" target="_blank" rel="noopener">Amanda Kann</a> — Stockholm University</p>
+        <div class="event-abstract">
+          <p class="event-section-label">Abstract</p>
+          <p class="event-body" style="margin:0;">
+            Translated language data is ubiquitous in mono- and multilingual datasets of various types. Parallel texts are a fundamental resource in multilingual NLP and quantitative typology, and translated examples help typologists and documentary linguists work with unfamiliar languages. But translation is not a neutral practice, and the aims, methods and languages involved in producing translations have natural consequences for the downstream usage of the translated data.
+          </p>
+          <p class="event-body" style="margin:0.75rem 0 0;">
+            In this talk, I will present case studies from my dissertation research where translated datasets have been used in contexts beyond their original purpose: for typological investigations of word order variation, and as training data for automatic interlinear glossing models. I will also discuss some broader implications of the dual assumptions that translations faithfully reflect both source content and natural language use, particularly for languages where little or no untranslated data is easily available.
+          </p>
+        </div>
+        <p class="event-section-label">Bio</p>
+        <p class="event-body">
+          Amanda Kann is a doctoral researcher at the Department of Linguistics at Stockholm University, supervised by Robert Östling and Bernhard Wälchli. She has a background in the fields of computational linguistics and language diversity, and her dissertation project focuses on making use of parallel texts and other translated data in NLP applications for quantitative linguistic typology and language documentation.
+        </p>
+      </div>
+    </div>
   </div>
 
   <!-- ── Michael Roth ── -->
