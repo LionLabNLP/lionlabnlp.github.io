@@ -235,15 +235,6 @@ permalink: /
 
 <div class="lion-page">
 
-  <!-- Hiring banner — remove once the position is filled -->
-  <div class="hiring-banner">
-    <span class="hiring-banner-tag">We're hiring</span>
-    <p>
-      <a href="{{ '/jobs/ai4pf/' | relative_url }}">PhD student position in Interpretability for Protein Language Models</a>
-      — <strong>application deadline 15 October 2026</strong>
-    </p>
-  </div>
-
   <!-- Hero -->
   <div class="about-hero">
     <div class="about-hero-left">

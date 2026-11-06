@@ -3,12 +3,14 @@ layout: default
 title: PhD Student Position in Interpretability for Protein Language Models
 description: Fully funded PhD student position at LION Lab, Leipzig University, on interpretability for protein language models.
 permalink: /jobs/ai4pf/
+noindex: true
+sitemap: false
 ---
 
 {% comment %}
-  Live and linked from _pages/join-us.md. When the position is filled, remove that
-  link and add `noindex: true` and `sitemap: false` back to the front matter above
-  to take the page out of search results without deleting it.
+  Position filled (November 2026). The page is kept so that existing links still
+  resolve, but it is unlinked, noindexed and left out of the sitemap. To advertise
+  it again, drop `noindex` and `sitemap` above and link it from _pages/join-us.md.
 {% endcomment %}
 
 {% include page-styles.html %}
