@@ -239,6 +239,42 @@ permalink: /events/
     </p>
   </div>
 
+  <!-- ── Dennis Aumiller ── -->
+  <div class="event-card">
+    <div class="event-meta-row">
+      <span class="event-tag">Invited Talk</span>
+      <span class="event-date">Friday, 20 November 2026 · 10:00</span>
+      <span class="event-location">Paulinum, Room P905</span>
+    </div>
+    <div class="event-main">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/speakers/dennis_aumiller.webp' | relative_url }}"
+             alt="Dennis Aumiller">
+      </div>
+      <div class="event-content">
+        <h2 class="event-title">Evaluation Science in Modern LLM Development</h2>
+        <p class="event-speaker">Dr. <a href="https://dennis-aumiller.de/" target="_blank" rel="noopener">Dennis Aumiller</a> — Cohere</p>
+        <div class="event-abstract">
+          <p class="event-section-label">Abstract</p>
+          <p class="event-body" style="margin:0;">
+            Through the popularity and ubiquity of LLMs came a shift in the field's approach to evaluating new models and their capabilities. Rather than utilizing a narrow band of in-distribution benchmarks to assess performance within a specific task, modern LLMs are expected to perform well across a diverse range of everyday use cases. At the same time, the performance level has risen dramatically, with capabilities of LLMs rivaling those of human experts in some areas.
+          </p>
+          <p class="event-body" style="margin:0.75rem 0 0;">
+            This poses both practical and theoretical challenges for the science of evaluating modern LLM systems: How can we broadly, accurately, and efficiently assess the true capabilities of a LLM across a slice of real-world usage? How has the design and curation of benchmarks evolved in recent years? What is the true signal that we gain from those benchmarks, and which ones are (most) useful?
+          </p>
+          <p class="event-body" style="margin:0.75rem 0 0;">
+            This talk is designed as a broad introduction to the fascinating problems and open questions in the field of modern evaluation science, all through the practical lens of frontier lab development.
+          </p>
+        </div>
+        <p class="event-section-label">Bio</p>
+        <p class="event-body">
+          Dennis Aumiller is a Senior Member of Technical Staff in the Evaluation Science team at Cohere. His main focus lies on the broad evaluation of LLM capabilities, primarily through the lens of human annotation. He holds a PhD in Computer Science from Heidelberg University, where he previously worked on benchmarks and evaluation metrics for automated text summarization.
+        </p>
+      </div>
+    </div>
+  </div>
+
   <!-- ── Amanda Kann ── -->
   <div class="event-card">
     <div class="event-meta-row">
