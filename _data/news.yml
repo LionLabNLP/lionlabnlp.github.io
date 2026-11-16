@@ -13,7 +13,7 @@
 # is plenty.
 
 - date: "November 2026"
-  title: "New preprint: CALQUE, a multilingual benchmark for evaluating constructional bleeding"
+  title: "New preprint: Evaluating Constructional Bleeding in Multilingual LLMs with CALQUE"
   body: "<a href=\"https://arxiv.org/abs/2611.10266\" target=\"_blank\" rel=\"noopener\">I play of the cello: Evaluating Constructional Bleeding in Multilingual LLMs with CALQUE</a> by Toshiki Nakai, Yu-Yin Hsu, Marie-Catherine de Marneffe, Joakim Nivre, Jakob Prange, Nathan Schneider, Wesley Scivetti, Tiago Timponi Torrent, and Leonie Weissweiler is now available on arXiv.   We construct semantically equivalent sentences using native and transferred strategies across 7 languages, and show that LLMs often struggle to prefer native strategies over transferred strategies, particularly when the transferred strategies originate from English."
   image: "/assets/img/news/calque.png"
   image_alt: "Illustration of CALQUE"
