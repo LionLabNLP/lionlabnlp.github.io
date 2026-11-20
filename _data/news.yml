@@ -13,6 +13,12 @@
 # is plenty.
 
 - date: "November 2026"
+  title: "Leonie Weissweiler gave an invited talk at the University of Technology Nuremberg"
+  body: "Leonie Weissweiler gave an invited talk on <em>Computational Typology</em> in the <a href=\"https://www.utn.de/departments/department-computer-science-artificial-intelligence/nlu/\" target=\"_blank\" rel=\"noopener\">Natural Language Understanding</a> group of <a href=\"https://www.utn.de/person/prof-dr-michael-roth/\" target=\"_blank\" rel=\"noopener\">Michael Roth</a> at the University of Technology Nuremberg."
+  image: "/assets/img/news/utn.jpg"
+  image_alt: "Leonie Weissweiler giving her talk at the University of Technology Nuremberg"
+
+- date: "November 2026"
   title: "New preprint: Evaluating Constructional Bleeding in Multilingual LLMs with CALQUE"
   body: "<a href=\"https://arxiv.org/abs/2611.10266\" target=\"_blank\" rel=\"noopener\">I play of the cello: Evaluating Constructional Bleeding in Multilingual LLMs with CALQUE</a> by Toshiki Nakai, Yu-Yin Hsu, Marie-Catherine de Marneffe, Joakim Nivre, Jakob Prange, Nathan Schneider, Wesley Scivetti, Tiago Timponi Torrent, and Leonie Weissweiler is now available on arXiv.   We construct semantically equivalent sentences using native and transferred strategies across 7 languages, and show that LLMs often struggle to prefer native strategies over transferred strategies, particularly when the transferred strategies originate from English."
   image: "/assets/img/news/calque.png"
