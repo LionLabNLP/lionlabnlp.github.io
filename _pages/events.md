@@ -239,6 +239,36 @@ permalink: /events/
     </p>
   </div>
 
+  <!-- ── Verena Blaschke ── -->
+  <div class="event-card">
+    <div class="event-meta-row">
+      <span class="event-tag">Invited Talk</span>
+      <span class="event-date">Tuesday, 1 December 2026 · 10:00</span>
+      <span class="event-location">Paulinum, Room P905</span>
+    </div>
+    <div class="event-main">
+      <div class="lion-photo-frame">
+        <img class="event-speaker-photo"
+             src="{{ '/assets/img/speakers/verena_blaschke.webp' | relative_url }}"
+             alt="Verena Blaschke">
+      </div>
+      <div class="event-content">
+        <h2 class="event-title">Dialect NLP: How (and why) to process written and spoken dialect data</h2>
+        <p class="event-speaker">Dr. <a href="https://verenablaschke.github.io/" target="_blank" rel="noopener">Verena Blaschke</a> — University of Groningen</p>
+        <div class="event-abstract">
+          <p class="event-section-label">Abstract</p>
+          <p class="event-body" style="margin:0;">
+            NLP has improved by leaps and bounds when it comes to processing data from standardized languages with much available data, but lags behind when closely related non-standard varieties are concerned. In this talk, I will describe ways in which processing dialect data differs from processing standard-language data, and discuss some of the current challenges in dialect NLP research. For instance, the performance of text models can be hampered when ad-hoc pronunciation spellings result in infelicitous subword tokenization. Speech models, which deal with continuous inputs, appear to be more robust towards dialectal variation in content classification tasks. However, other tasks like automatic speech recognition are complicated by the fact that there is not just one way to correctly transcribe a given dialectal utterance. Furthermore, I argue that we should not only consider how to tackle dialectal variation in NLP, but also why. To this end, I will highlight perspectives of some dialect speaker communities on which language technologies should (or should not) be able to process or produce dialectal in- or output.
+          </p>
+        </div>
+        <p class="event-section-label">Bio</p>
+        <p class="event-body">
+          Verena Blaschke is a postdoc at the University of Groningen, where she focuses on improving speech and text technologies for regional language varieties (especially Low Saxon). She completed her Ph.D. in Barbara Plank&rsquo;s research group at LMU Munich, where she worked on NLP for non-standardized dialects. During that time, she also completed an internship in Apple&rsquo;s ML research group, working on crosslingual NLP. Verena is interested in (global and local) language variation, NLP for low-resource languages, and NLP ethics.
+        </p>
+      </div>
+    </div>
+  </div>
+
   <!-- ── Dennis Aumiller ── -->
   <div class="event-card">
     <div class="event-meta-row">
