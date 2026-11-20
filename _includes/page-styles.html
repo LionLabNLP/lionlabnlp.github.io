@@ -154,6 +154,10 @@
   .lion-photo-frame {
     position: relative;
     display: block;
+    /* Shrink to the image: the brackets are positioned against this box, so a
+       frame wider than its image (e.g. a single-column grid on mobile) would
+       strand the bottom-right bracket at the far edge. */
+    width: fit-content;
   }
 
   .lion-photo-frame::before,
