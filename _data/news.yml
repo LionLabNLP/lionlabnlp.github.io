@@ -25,6 +25,12 @@
   image_alt: "Illustration of CALQUE"
 
 - date: "October 2026"
+  title: "Our workshop What LLMs Can(not) Do was accepted at COLING 2027"
+  body: "<a href=\"https://what-llms-can-not-do.org/\" target=\"_blank\" rel=\"noopener\">The First Workshop on What LLMs Can(not) Do (WLCD 2027)</a> will be held at COLING 2027 in Macau, co-organised by Leonie Weissweiler together with colleagues from TU Munich, ETH Zurich, Utrecht, Amsterdam, KIT and Trieste. The <a href=\"https://what-llms-can-not-do.org/cfp\" target=\"_blank\" rel=\"noopener\">call for papers</a> is now out, with submissions due 15 February 2027."
+  image: "/assets/img/news/wlcd.png"
+  image_alt: "The What LLMs Can(not) Do workshop website"
+
+- date: "October 2026"
   title: "New preprint: BLiMPPI, a multilingual benchmark for polarity items"
   body: "<a href=\"https://arxiv.org/abs/2610.13607\" target=\"_blank\" rel=\"noopener\">BLiMPPI: Benchmark of Linguistic Minimal Pairs for Polarity Items</a> by Arzu Burcu Güven, Anna Rogers, Leonie Weissweiler, Joakim Nivre, and Rob van der Goot is now on arXiv. BLiMPPI contains over 12,000 negative polarity item minimal pairs across 33 languages, built by a pipeline that discovers NPIs in Universal Dependencies treebanks, labels their licensing environments, and perturbs them into minimal pairs."
   image: "/assets/img/news/blimppi.png"
